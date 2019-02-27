@@ -12,6 +12,15 @@ $(document).ready(function(){
             table.readData(data);
             table.writeTable("#datatable");
 
+            $("#btnUpdate").click(function(){
+
+                postData = table.getData();
+
+                
+
+
+            });
+
         }
 
     });
