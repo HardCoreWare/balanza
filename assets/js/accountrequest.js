@@ -25,7 +25,7 @@ $(document).ready(function(){
 
                         console.log(response);
                         
-                        if(response=='success'){
+                        if(response==='success'){
 
                             console.log('ok');
 
