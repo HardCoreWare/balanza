@@ -125,6 +125,65 @@
                     <div class="container">
 
 
+                    <div class="row">
+                        	<div class="col-sm-12" id="userForm">
+                        		<div class="card-box">
+
+                                    <div class="dropdown pull-right"></div>
+
+                        			<h4 class="header-title m-t-0 m-b-30">Confirmar usuario y password para continuar</h4>
+
+                        			<div class="row">
+
+                                        <!-- Select Anualidad -->
+                        				<div class="col-lg-4">
+                        					<form class="form-horizontal" role="form">
+
+                                                <div class="form-group">
+	                                                <label class="col-sm-2 control-label">Anualidad</label>
+	                                                <div class="col-sm-10">
+	                                                    <input class="form-control" id="selectAnualidad">
+	                                                </div>
+                                                </div>
+
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+                                        <div class="col-lg-4">
+                        					<form class="form-horizontal" role="form">
+
+                                                <div class="form-group">
+	                                                <label class="col-sm-2 control-label"> Hasta al Mes</label>
+	                                                <div class="col-sm-10">
+                                                        <input class="form-control" id="selectAnualidad">
+	                                                </div>
+                                                </div>
+
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+                        				<div class="col-lg-4">
+                        					<form class="form-horizontal" role="form">
+
+                                                <div class="form-group">
+	                                                <div class="col-sm-10">
+                                                        <input class="btn btn-block" type="button" value="IMPORTAR DATOS" id="btnInforme">
+	                                                </div>
+                                                </div>
+
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+
+
+                        		</div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- End row -->
+
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
