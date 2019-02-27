@@ -38,7 +38,7 @@ class CustomTable{
 
                 row.Montos.forEach(ammount => {
 
-                    line.push({value:ammount.Monto,key:row.Id+ammount.Modulo});
+                    line.push({value:ammount.Monto,key:row.Id+"-"+ammount.Modulo});
 
                 });
 
@@ -120,6 +120,7 @@ class CustomTable{
 
         let keyArray=[];
 
+        //iteramos la tabla obteniendo las llaves de interes
         this.matrix.forEach(row => {
 
             for (let i = 0; i < row.length; i++) {
@@ -132,13 +133,15 @@ class CustomTable{
 
                 else{
 
-                    
+
 
                 }
 
             }
             
         });
+
+        //
 
         console.log(keyArray);
 
