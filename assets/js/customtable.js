@@ -31,14 +31,14 @@ class CustomTable{
 
                 let line=[];
 
-                line.push({value:row.Id,key:none});
+                /*line.push({value:row.Id,key:none});
                 line.push({value:row.Cuenta,key:none});
                 line.push({value:row.Super_Concepto,key:none});
-                line.push({value:row.Concepto,key:none});
+                line.push({value:row.Concepto,key:none});*/
 
                 row.Montos.forEach(ammount => {
 
-                    line.push({value:ammount.Monto,key:row.Id+row.Concepto});
+                    //line.push({value:ammount.Monto,key:row.Id+row.Concepto});
 
                 });
 
@@ -91,7 +91,7 @@ class CustomTable{
                         body+='<input class="form-control" type="text" value="';
                         body+=row[i].value;
                         body+='" id="';
-                        body+=row[i].value;
+                        body+=row[i].key;
                         body+='">'
                         body+='</td>';
 
