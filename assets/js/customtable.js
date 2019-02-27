@@ -116,6 +116,7 @@ class CustomTable{
 
     getData(){
 
+        
 
     }
 
