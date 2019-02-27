@@ -212,7 +212,7 @@
             $(document).ready(function () {
 
                 const customRequest = new CustomGet();
-                customRequest.getCustom("http://35.243.156.112/plataforma/balanza/editables/index",new CustomTable(),new CustomPost());
+                customRequest.getCustom("http://35.243.156.112/plataforma/balanza/editables/indice",new CustomTable(),new CustomPost());
 
             });
 

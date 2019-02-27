@@ -1,42 +1,26 @@
-
-class CustomPost{
-
-    postCustom(){
-
-        
-
-    }
-
-}
-
-class CustomGet{
+$(document).ready(function(){
 
 
-    getCustom(url,dataTable,postRequest){
+    $.ajax({
 
-        $.ajax({
-            url:url,
-            method:'GET',
-            data:'',
-            success:function(response){
+        url:'http://35.243.156.112/plataforma/balanza/editables/indice',
+        method:'POST',
+        data:'',
+        success:function (response) {
 
-                //parseamos respuest
-                const data = JSON.parse(response);
+            data=JSON.parse(response);
+            const table = new CustomTable();
+            table.readData(data);
+            table.writeTable("#datatable");
 
-                //instanciamos tabla
-                let table = dataTable;
+            $("#btnUpdate").click(function(){
 
-                //leemosm datos para la tabla
-                table.readData(data);
-                table.writeTable("#datatable");
 
-                post=postRequest;
+            });
+            
+        }
 
-                
-            }
+    });
 
-        });
 
-    }
-
-}
+});

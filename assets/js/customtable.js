@@ -119,9 +119,9 @@ class CustomTable{
 
     }
 
-    getMatrix(){
+    getData(){
 
-        return this.matrix;
+        
 
     }
 

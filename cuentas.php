@@ -195,13 +195,11 @@
                                     
                                     <div class="col-lg-4">
                                         <form class="form-horizontal" role="form">
-
                                             <div class="form-group">
                                                 <div class="col-sm-10">
                                                     <input class="btn btn-block" type="button" value="ACTUALIZAR CUENTAS" id="btnUpdate">
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
                                     <!-- end col -->
