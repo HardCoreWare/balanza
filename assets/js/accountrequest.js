@@ -24,7 +24,7 @@ $(document).ready(function(){
                     data:{"req":postData},
                     success:function (response) {
 
-                        //location.reload();
+                        console.log(response);
                         
                     }
 
