@@ -26,7 +26,7 @@ $(document).ready(function(){
                     data:{"req":postData},
                     success:function (response) {
                         
-                        
+                        console.log(response);
 
                     }
 
