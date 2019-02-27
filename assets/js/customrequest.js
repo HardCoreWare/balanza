@@ -17,7 +17,20 @@ $(document).ready(function(){
 
             $("#btnUpdate").click(function(){
 
-                table.getData();
+                const postData =JSON.stringify(table.getData());
+
+                $.ajax({
+
+                    url:'http://35.243.156.112/plataforma/balanza/editables/actualizar',
+                    method:'POST',
+                    data:{"req":postData},
+                    success:function (response) {
+                        
+                        
+
+                    }
+
+                });
 
             });
             
