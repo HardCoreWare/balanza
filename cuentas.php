@@ -126,7 +126,7 @@
 
 
                     <div class="row">
-                        	<div class="col-sm-12" id="userForm">
+                        	<div class="col-sm-12" id="userForm" hidden>
                         		<div class="card-box">
 
                                     <div class="dropdown pull-right"></div>
