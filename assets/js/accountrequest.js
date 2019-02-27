@@ -3,21 +3,37 @@ $(document).ready(function(){
     $.ajax({
 
         url:'http://35.243.156.112/plataforma/balanza/cuentas/indice',
-        method:'POST',
+        method:'GET',
         data:'',
         success:function (response) {
             
-            const data = JSON.parse(response);
+            const responseData = JSON.parse(response);
             const table = new AccountTable();
-            table.readData(data);
+            table.readData(responseData);
             table.writeTable("#datatable");
 
             $("#btnUpdate").click(function(){
 
-                postData = table.getData();
+                postData = JSON.stringify(table.getData());
 
-                
+                $.ajax({
 
+                    url:'http://35.243.156.112/plataforma/balanza/cuentas/indice',
+                    method:'POST',
+                    data:{"req":postData},
+                    success:function (response) {
+
+                        console.log(response);
+                        
+                        if(response==='success'){
+
+                            
+
+                        }
+
+                    }
+
+                });
 
             });
 
