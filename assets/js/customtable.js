@@ -116,17 +116,23 @@ class CustomTable{
 
     getData(){
 
+        let keyArray=[];
+
         this.matrix.forEach(row => {
 
             for (let i = 0; i < row.length; i++) {
 
-                const cell = row[i];
+                if(i<4){
 
-                console.log(cell);
-                
+                    keyArray.push(row[i].key);
+
+                }
+
             }
             
         });
+
+        console.log(keyArray);
 
     }
 
