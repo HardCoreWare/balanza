@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     $.ajax({
@@ -23,8 +24,8 @@ $(document).ready(function(){
                     data:{"req":postData},
                     success:function (response) {
 
-                        console.log(response);
-
+                        location.reload();
+                        
                     }
 
                 });
