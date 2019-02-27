@@ -17,7 +17,7 @@ $(document).ready(function(){
 
             $("#btnUpdate").click(function(){
 
-
+                table.getData();
 
             });
             

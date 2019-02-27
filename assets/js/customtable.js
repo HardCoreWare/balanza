@@ -116,7 +116,17 @@ class CustomTable{
 
     getData(){
 
-        
+        this.matrix.forEach(row => {
+
+            for (let i = 0; i < row.length; i++) {
+
+                const cell = row[i];
+
+                console.log(cell);
+                
+            }
+            
+        });
 
     }
 
