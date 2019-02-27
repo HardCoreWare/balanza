@@ -18,7 +18,7 @@ $(document).ready(function(){
 
                 $.ajax({
 
-                    url:'http://35.243.156.112/plataforma/balanza/cuentas/indice',
+                    url:'http://35.243.156.112/plataforma/balanza/cuentas/actualizar',
                     method:'POST',
                     data:{"req":postData},
                     success:function (response) {
@@ -27,7 +27,7 @@ $(document).ready(function(){
                         
                         if(response==='success'){
 
-                            
+
 
                         }
 
