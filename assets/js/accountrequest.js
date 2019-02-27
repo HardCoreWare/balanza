@@ -24,14 +24,6 @@ $(document).ready(function(){
                     success:function (response) {
 
                         console.log(response);
-                        
-                        if(response==='success'){
-
-                            console.log('ok');
-
-                            window.location.href ="http://35.243.156.112/balanza/cuentas.php";
-
-                        }
 
                     }
 
