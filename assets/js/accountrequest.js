@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $.ajax({
 
-        url:'http://35.243.156.112/balanza/cuentas.php',
+        url:'http://35.243.156.112/plataforma/balanza/cuentas/indice',
         method:'POST',
         data:'',
         success:function (response) {
