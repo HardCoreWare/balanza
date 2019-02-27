@@ -207,15 +207,7 @@
 
         <script>
 
-            $(document).ready(function () {
 
-                alert("Datos Actualizados");
-                const accountRequest=new AccountRequest();
-                accountRequest.loadAccounts('http://35.243.156.112/plataforma/filtros/cuentas/index',new AccountTable());
-                accountRequest.checkUpdates();
-                accountRequest.updateAccounts();
-
-            });
 
         </script>
 

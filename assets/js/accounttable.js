@@ -3,6 +3,7 @@ class AccountTable{
     readData(data){
 
         this.data=data;
+        this.size=data.length;
 
     }
 
@@ -63,11 +64,45 @@ class AccountTable{
 
     }
 
-    deleteTable(divId){
+    getData(){
 
-        $(divId).html('');
+        let updatetable=[];
+
+        for (let i = 1; i <=this.size; i++){
+
+            const id = "#a"+String(i);
+            let editable;
+
+            if($(id).is(':checked')){
+
+                editable="1"
+
+            }
+
+            else{
+
+                editable="0"
+
+            }
+
+            let cell={
+
+                value: editable,
+
+                id: i.toString()
+
+            }
+
+            updatetable.push(cell);
+
+        }
+
+        console.log(updatetable);
+
+        return updatetable;
 
     }
+
 
 
 }
