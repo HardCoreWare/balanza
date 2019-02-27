@@ -52,9 +52,6 @@ class CustomTable{
 
     writeTable(divId){
 
-        console.log(this.headers);
-        console.log(this.matrix);
-
         if(this.size){
 
             let table='';
@@ -83,7 +80,7 @@ class CustomTable{
                     if(i<4){
 
                         body+='<td>';
-                        body+=row[i];
+                        body+=row[i].value;
                         body+='</td>';
 
                     }
@@ -121,7 +118,6 @@ class CustomTable{
 
     getData(){
 
-        
 
     }
 
