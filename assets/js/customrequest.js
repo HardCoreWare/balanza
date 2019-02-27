@@ -8,8 +8,6 @@ $(document).ready(function(){
         data:'',
         success:function (response) {
 
-            console.log(response);
-
             data=JSON.parse(response);
             const table = new CustomTable();
             table.readData(data);
