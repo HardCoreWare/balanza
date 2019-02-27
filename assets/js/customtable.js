@@ -162,12 +162,14 @@ class CustomTable{
             
         });
 
+        console.log(updateArray);
+
         return updateArray;
 
     }
 
 
 
-    
+
 
 }
