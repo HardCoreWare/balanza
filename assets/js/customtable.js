@@ -143,16 +143,26 @@ class CustomTable{
 
         //
 
-        console.log(keyArray);
+        let updateArray=[];
 
         keyArray.forEach(key=>{
 
-            const value=$("#"+key).val();
+            const keySplit=key.split("-");
 
-            console.log(value);
+            const update={
 
+                id:keySplit[0],
+                module:keySplit[1],
+                value:$("#"+key).val()
+
+
+            }
+
+            updateArray.push(update);
             
         });
+
+        console.log(updateArray);
 
     }
 
