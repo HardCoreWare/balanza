@@ -50,6 +50,7 @@ class CustomTable{
 
     }
 
+    //
     writeTable(divId){
 
         if(this.size){
@@ -114,6 +115,7 @@ class CustomTable{
 
     }
 
+    //
     getData(){
 
         let keyArray=[];
@@ -125,6 +127,11 @@ class CustomTable{
                 if(i<4){
 
                     keyArray.push(row[i].key);
+
+                }
+                else{
+
+                    
 
                 }
 
