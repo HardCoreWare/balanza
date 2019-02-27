@@ -27,6 +27,8 @@ $(document).ready(function(){
                         
                         if(response==='success'){
 
+                            console.log('ok');
+
                             window.location.replace("http://35.243.156.112/balanza/cuentas.php");
 
                         }
