@@ -27,7 +27,7 @@ $(document).ready(function(){
                         
                         if(response==='success'){
 
-                            window.location.replace("http://www.w3schools.com");
+                            window.location.replace("http://35.243.156.112/balanza/cuentas.php");
 
                         }
 
