@@ -15,8 +15,6 @@ $(document).ready(function(){
 
             $("#btnUpdate").click(function(){
 
-                
-
                 postData = JSON.stringify(table.getData());
 
                 $.ajax({
@@ -26,7 +24,7 @@ $(document).ready(function(){
                     data:{"req":postData},
                     success:function (response) {
 
-                        location.reload();
+                        //location.reload();
                         
                     }
 
