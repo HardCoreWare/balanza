@@ -145,6 +145,15 @@ class CustomTable{
 
         console.log(keyArray);
 
+        keyArray.forEach(key=>{
+
+            const value=$("#"+key).val();
+
+            console.log(value);
+
+            
+        });
+
     }
 
 }
