@@ -38,7 +38,7 @@ class CustomTable{
 
                 row.Montos.forEach(ammount => {
 
-                    line.push({value:ammount.Monto,key:row.Id+row.Concepto});
+                    line.push({value:ammount.Monto,key:row.Id+ammount.Modulo});
 
                 });
 
@@ -129,6 +129,7 @@ class CustomTable{
                     keyArray.push(row[i].key);
 
                 }
+
                 else{
 
 
