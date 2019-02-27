@@ -1,0 +1,128 @@
+class CustomTable{
+
+    readData(data){
+
+        this.size=data.length;
+        this.headers=[];
+        this.matrix=[];
+
+        if(this.size){
+
+            let set=true;
+
+            data.forEach(row => {
+
+                if(set){
+
+                    set = false;
+
+                    this.headers.push("#");
+                    this.headers.push("Cuenta");
+                    this.headers.push("SuperConcepto");
+                    this.headers.push("Concepto");
+
+                    row.Montos.forEach(ammount=>{
+
+                        this.headers.push(ammount.Modulo);
+
+                    });
+
+                }
+
+                let line=[];
+
+                line.push({value:row.Id,key:none});
+                line.push({value:row.Cuenta,key:none});
+                line.push({value:row.Super_Concepto,key:none});
+                line.push({value:row.Concepto,key:none});
+
+                row.Montos.forEach(ammount => {
+
+                    line.push({value:ammount.Monto,key:row.Id+row.Concepto});
+
+                });
+
+                this.matrix.push(line);
+
+            });
+
+        }
+
+    }
+
+    writeTable(divId){
+
+        console.log(this.headers);
+        console.log(this.matrix);
+
+        if(this.size){
+
+            let table='';
+            let head='';
+            let body='';
+
+            head+='<thead><tr>';
+            this.headers.forEach(header=>{
+
+                head+='<th>';
+                head+=header;
+                head+='</th>';
+
+            });
+            head+='</tr></thead>';
+
+
+            body+='<tbody>';
+            
+            this.matrix.forEach(row => {
+
+                body+='<tr>';
+
+                for(let i =0; i<row.length; i++){
+
+                    if(i<4){
+
+                        body+='<td>';
+                        body+=row[i];
+                        body+='</td>';
+
+                    }
+
+                    else{
+
+                        body+='<td>';
+                        body+='<input class="form-control" type="text" value="';
+                        body+=row[i];
+                        body+='" id="';
+                        body+=row[0];
+                        body+='-';
+                        body+=this.headers[i];
+                        body+='">'
+                        body+='</td>';
+
+                    }
+
+                }
+
+                body+='</tr>';
+                
+            });
+
+            body+='</tbody>';
+
+            table+=body;
+
+            $(divId).html(table);
+    
+        }
+
+
+    }
+
+    getMatrix(){
+
+        return this.matrix;
+
+    }
+
+}
