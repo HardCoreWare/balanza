@@ -203,20 +203,9 @@
 
         <!-- Developed -->
         <script src="assets/js/conversion.js"></script>
-        <script src="assets/js/customrequest.js"></script>
         <script src="assets/js/customtable.js"></script>
+        <script src="assets/js/customrequest.js"></script>
 
-
-        <script>
-
-            $(document).ready(function () {
-
-                const customRequest = new CustomGet();
-                customRequest.getCustom("http://35.243.156.112/plataforma/balanza/editables/indice",new CustomTable(),new CustomPost());
-
-            });
-
-        </script>
 
     </body>
 </html>
