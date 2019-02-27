@@ -89,11 +89,9 @@ class CustomTable{
 
                         body+='<td>';
                         body+='<input class="form-control" type="text" value="';
-                        body+=row[i];
+                        body+=row[i].value;
                         body+='" id="';
-                        body+=row[0];
-                        body+='-';
-                        body+=this.headers[i];
+                        body+=row[i].value;
                         body+='">'
                         body+='</td>';
 
