@@ -31,10 +31,10 @@ class CustomTable{
 
                 let line=[];
 
-                /*line.push({value:row.Id,key:none});
+                line.push({value:row.Id,key:none});
                 line.push({value:row.Cuenta,key:none});
                 line.push({value:row.Super_Concepto,key:none});
-                line.push({value:row.Concepto,key:none});*/
+                line.push({value:row.Concepto,key:none});
 
                 row.Montos.forEach(ammount => {
 
