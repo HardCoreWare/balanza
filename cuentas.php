@@ -142,7 +142,7 @@
                                                 <div class="form-group">
 	                                                <label class="col-sm-2 control-label">Anualidad</label>
 	                                                <div class="col-sm-10">
-	                                                    <input class="form-control" id="selectAnualidad">
+	                                                    <input type="text" class="form-control" id="textUser">
 	                                                </div>
                                                 </div>
 
@@ -155,7 +155,7 @@
                                                 <div class="form-group">
 	                                                <label class="col-sm-2 control-label"> Hasta al Mes</label>
 	                                                <div class="col-sm-10">
-                                                        <input class="form-control" id="selectAnualidad">
+                                                        <input type="password" class="form-control" id="textPassword">
 	                                                </div>
                                                 </div>
 
