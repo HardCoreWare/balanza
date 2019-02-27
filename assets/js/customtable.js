@@ -124,14 +124,14 @@ class CustomTable{
 
             for (let i = 0; i < row.length; i++) {
 
-                if(i<4){
+                if(i>=4){
 
                     keyArray.push(row[i].key);
 
                 }
                 else{
 
-                    
+
 
                 }
 
