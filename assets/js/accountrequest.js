@@ -25,11 +25,11 @@ $(document).ready(function(){
 
                         console.log(response);
                         
-                        if(response==='success'){
+                        if(response=='success'){
 
                             console.log('ok');
 
-                            window.location.replace("http://35.243.156.112/balanza/cuentas.php");
+                            window.location.href ="http://35.243.156.112/balanza/cuentas.php";
 
                         }
 
