@@ -235,24 +235,11 @@
         <script src="assets/js/jquery.app.js"></script>
 
         <!-- Developed -->
-        <script src="assets/js/filterform.js"></script>
-        <script src="assets/js/filterrequest.js"></script>
 
 
-        <script>
 
 
-           $(document).ready(function(){
 
-               $("#btnInforme").click(function(){
-
-                    filterRequest = new FilterRequest(new FilterForm());
-
-               });
-
-            });
-        
-        </script>
     </body>
 
 

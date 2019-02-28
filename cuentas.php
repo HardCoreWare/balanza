@@ -187,13 +187,13 @@
 
                                     </div>
 
-                                    <h4 class="header-title m-t-0 m-b-30">CUENTAS MAYORES</h4>
+                                    <h4 class="header-title m-t-0 m-b-30">Seleccionar las cuentas que desea hacer editables y actualizar</h4>
                                     
                                     <div class="col-lg-4">
                                         <form class="form-horizontal" role="form">
                                             <div class="form-group">
                                                 <div class="col-sm-10">
-                                                    <input class="btn btn-block" type="button" value="ACTUALIZAR CUENTAS" id="btnUpdate">
+                                                    <input class="btn btn-block btn-warning" type="button" value="ACTUALIZAR CUENTAS" id="btnUpdate">
                                                 </div>
                                             </div>
                                         </form>
