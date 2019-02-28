@@ -136,7 +136,7 @@
 
                                             <div class="form-group">
                                                 <div class="col-sm-10">
-                                                    <input class="btn btn-block" type="button" value="ACTUALIZAR CUENTAS" id="btnUpdate">
+                                                    <input class="btn btn-block btn-success" type="button" value="ACTUALIZAR DATOS" id="btnUpdate">
                                                 </div>
                                             </div>
 

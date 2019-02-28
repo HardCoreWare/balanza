@@ -187,7 +187,7 @@
 
                                     </div>
 
-                                    <h4 class="header-title m-t-0 m-b-30">Seleccionar las cuentas que desea hacer editables y actualizar</h4>
+                                    <h4 class="header-title m-t-0 m-b-30">Seleccionar las cuentas que desea hacer editables, posteriormente hacer click en actualizar</h4>
                                     
                                     <div class="col-lg-4">
                                         <form class="form-horizontal" role="form">
