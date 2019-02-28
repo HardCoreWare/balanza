@@ -100,6 +100,7 @@
                             <li><a href="informe.php" class="waves-effect"><i class="fa fa-table"></i> <span> INFORME MENSUAL </span> </a></li>
                             <li><a href="resumen.php" class="waves-effect"><i class="fa fa-list"></i> <span>RESUMEN BALANZA</span> </a></li>
                             <li><a href="cuentas.php" class="waves-effect"><i class="fa fa-list"></i> <span>CUENTAS</span> </a></li>
+                            <li><a href="editables.php" class="waves-effect"><i class="fa fa-list"></i> <span>EDITABLES</span> </a></li>
 
                         </ul>
                         <div class="clearfix"></div>

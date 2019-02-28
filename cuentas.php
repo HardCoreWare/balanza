@@ -25,7 +25,6 @@
         <script src="assets/js/modernizr.min.js"></script>
         <script src="assets/plugins/chart.js/chart.min.js"></script>
 
-
     </head>
 
 

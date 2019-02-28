@@ -102,6 +102,8 @@
                             <li><a href="informe.php" class="waves-effect"><i class="fa fa-table"></i> <span> INFORME MENSUAL </span> </a></li>
                             <li><a href="resumen.php" class="waves-effect"><i class="fa fa-list"></i> <span>RESUMEN BALANZA</span> </a></li>
                             <li><a href="cuentas.php" class="waves-effect"><i class="fa fa-list"></i> <span>CUENTAS</span> </a></li>
+                            <li><a href="editables.php" class="waves-effect"><i class="fa fa-list"></i> <span>EDITABLES</span> </a></li>
+
 
                         </ul>
                         <div class="clearfix"></div>
@@ -300,15 +302,7 @@
 
         <script>
 
-            $(document).ready(function () {
 
-                $("#btnSummary").click(function(){
-
-                var requestSummary = new RequestSummary("http://35.243.156.112/servicio/balanza/resumen",new FormSummary(),new TableSummary(),new TableDetail);
-
-                });
-
-            });
             
         </script>
 
