@@ -23,7 +23,7 @@ $(document).ready(function(){
                     data:{"req":postData},
                     success:function (response) {
                         
-                        console.log(response);
+                        window.location.replace("http://35.243.156.112/balanza/editables.php");
 
                     }
 
