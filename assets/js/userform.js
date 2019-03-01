@@ -10,7 +10,7 @@ class UserForm{
 
     preventEmpty(){
 
-        const data={
+        let data={
 
             user : $(this.userId).val(),
             password : $(this.passwordId).val()
