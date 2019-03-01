@@ -30,7 +30,7 @@ $(document).ready(function(){
                         const userForm = new userForm("#textUser","#textPassword");
                         let prevention = userForm.preventEmpty();
 
-                        if(){
+                        if(prevention){
 
                             alert('cool');
 
