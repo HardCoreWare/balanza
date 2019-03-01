@@ -38,9 +38,9 @@ $(document).ready(function(){
                         //en caso de tener los datos correctos
                         if(userForm.preventEmpty()){
 
-                            usrData=userForm.getUserData();
+                            let userData=userForm.getUserData();
 
-                            postData = JSON.stringify(table.getData());
+                            let = JSON.stringify(table.getData());
 
                             $.ajax({
         
