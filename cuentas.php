@@ -170,10 +170,20 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
+                                        <div class="col-lg-4">
+                        					<form class="form-horizontal" role="form">
+
+                                                <div class="form-group">
+	                                                <div class="col-sm-10">
+                                                        <input class="btn btn-block btn-warning" type="button" value="CANCELAR" id="btnCancel">
+	                                                </div>
+                                                </div>
+
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
                                     </div>
                                     <!-- end row -->
-
-
                         		</div>
                             </div>
                             <!-- end col -->
