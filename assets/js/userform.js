@@ -20,6 +20,7 @@ class UserForm{
         if((data.user!=="")&&(data.password==!"")){
 
             return true;
+            this.userData=data;
 
         }
 
@@ -37,5 +38,6 @@ class UserForm{
         return this.userData;
 
     }
+
 
 }

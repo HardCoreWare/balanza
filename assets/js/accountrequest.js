@@ -28,8 +28,9 @@ $(document).ready(function(){
                     $("#btnConfirm").click(function(){
 
                         const userForm = new userForm("#textUser","#textPassword");
+                        let prevention = userForm.preventEmpty();
 
-                        if(userForm.preventEmpty){
+                        if(){
 
                             alert('cool');
 
