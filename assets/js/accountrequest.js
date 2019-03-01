@@ -7,6 +7,8 @@ $(document).ready(function(){
         method:'GET',
         data:'',
         success:function (response) {
+
+            console.log(response);
             
             const responseData = JSON.parse(response);
             const table = new AccountTable();
