@@ -55,7 +55,7 @@ $(document).ready(function(){
 
                                     }
 
-                                    else if(response=="error"){
+                                    else{
 
 
 
@@ -78,9 +78,9 @@ $(document).ready(function(){
                     });
 
 
-                    $("#btnCancel").click({
+                    $("#btnCancel").click(function(){
 
-
+                        window.location.replace("http://35.243.156.112/balanza/cuentas.php");
 
                     });
 
