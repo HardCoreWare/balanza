@@ -8,6 +8,8 @@ $(document).ready(function(){
         data:'',
         success:function (response) {
 
+            let stage=1;
+
             console.log(response);
             
             const responseData = JSON.parse(response);
@@ -17,7 +19,7 @@ $(document).ready(function(){
 
             $("#btnUpdate").click(function(){
 
-                
+                $("#userForm").show();
 
                 /*
                 postData = JSON.stringify(table.getData());
