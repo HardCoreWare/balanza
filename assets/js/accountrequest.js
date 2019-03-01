@@ -46,6 +46,8 @@ $(document).ready(function(){
                                 method:'POST',
                                 data:{"usr":userData,"req":postData},
                                 success:function (response) {
+
+                                    console.log(response);
         
                                     if(response=="success"){
 

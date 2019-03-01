@@ -97,8 +97,6 @@ class AccountTable{
 
         }
 
-        console.log(updatetable);
-
         return updatetable;
 
     }
