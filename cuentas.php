@@ -163,7 +163,7 @@
 
                                                 <div class="form-group">
 	                                                <div class="col-sm-10">
-                                                        <input class="btn btn-block" type="button" value="IMPORTAR DATOS" id="btnInforme">
+                                                        <input class="btn btn-block btn-warning" type="button" value="CONFIRMAR" id="btnInforme">
 	                                                </div>
                                                 </div>
 
