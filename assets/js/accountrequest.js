@@ -69,11 +69,7 @@ $(document).ready(function(){
 
                 }
 
-                else{
 
-
-
-                }
 
 
 
