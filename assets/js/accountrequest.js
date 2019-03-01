@@ -49,9 +49,15 @@ $(document).ready(function(){
                                 data:{"usr":userData,"req":postData},
                                 success:function (response) {
         
-                                    if(response==success){
+                                    if(response=="success"){
 
                                         window.location.replace("http://35.243.156.112/balanza/cuentas.php");
+
+                                    }
+
+                                    else if(response=="error"){
+
+
 
                                     }
         
@@ -67,8 +73,6 @@ $(document).ready(function(){
                             alert('por favor llene los parametros');
 
                         }
-
-
 
 
                     })
