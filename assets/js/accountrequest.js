@@ -9,8 +9,6 @@ $(document).ready(function(){
         success:function (response) {
 
             let stage=0;
-
-            console.log(response);
             
             const responseData = JSON.parse(response);
             const table = new AccountTable();
