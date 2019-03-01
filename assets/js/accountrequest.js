@@ -29,7 +29,7 @@ $(document).ready(function(){
 
                     $("#btnConfirm").click(function(){
 
-                        if(preventEmpty()){
+                        if(userForm.preventEmpty()){
 
                             alert('cool');
 
