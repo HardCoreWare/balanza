@@ -17,25 +17,48 @@ $(document).ready(function(){
             table.readData(responseData);
             table.writeTable("#datatable");
 
+            //
             $("#btnUpdate").click(function(){
 
-                $("#userForm").show();
+                if(stage === 1){
 
-                /*
-                postData = JSON.stringify(table.getData());
+                    $("#userForm").show();
+                    stage=2;
 
-                $.ajax({
+                    $("#btnConfirm").click(function(){
 
-                    url:'http://35.243.156.112/plataforma/balanza/cuentas/actualizar',
-                    method:'POST',
-                    data:{"req":postData},
-                    success:function (response) {
+                        const userForm = new userForm();
 
-                        window.location.replace("http://35.243.156.112/balanza/cuentas.php");
+                    /*
+                    postData = JSON.stringify(table.getData());
 
-                    }
+                    $.ajax({
 
-                });*/
+                        url:'http://35.243.156.112/plataforma/balanza/cuentas/actualizar',
+                        method:'POST',
+                        data:{"req":postData},
+                        success:function (response) {
+
+                            window.location.replace("http://35.243.156.112/balanza/cuentas.php");
+
+                        }
+
+                    });*/
+
+
+                    })
+
+
+                }
+
+                else{
+
+
+
+                }
+
+
+
 
             });
 

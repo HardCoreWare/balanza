@@ -163,7 +163,7 @@
 
                                                 <div class="form-group">
 	                                                <div class="col-sm-10">
-                                                        <input class="btn btn-block btn-warning" type="button" value="CONFIRMAR" id="btnInforme">
+                                                        <input class="btn btn-block btn-warning" type="button" value="CONFIRMAR" id="btnConfirm">
 	                                                </div>
                                                 </div>
 
@@ -255,6 +255,7 @@
         <!-- Developed -->
         <script src="assets/js/conversion.js"></script>
         <script src="assets/js/accounttable.js"></script>
+        <script src="assets/js/userform.js"></script>
         <script src="assets/js/accountrequest.js"></script>
 
         <script>
