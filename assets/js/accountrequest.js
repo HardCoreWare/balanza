@@ -40,7 +40,7 @@ $(document).ready(function(){
 
                             let userData=userForm.getUserData();
 
-                            let = JSON.stringify(table.getData());
+                            let postData = JSON.stringify(table.getData());
 
                             $.ajax({
         
