@@ -19,8 +19,9 @@ class UserForm{
 
         if((data.user!=="")&&(data.password==!"")){
 
-            return true;
             this.userData=data;
+
+            return true;
 
         }
 
