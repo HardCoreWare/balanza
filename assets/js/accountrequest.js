@@ -27,7 +27,19 @@ $(document).ready(function(){
 
                     $("#btnConfirm").click(function(){
 
-                        const userForm = new userForm();
+                        const userForm = new userForm("#textUser","#textPassword");
+
+                        if(userForm.preventEmpty){
+
+                            alert('cool');
+
+                        }
+
+                        else{
+
+                            alert('por favor llene los parametros');
+
+                        }
 
                     /*
                     postData = JSON.stringify(table.getData());
