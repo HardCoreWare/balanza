@@ -35,33 +35,40 @@ $(document).ready(function(){
 
                     $("#btnConfirm").click(function(){
 
+                        //en caso de tener los datos correctos
                         if(userForm.preventEmpty()){
 
-                            alert('cool');
+                            usrData=userForm.getUserData();
+
+                            postData = JSON.stringify(table.getData());
+
+                            $.ajax({
+        
+                                url:'http://35.243.156.112/plataforma/balanza/cuentas/actualizar',
+                                method:'POST',
+                                data:{"usr":,"req":postData},
+                                success:function (response) {
+        
+                                    if(response==success){
+
+                                        window.location.replace("http://35.243.156.112/balanza/cuentas.php");
+
+                                    }
+        
+                                }
+        
+                            });
 
                         }
 
+                        //en caso de que los parametros esten sin llenar
                         else{
 
                             alert('por favor llene los parametros');
 
                         }
 
-                    /*
-                    postData = JSON.stringify(table.getData());
 
-                    $.ajax({
-
-                        url:'http://35.243.156.112/plataforma/balanza/cuentas/actualizar',
-                        method:'POST',
-                        data:{"req":postData},
-                        success:function (response) {
-
-                            window.location.replace("http://35.243.156.112/balanza/cuentas.php");
-
-                        }
-
-                    });*/
 
 
                     })

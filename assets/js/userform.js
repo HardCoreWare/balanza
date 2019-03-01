@@ -34,7 +34,7 @@ class UserForm{
 
     }
 
-    getUser(){
+    getUserData(){
 
         return this.userData;
 
