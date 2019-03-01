@@ -8,7 +8,7 @@ $(document).ready(function(){
         data:'',
         success:function (response) {
 
-            let stage=1;
+            let stage=0;
 
             console.log(response);
             
@@ -20,7 +20,13 @@ $(document).ready(function(){
             //
             $("#btnUpdate").click(function(){
 
-                if(stage === 1){
+                if(stage){
+
+                    alert("necesita confirmar usuario para continuar");
+
+                }
+
+                else{
 
                     $("#userForm").show();
                     stage=2;
