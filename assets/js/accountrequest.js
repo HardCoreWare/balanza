@@ -27,7 +27,7 @@ $(document).ready(function(){
                 else{
 
                     $("#userForm").show();
-                    stage=2;
+                    stage=1;
 
                     let userForm = new UserForm("#textUser","#textPassword");
 
@@ -75,7 +75,14 @@ $(document).ready(function(){
                         }
 
 
-                    })
+                    });
+
+
+                    $("#btnCancel").click({
+
+
+
+                    });
 
 
                 }
