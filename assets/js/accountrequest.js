@@ -49,18 +49,8 @@ $(document).ready(function(){
 
                                     console.log(response);
         
-                                    if(response=="success"){
-
                                         window.location.replace("http://35.243.156.112/balanza/cuentas.php");
 
-                                    }
-
-                                    else{
-
-
-
-                                    }
-        
                                 }
         
                             });
