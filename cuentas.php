@@ -132,7 +132,7 @@
                         			<div class="row">
 
                                         <!-- Select Anualidad -->
-                        				<div class="col-lg-4">
+                        				<div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 
                                                 <div class="form-group">
@@ -145,7 +145,7 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 
                                                 <div class="form-group">
@@ -158,7 +158,7 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
-                        				<div class="col-lg-4">
+                        				<div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 
                                                 <div class="form-group">
@@ -170,7 +170,7 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 
                                                 <div class="form-group">
