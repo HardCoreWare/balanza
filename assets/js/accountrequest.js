@@ -46,7 +46,7 @@ $(document).ready(function(){
         
                                 url:'http://35.243.156.112/plataforma/balanza/cuentas/actualizar',
                                 method:'POST',
-                                data:{"usr":,"req":postData},
+                                data:{"usr":userData,"req":postData},
                                 success:function (response) {
         
                                     if(response==success){
