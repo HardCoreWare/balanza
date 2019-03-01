@@ -25,13 +25,11 @@ $(document).ready(function(){
                     $("#userForm").show();
                     stage=2;
 
-                    let userForm = new userForm("#textUser","#textPassword");
+                    let userForm = new UserForm("#textUser","#textPassword");
 
                     $("#btnConfirm").click(function(){
 
-                        let prevention = userForm.preventEmpty();
-
-                        if(prevention){
+                        if(preventEmpty()){
 
                             alert('cool');
 
