@@ -110,11 +110,7 @@ class ImportTable{
                     else{
 
                         body+='<td>';
-                        body+='<input class="form-control" type="text" value="';
                         body+=row[i].value;
-                        body+='" id="';
-                        body+=row[i].key;
-                        body+='">'
                         body+='</td>';
 
                     }
