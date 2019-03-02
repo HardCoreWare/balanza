@@ -137,7 +137,7 @@
 
                                             <div class="form-group">
                                                 <div class="col-sm-10">
-                                                    <input class="btn btn-block btn-success" type="button" value="ACTUALIZAR DATOS" id="btnUpdate">
+                                                    <input class="btn btn-block btn-success" type="button" value="ACTUALIZAR DATOS" id="btnImport">
                                                 </div>
                                             </div>
 
@@ -147,7 +147,7 @@
 
                                     <table id="datatable" class="table table-stripped">
 
-
+                                    
 
                                     </table>
 
