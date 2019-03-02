@@ -9,8 +9,17 @@ $(document).ready(function(){
 
             const importTable = new ImportTable();
 
-            if(importTable.validate()){
+            if(importTable.validate(response)){
 
+                data = JSON.parse(response);
+
+                console.log(data);
+
+            }
+
+            else{
+
+                console.log('tabla vacia');
 
             }
 

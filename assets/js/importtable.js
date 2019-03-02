@@ -6,7 +6,23 @@ class ImportTable{
 
     }
 
-    validate(data){
+    validate(response){
+
+        if (response=="false"){
+
+            return false;
+
+        }
+
+        else{
+
+            return true;
+
+        }
+
+    }
+
+    readData(data){
 
         
 
