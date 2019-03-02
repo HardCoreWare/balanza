@@ -14,8 +14,6 @@ $(document).ready(function(){
                 data = JSON.parse(response);
                 console.log(data);
 
-            
-
             }
 
             else{
