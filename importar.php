@@ -130,7 +130,7 @@
 
                                     </div>
 
-                                    <h4 class="header-title m-t-0 m-b-30">CUENTAS MAYORES</h4>
+                                    <h4 class="header-title m-t-0 m-b-30">DATOS OBTENIDOS DE BIGQUERY</h4>
                                     
                                     <div class="col-lg-4">
                                         <form class="form-horizontal" role="form">
