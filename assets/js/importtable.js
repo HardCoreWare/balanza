@@ -6,9 +6,9 @@ class ImportTable{
 
     }
 
-    readData(data){
+    validate(data){
 
-
+        
 
     }
 

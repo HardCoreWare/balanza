@@ -169,8 +169,8 @@
         <script src="assets/js/jquery.app.js"></script>
 
         <!-- Developed -->
-
-
+        <script src="assets/js/importtable.js"></script>
+        <script src="assets/js/importrequest.js"></script>
 
 
 
