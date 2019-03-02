@@ -22,6 +22,7 @@
         <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
         <script src="assets/js/modernizr.min.js"></script>
         <script src="assets/plugins/chart.js/chart.min.js"></script>
+        
     </head>
 
 
@@ -120,79 +121,13 @@
                 <!-- Start content -->
                 <div class="content">
                     <div class="container">                        
-                        
+
                         <div class="row">
-                        	<div class="col-sm-12">
-                        		<div class="card-box">
+                        
 
-                                    <div class="dropdown pull-right">
+                        
+                        </div>                        
 
-                                    </div>
-
-                        			<h4 class="header-title m-t-0 m-b-30">Seleccionar parametros para importar de Google Cloud</h4>
-
-                        			<div class="row">
-
-                                        <!-- Select Anualidad -->
-                        				<div class="col-lg-4">
-                        					<form class="form-horizontal" role="form">
-
-                                                <div class="form-group">
-	                                                <label class="col-sm-2 control-label">Anualidad</label>
-	                                                <div class="col-sm-10">
-	                                                    <select class="form-control" id="selectAnualidad">
-
-                                                            <option value = "2018">2018</option>
-                                                            <option value = "2019">2019</option>
-
-
-	                                                    </select>
-	                                                </div>
-                                                </div>
-
-	                                        </form>
-                                        </div>
-                                        <!-- end col -->
-                                        <div class="col-lg-4">
-                        					<form class="form-horizontal" role="form">
-
-                                                <div class="form-group">
-	                                                <label class="col-sm-2 control-label"> Hasta al Mes</label>
-	                                                <div class="col-sm-10">
-	                                                    <select class="form-control" id="selectMeses">
-
-	                                                        <option value = "1">Enero</option>
-	                                                        <option value = "2">Febrero</option>
-	                                                        <option value = "3">Marzo</option>
-
-	                                                    </select>
-	                                                </div>
-                                                </div>
-
-	                                        </form>
-                                        </div>
-                                        <!-- end col -->
-                        				<div class="col-lg-4">
-                        					<form class="form-horizontal" role="form">
-
-                                                <div class="form-group">
-	                                                <div class="col-sm-10">
-                                                        <input class="btn btn-block" type="button" value="IMPORTAR DATOS" id="btnInforme">
-	                                                </div>
-                                                </div>
-
-	                                        </form>
-                                        </div>
-                                        <!-- end col -->
-                                    </div>
-                                    <!-- end row -->
-
-
-                        		</div>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- End row -->
                     </div> 
                     <!-- container -->
 
