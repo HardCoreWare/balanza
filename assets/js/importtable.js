@@ -72,8 +72,66 @@ class ImportTable{
 
     }
 
-    writeTable(){
+    writeTable(divId){
 
+        if(this.size){
+
+            let table='';
+            let head='';
+            let body='';
+
+            head+='<thead><tr>';
+            this.headers.forEach(header=>{
+
+                head+='<th>';
+                head+=header;
+                head+='</th>';
+
+            });
+            head+='</tr></thead>';
+
+
+            body+='<tbody>';
+            
+            this.matrix.forEach(row => {
+
+                body+='<tr>';
+
+                for(let i =0; i<row.length; i++){
+
+                    if(i<4){
+
+                        body+='<td>';
+                        body+=row[i].value;
+                        body+='</td>';
+
+                    }
+
+                    else{
+
+                        body+='<td>';
+                        body+='<input class="form-control" type="text" value="';
+                        body+=row[i].value;
+                        body+='" id="';
+                        body+=row[i].key;
+                        body+='">'
+                        body+='</td>';
+
+                    }
+
+                }
+
+                body+='</tr>';
+                
+            });
+
+            body+='</tbody>';
+
+            table+=body;
+
+            $(divId).html(table);
+    
+        }
 
 
     }
