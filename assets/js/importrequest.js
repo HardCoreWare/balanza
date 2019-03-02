@@ -12,8 +12,9 @@ $(document).ready(function(){
             if(importTable.validate(response)){
 
                 data = JSON.parse(response);
-                console.log(data);
-
+                importTable.readData(data);
+                
+                
             }
 
             else{
