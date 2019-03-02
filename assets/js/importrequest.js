@@ -19,8 +19,8 @@ $(document).ready(function(){
 
             else{
 
-                console.log('tabla vacia');
-
+                alert("datos vacios");
+                
             }
 
         }
