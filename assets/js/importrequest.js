@@ -13,7 +13,7 @@ $(document).ready(function(){
 
                 data = JSON.parse(response);
                 importTable.readData(data);
-                
+                importTable.writeTable("datatable");
                 
             }
 
