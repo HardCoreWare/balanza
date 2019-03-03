@@ -192,18 +192,7 @@
 
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
-	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Anualidad</label>
-	                                                <div class="col-md-10">
-	                                                    <select type="text" class="form-control">
-
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-
-                                                        </select>
-	                                                </div>
-	                                            </div>
+	                                            <button type="text" class="form-control">INFORME</button>
 	                                        </form>
                                         </div>
                                         <!-- end col -->
