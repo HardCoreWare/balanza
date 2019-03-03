@@ -34,7 +34,13 @@ $(document).ready(function(){
                     url:'http://35.243.156.112/plataforma/balanza/informe/importar',
                     mehtod:'GET',
                     data:'',
-                    success:function(success){
+                    success:function(response){
+
+                        while (!response) {
+
+
+                            
+                        }
 
                         window.location.replace("http://35.243.156.112/balanza/importar.php");
 

@@ -123,10 +123,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
-                                    <div class="dropdown pull-right">
-
-                                    </div>
-
+                                    <div class="dropdown pull-right"></div>
                                     <h4 class="header-title m-t-0 m-b-30">CUENTAS MAYORES</h4>
                                     
                                     <div class="col-lg-4">
