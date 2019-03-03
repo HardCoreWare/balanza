@@ -23,7 +23,27 @@ $(document).ready(function(){
                 
             }
 
+            /************************************************************************************************************/
+
+            $("#btnImport").click(function(){
+
+                $.ajax({
+
+                    url:'http://35.243.156.112/plataforma/balanza/informe/indice',
+                    mehtod:'GET',
+                    data:'',
+                    success:function(success){
+
+                        window.location.replace("http://35.243.156.112/balanza/importar.php");
+
+                    }
+
+                });
+
+            });
+
         }
+
 
 
     });
