@@ -123,16 +123,7 @@
                         	<div class="col-sm-12">
                         		<div class="card-box">
 
-                                    <div class="dropdown pull-right">
-                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="zmdi zmdi-more-vert"></i>
-                                        </a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a>Action</a></li>
-                                            <li class="divider"></li>
-                                            <li><a>Separated link</a></li>
-                                        </ul>
-                                    </div>
+                                    <div class="dropdown pull-right"></div>
 
                         			<h4 class="header-title m-t-0 m-b-30">Input Types</h4>
 
