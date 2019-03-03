@@ -144,7 +144,12 @@
 	                                                <label class="col-md-2 control-label">Text</label>
 	                                                <div class="col-md-10">
 	                                                    <select type="text" class="form-control">
-                                                            
+
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+
                                                         </select>
 	                                                </div>
 	                                            </div>
