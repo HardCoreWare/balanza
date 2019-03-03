@@ -156,9 +156,27 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
+                                        <div class="col-lg-6">
+                        					<form class="form-horizontal" role="form">
+	                                            <div class="form-group">
+	                                                <label class="col-md-2 control-label">Anualidad</label>
+	                                                <div class="col-md-10">
+	                                                    <select type="text" class="form-control">
+
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+
+                                                        </select>
+	                                                </div>
+	                                            </div>
+	                                        </form>
+                                        </div>
 
                                     </div>
                                     <!-- end row -->
+                                    
                         		</div>
                             </div>
                             <!-- end col -->
