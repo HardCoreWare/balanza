@@ -156,6 +156,7 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
+                                        
                                         <div class="col-lg-6">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
@@ -173,10 +174,11 @@
 	                                            </div>
 	                                        </form>
                                         </div>
+                                        <!-- end col -->
 
                                     </div>
                                     <!-- end row -->
-                                    
+
                         		</div>
                             </div>
                             <!-- end col -->
