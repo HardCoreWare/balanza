@@ -27,6 +27,8 @@ $(document).ready(function(){
 
             $("#btnImport").click(function(){
 
+                alert('importando');
+
                 $.ajax({
 
                     url:'http://35.243.156.112/plataforma/balanza/informe/importar',
