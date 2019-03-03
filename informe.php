@@ -192,7 +192,7 @@
 
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
-	                                            <button type="text" class="form-control">INFORME</button>
+	                                            <button type="text" class="form-control btn btn-success">INFORME</button>
 	                                        </form>
                                         </div>
                                         <!-- end col -->
