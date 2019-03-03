@@ -125,11 +125,17 @@
 
                                     <div class="dropdown pull-right"></div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">Input Types</h4>
+                                    <h4 class="header-title m-t-0 m-b-30">Input Types</h4>
+                                    
+                                    <div class="row">
+
+
+
+                                    </div>
 
                         			<div class="row">
 
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
 	                                                <label class="col-md-2 control-label">Anualidad</label>
@@ -148,7 +154,7 @@
                                         </div>
                                         <!-- end col -->
 
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
 	                                                <label class="col-md-2 control-label">Anualidad</label>
@@ -166,7 +172,25 @@
                                         </div>
                                         <!-- end col -->
 
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-3">
+                        					<form class="form-horizontal" role="form">
+	                                            <div class="form-group">
+	                                                <label class="col-md-2 control-label">Anualidad</label>
+	                                                <div class="col-md-10">
+	                                                    <select type="text" class="form-control">
+
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+
+                                                        </select>
+	                                                </div>
+	                                            </div>
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+
+                                        <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
 	                                                <label class="col-md-2 control-label">Anualidad</label>
