@@ -29,7 +29,7 @@ $(document).ready(function(){
 
                 $.ajax({
 
-                    url:'http://35.243.156.112/plataforma/balanza/informe/indice',
+                    url:'http://35.243.156.112/plataforma/balanza/informe/importar',
                     mehtod:'GET',
                     data:'',
                     success:function(success){
