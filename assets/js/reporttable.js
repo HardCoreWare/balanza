@@ -130,7 +130,7 @@ class ModularReport{
 
     }
 
-        //
+    //
     getSubtotals(dataset,table){
 
         return this.data.datasets[dataset].tables[table].subtotals;
