@@ -34,7 +34,7 @@ $(document).ready(function(){
 
             $("#btnImport").click(function(){
 
-                $("#btnImport").html("IMPORTARNDO...");
+                $(this).html("IMPORTARNDO...");
 
                 $.ajax({
 
