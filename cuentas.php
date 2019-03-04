@@ -100,6 +100,8 @@
                             <li><a href="importar.php" class="waves-effect"><i class="fa fa-database"></i> <span> IMPORTAR DATOS</span> </a></li>
                             <li><a href="cuentas.php" class="waves-effect"><i class="fa fa-list"></i> <span>CUENTAS</span> </a></li>
                             <li><a href="editables.php" class="waves-effect"><i class="fa fa-list"></i> <span>EDITABLES</span> </a></li>
+                            <li><a href="informe.php" class="waves-effect"><i class="fa fa-list"></i> <span>INFORME</span> </a></li>
+
                         </ul>
                         <div class="clearfix"></div>
                     </div>
@@ -162,7 +164,7 @@
                         					<form class="form-horizontal" role="form">
                                                 <div class="form-group">
 	                                                <div class="col-sm-10">
-                                                        <input class="btn btn-block btn-warning" type="button" value="CONFIRMAR" id="btnConfirm">
+                                                        <input class="btn btn-block btn-danger" type="button" value="CONFIRMAR" id="btnConfirm">
 	                                                </div>
                                                 </div>
 	                                        </form>
@@ -172,7 +174,7 @@
                         					<form class="form-horizontal" role="form">
                                                 <div class="form-group">
 	                                                <div class="col-sm-10">
-                                                        <input class="btn btn-block btn-warning" type="button" value="CANCELAR" id="btnCancel">
+                                                        <input class="btn btn-block btn-primary" type="button" value="CANCELAR" id="btnCancel">
 	                                                </div>
                                                 </div>
 	                                        </form>

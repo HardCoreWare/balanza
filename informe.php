@@ -100,6 +100,8 @@
                             <li><a href="importar.php" class="waves-effect"><i class="fa fa-database"></i> <span> IMPORTAR DATOS</span> </a></li>
                             <li><a href="cuentas.php" class="waves-effect"><i class="fa fa-list"></i> <span>CUENTAS</span> </a></li>
                             <li><a href="editables.php" class="waves-effect"><i class="fa fa-list"></i> <span>EDITABLES</span> </a></li>
+                            <li><a href="informe.php" class="waves-effect"><i class="fa fa-list"></i> <span>INFORME</span> </a></li>
+
 
                         </ul>
                         <div class="clearfix"></div>
@@ -137,10 +139,22 @@
 	                                                <div class="col-md-10">
 	                                                    <select type="text" class="form-control">
 
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                            <option>4</option>
+
+
+                                                        </select>
+	                                                </div>
+	                                            </div>
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+
+                                        <div class="col-lg-3">
+                        					<form class="form-horizontal" role="form">
+	                                            <div class="form-group">
+	                                                <label class="col-md-2 control-label">Mes</label>
+	                                                <div class="col-md-10">
+	                                                    <select type="text" class="form-control">
+
 
                                                         </select>
 	                                                </div>
@@ -156,27 +170,7 @@
 	                                                <div class="col-md-10">
 	                                                    <select type="text" class="form-control">
 
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
 
-                                                        </select>
-	                                                </div>
-	                                            </div>
-	                                        </form>
-                                        </div>
-                                        <!-- end col -->
-
-                                        <div class="col-lg-3">
-                        					<form class="form-horizontal" role="form">
-	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Anualidad</label>
-	                                                <div class="col-md-10">
-	                                                    <select type="text" class="form-control">
-
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
 
                                                         </select>
 	                                                </div>
