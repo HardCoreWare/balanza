@@ -203,15 +203,18 @@ class ModularTable{
                 body+='</th>';
             }
         }
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        body+='</tr>';
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        body+='</tr>';
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
         body+='</tr>';
 
-        body+='<tr>';
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td> </td>'}
-        body+='</tr>';
-
-        body+='<tr>';
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td> </td>'}
-        body+='</tr>';
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
         this.data.datasets[0].tables[1].matrix.forEach(row=>{
@@ -287,6 +290,36 @@ class ModularTable{
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+        this.data.datasets[1].tables[0].matrix.forEach(row=>{
+
+            body+='<tr>';         
+
+            for (let i = 0; i < row.length; i++) {
+
+                const cell = row[i];
+
+                if(i>=3){
+
+                    body+='<td>';
+                    body+=stdToEng(cell.value.toString());
+                    body+='</td>';
+
+                }
+
+                else{
+
+                    body+='<td>';
+                    body+=cell.value.toString();
+                    body+='</td>';
+
+                }
+
+
+            }
+
+            body+='</tr>';
+
+        });
 
 
 
