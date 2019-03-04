@@ -9,8 +9,6 @@ $(document).ready(function(){
 
             while(!response){
 
-
-
             }
 
             const report = new ModularTable();

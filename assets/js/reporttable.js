@@ -187,7 +187,6 @@ class ModularTable{
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td> </td>'}
         body+='</tr>';
 
-
         body+='<tr>';
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
             const cell = this.data.datasets[0].tables[0].subtotals[i];
@@ -203,7 +202,7 @@ class ModularTable{
             }
             else if(i==2){
                 body+='<th>';
-                body+='SUBTOTAL FACTOR HUMANO';
+                body+='SUBTOTAL GASTOS GENERALES';
                 body+='</th>';
             }
             else{
