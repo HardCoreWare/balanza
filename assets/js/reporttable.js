@@ -14,16 +14,16 @@ class ModularReport{
                         {
                             label:"FACTOR HUMANO",
                             matrix:[],
-                            subtotals:[]
+                            subtotals:[0,0,0]
 
                         },
                         {
                             label:"GASTOS GENERALES",
                             matrix:[],
-                            subtotals:[]
+                            subtotals:[0,0,0]
                         }
                     ],
-                    totals:[]
+                    totals:[0,0,0]
 
                 },
                 {
@@ -32,14 +32,14 @@ class ModularReport{
                         {
                             label:"FACTOR HUMANO",
                             matrix:[],
-                            subtotals:[]
+                            subtotals:[0,0,0]
                         }
                     ],
-                    totals:[]
+                    totals:[0,0,0]
 
                 }
             ],
-            supertotals:[]
+            supertotals:[0,0,0]
 
         };
         
