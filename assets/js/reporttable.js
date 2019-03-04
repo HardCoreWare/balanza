@@ -4,7 +4,7 @@ class ModularReport{
 
         this.data={
 
-            headers:[],
+            headers:["#","CUENTA","CONCEPTO"],
 
             datasets:[
 
@@ -45,8 +45,10 @@ class ModularReport{
         
     }
 
+    //
     readData(data){
 
+        //
         data.forEach(row => {
 
             let line=[];
@@ -78,9 +80,7 @@ class ModularReport{
 
         });
 
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
+        //
         for (let i = 0; i < this.data.datasets.length; i++) {
 
             const dataset = this.data.datasets[i];
@@ -105,14 +105,21 @@ class ModularReport{
             
         }
 
+
+
+
+
+
     }
 
+    //
     getTitles(){
 
 
 
     }
 
+    //
     getTable(){
 
 
@@ -125,6 +132,7 @@ class ModularReport{
 
     }
 
+    //
     getTotal(){
 
 
