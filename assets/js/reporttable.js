@@ -214,6 +214,15 @@ class ModularTable{
         body+='</tr>';
 
 
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td> </td>'}
+        body+='</tr>';
+
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td> </td>'}
+        body+='</tr>';
+
+
         this.data.datasets[0].tables[1].matrix.forEach(row=>{
 
             body+='<tr>';         
