@@ -86,11 +86,11 @@ class ModularReport{
 
                 table.matrix.forEach(line=>{
 
+                    console.log(line);
+
                     for (let k = 0; k < line.length; k++) {
 
-                        const cell = line[k];
 
-                        console.log(cell.value);
 
                         
                     }
