@@ -245,6 +245,33 @@ class ModularTable{
             body+='</tr>';
 
         });
+
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[1].subtotals.length; i++) {
+            const cell = this.data.datasets[0].tables[1].subtotals[i];
+            if(i==0){
+                body+='<th>';
+                body+='________';
+                body+='</th>';
+            }
+            else if(i==1){
+                body+='<th>';
+                body+='________';
+                body+='</th>';
+            }
+            else if(i==2){
+                body+='<th>';
+                body+='SUBTOTAL FACTOR HUMANO';
+                body+='</th>';
+            }
+            else{
+                body+='<th>';
+                body+=stdToEng(cell.toString());
+                body+='</th>';
+            }
+        }
+        body+='</tr>';
+
         body+='</tbody>';
 
 
