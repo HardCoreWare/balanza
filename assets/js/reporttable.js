@@ -148,14 +148,14 @@ class ModularReport{
 
 class ModularTable{
 
-    writeTable(headers,matrix,subtotals){
+    writeTable(divId,headers,matrix,subtotals){
 
         let table='';
         let head='';
         let body='';
         let footer='';
 
-        head+='<tr>';
+        head+='<><tr>';
         headers.forEach(header=>{
             head+='<th>';
             head+=header;
@@ -178,7 +178,7 @@ class ModularTable{
         table+=head;
         table+=body;
 
-        $("#datatable").html(table);
+        $("#datatable0").html(table);
 
     }
 

@@ -11,7 +11,7 @@ $(document).ready(function(){
             const report = new ModularReport();
             report.readData(data);
             const modularTable = new ModularTable();
-            modularTable.writeTable(report.getHeaders(),report.getMatrix(0,0),"");
+            modularTable.writeTable("#datatable0",report.getHeaders(),report.getMatrix(0,0),"");
 
         }
 
