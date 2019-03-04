@@ -155,11 +155,11 @@ class ModularTable{
         let body='';
         let footer='';
 
-        head+='<><tr>';
+        head+='<thead><tr>';
         headers.forEach(header=>{
             head+='<th>';
             head+=header;
-            head+='</th>';
+            head+='</th></thead>';
         });
         head+='</tr>';
 
