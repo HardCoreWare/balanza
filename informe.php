@@ -201,7 +201,7 @@
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
 
-                                    <table id="datatable0" class="table table-stripped"></table>
+                                    <table id="datatable" class="table table-stripped"></table>
 
                                 </div>
                             </div>
