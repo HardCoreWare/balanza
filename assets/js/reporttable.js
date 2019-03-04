@@ -186,7 +186,7 @@ class ModularTable{
         body+='</tr>';
 
         body+='<tr>';
-        
+
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
 
         body+='<tr>';
@@ -206,7 +206,7 @@ class ModularTable{
             else{
 
                 body+='<th>';
-                body+=cell.toString();
+                body+=stdToEng(cell.toString());
                 body+='</th>';
 
             }
