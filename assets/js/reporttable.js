@@ -9,16 +9,13 @@ class ModularReport{
             datasets:[
 
                 {
-                    title:"GASTOS PAGADOS",
                     tables:[    
                         {
-                            label:"FACTOR HUMANO",
                             matrix:[],
                             subtotals:[0,0,0]
 
                         },
                         {
-                            label:"GASTOS GENERALES",
                             matrix:[],
                             subtotals:[0,0,0]
                         }
@@ -26,10 +23,8 @@ class ModularReport{
 
                 },
                 {
-                    title:"GASTOS NO PAGADOS",
                     tables:[    
                         {
-                            label:"FACTOR HUMANO",
                             matrix:[],
                             subtotals:[0,0,0]
                         }
