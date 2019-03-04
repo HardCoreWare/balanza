@@ -169,7 +169,7 @@ class ModularTable{
         this.data.datasets[0].tables[0].subtotals.forEach(cell=>{
 
             body+='<td>';
-            body+=cell.toString();
+            body+=stdToEng(cell.toString());
             body+='</td>';
 
         });
