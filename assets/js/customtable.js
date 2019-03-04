@@ -17,9 +17,9 @@ class CustomTable{
                     set = false;
 
                     this.headers.push("#");
-                    this.headers.push("Cuenta");
-                    this.headers.push("SuperConcepto");
-                    this.headers.push("Concepto");
+                    this.headers.push("CUENTA");
+                    this.headers.push("SUPER CONCEPTO");
+                    this.headers.push("CONCEPTO");
 
                     row.Montos.forEach(ammount=>{
 
