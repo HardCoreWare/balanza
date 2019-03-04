@@ -156,9 +156,22 @@ class ModularTable{
 
                 const cell = row[i];
 
-                body+='<td>';
-                body+=stdToEng(cell.value.toString());
-                body+='</td>';
+                if(i>=3){
+
+                    body+='<td>';
+                    body+=stdToEng(cell.value.toString());
+                    body+='</td>';
+
+                }
+
+                else{
+
+                    body+='<td>';
+                    body+=cell.value.toString();
+                    body+='</td>';
+
+                }
+
 
             }
 
