@@ -15,13 +15,11 @@ $(document).ready(function(){
 
                 alert("datos vacios");
 
-                $("#btnImport").html("IMPORTAR DATOS");
                 
             }
 
             else{
 
-                $("#btnImport").html("ACTUALIZAR DATOS");
 
 
                 data = JSON.parse(response);
@@ -34,7 +32,7 @@ $(document).ready(function(){
 
             $("#btnImport").click(function(){
 
-                $(this).html("IMPORTARNDO...");
+                $("#btnImport").val()="IMPORTANDO";
 
                 $.ajax({
 
