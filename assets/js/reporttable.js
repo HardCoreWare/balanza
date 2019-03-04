@@ -175,6 +175,7 @@ class ModularTable{
         });
         body +='</tbody>';
 
+        table+=head;
         table+=body;
 
         $("#datatable").html(table);
