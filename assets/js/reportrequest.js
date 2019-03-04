@@ -8,8 +8,10 @@ $(document).ready(function(){
         success:function (response) {
 
             const data = JSON.parse(response);
-            const report = new ModularReport();
+            const report = new ReportTable();
             report.readData(data);
+            report.writeTable("#datatable");
+
 
 
         }
