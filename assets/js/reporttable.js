@@ -1,17 +1,12 @@
-class Report{
+class ModularReport{
+
+    constructor(){
+
+        this.
+
+    }
 
     readData(data){
-
-        this.datasets=[
-
-            {
-                label:"FACTOR HUMANO",
-
-                data:[]
-
-            }
-
-        ];
 
         data.forEach(row => {
 
