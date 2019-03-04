@@ -207,6 +207,42 @@
                         <!-- end row -->
 
 
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card-box table-responsive">
+                                    <div class="dropdown pull-right">
+
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30">DATOS OBTENIDOS DE BIGQUERY</h4>
+                                    
+                                    <div class="col-lg-4">
+                                        <form class="form-horizontal" role="form">
+
+                                            <div class="form-group">
+                                                <div class="col-sm-10">
+                                                    <input class="btn btn-block btn-success" type="button" value="ACTUALIZAR DATOS" id="btnImport">
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <!-- end col -->
+
+                                    <table id="datatable" class="table table-stripped">
+
+                                    
+
+                                    </table>
+
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+
 
 
 
