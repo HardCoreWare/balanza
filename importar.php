@@ -53,7 +53,7 @@
                                 </button>
                             </li>
                             <li>
-                                <h4 class="page-title">Importar Datos a Servidor Local</h4>
+                                <h4 class="page-title">Importar Datos</h4>
                             </li>
                         </ul>
 
