@@ -135,7 +135,6 @@ class ModularReport{
 
         return this.data.datasets[dataset].tables[table].subtotals;
 
-
     }
 
 
