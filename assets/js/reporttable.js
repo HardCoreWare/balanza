@@ -116,7 +116,11 @@ class ModularReport{
 
                         const cell = line[k];
 
-                        this.data.datasets[i].tables[j].subtotals[k];
+                        if(k>2){
+
+                            this.data.datasets[i].tables[j].subtotals[k]+=cell.value;
+
+                        }
                         
                     }
 
