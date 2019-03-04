@@ -38,7 +38,9 @@ class ModularReport{
                     totals:[]
 
                 }
-            ]
+            ],
+            supertotals:[]
+
         };
         
     }
@@ -49,12 +51,12 @@ class ModularReport{
 
             let line=[];
             line.push({value:row.Id,key:"none"});
-            line.push({value:row.Concepto,key:"none"});
             line.push({value:row.Cuenta,key:"none"});
+            line.push({value:row.Concepto,key:"none"});
 
             row.Montos.forEach(ammount=>{
 
-                line.push({value:ammount.Monto.toString(),key:row.Id+"-"+ammount.Module});
+                line.push({value:ammount.Monto.toString(),key:row.Id+"-"+ammount.Modulo});
 
             });
 
@@ -76,30 +78,28 @@ class ModularReport{
 
         });
 
-        for(let i=0; i<this.data.datasets.length; i++){
+    }
 
-            const dataset = this.data.datasets[i];
-
-            for (let j = 0; j< dataset.tables.length; j++) {
-
-                const table = dataset.tables[j];
-
-                table.matrix.forEach(line=>{
-
-                    console.log(line);
-
-                    for (let k = 0; k < line.length; k++) {
+    getTitles(){
 
 
 
-                        
-                    }
+    }
 
-                })
-                
-            }
+    getTable(){
 
-        }
+
+
+    }
+
+    getSubtotal(){
+
+
+
+    }
+
+    getTotal(){
+
 
 
     }
