@@ -14,6 +14,19 @@ class AccountTable{
         let body='';
         let head='';
 
+        head+='<thead><tr>';
+
+        this.headers.forEach(header=>{
+
+            head+='<th>';
+            header;
+            head+='</th>';
+
+        })
+
+        head+='</tr></thead>';
+
+
         body+='<tbody>';
 
         this.data.forEach(row => {
