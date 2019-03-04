@@ -90,7 +90,7 @@ class ModularReport{
 
                         const cell = line[k];
 
-
+                        console.log(cell.value);
 
                         
                     }
