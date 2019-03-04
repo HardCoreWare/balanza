@@ -175,8 +175,6 @@ class ModularTable{
         });
 
         body+='</tr>'
-
-
         body +='</tbody>';
 
         table+=head;
