@@ -148,37 +148,48 @@ class ModularReport{
 
 class ModularTable{
 
-    writeTable(divId,headers,matrix,subtotals){
+    virtualTable(headers,matrix,subtotals){
 
         let table='';
         let head='';
         let body='';
         let footer='';
 
-        head+='<thead><tr>';
+        head+='<thead>';
+        head+='<tr>';
         headers.forEach(header=>{
             head+='<th>';
             head+=header;
             head+='</th>';
         });
-        head+='</tr></thead>';
+        head+='</tr>';
+        head+='</thead>';
 
         body +='<tbody>';
+
         matrix.forEach(row=>{
-            body+='<tr>';            
+
+            body+='<tr>';         
+
             row.forEach(cell=>{
+
                 body+='<td>';
                 body+=cell.value.toString();
                 body+='</td>';
+
             });
+
             body+='</tr>';
+
         });
+
         body +='</tbody>';
 
         table+=head;
         table+=body;
 
-        $(divId).html(table);
+
+
 
     }
 
