@@ -13,7 +13,7 @@ $(document).ready(function(){
             const modularTable = new ModularTable();
             modularTable.writeTable("#datatable0",report.getHeaders(),report.getMatrix(0,0),"");
             const modularTable1 = new ModularTable();
-            modularTable.writeTable("#datatable1",report.getHeaders(),report.getMatrix(0,1),"");
+            modularTable1.writeTable("#datatable1",report.getHeaders(),report.getMatrix(0,1),"");
 
         }
 
