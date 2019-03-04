@@ -48,7 +48,8 @@ class ModularReport{
     //
     readData(data){
 
-        //
+        let set = true;
+
         data.forEach(row => {
 
             let line=[];
@@ -60,7 +61,27 @@ class ModularReport{
 
                 line.push({value:parseFloat(ammount.Monto),key:row.Id+"-"+ammount.Modulo});
 
+                if(set){
+
+                    this.data.headers.push(ammount.Modulo);
+                    this.data.supertotals.push(0);
+
+                    this.data.datasets.forEach(dataset=>{
+                        dataset.totals.push(0);
+
+                        dataset.tables.forEach(table=>{
+
+                            table.subtotals.push(0);
+
+                        });
+
+                    });
+
+                }
+
             });
+
+            set=false;
 
             if((row.Pagado=="1")&&(row.Super_Concepto=="FACTOR HUMANO"||row.Super_Concepto=="FACTOR HUMANO PASIVOS")){
 
