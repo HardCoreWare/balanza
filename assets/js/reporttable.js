@@ -84,7 +84,7 @@ class ModularReport{
 
             for (let j = 0; j< dataset.tables.length; j++) {
 
-                const table = dataset.tables.tables[j];
+                const table = dataset.tables[j];
 
                 console.log(table);
                 
