@@ -123,6 +123,8 @@ class ImportTable{
 
             body+='</tbody>';
 
+            table+=head;
+
             table+=body;
 
             $(divId).html(table);
