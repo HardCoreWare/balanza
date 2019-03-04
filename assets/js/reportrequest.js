@@ -12,6 +12,8 @@ $(document).ready(function(){
             report.readData(data);
             subtotal00=report.getSubtotals(0,0);
 
+            console.log(subtotal00);
+
         }
 
     });
