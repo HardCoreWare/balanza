@@ -15,7 +15,7 @@ $(document).ready(function(){
 
             console.log(response);
 
-            if(response=="false"){
+            if(response=="empty"){
 
                 window.location.replace("http://35.243.156.112/balanza/importar.php");
 
