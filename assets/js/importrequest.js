@@ -20,8 +20,6 @@ $(document).ready(function(){
 
             else{
 
-
-
                 data = JSON.parse(response);
                 importTable.readData(data);
                 importTable.writeTable("#datatable");

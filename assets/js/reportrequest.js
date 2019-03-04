@@ -13,7 +13,7 @@ $(document).ready(function(){
 
             }
 
-            console.log(response);
+            const report = new ModularTable();
 
             if(response=="empty"){
 
@@ -24,7 +24,6 @@ $(document).ready(function(){
             else{
 
                 const data = JSON.parse(response);
-                const report = new ModularTable();
                 report.readData(data);
                 report.writeTable("#datatable");
 
