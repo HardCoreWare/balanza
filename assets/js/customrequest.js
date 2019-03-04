@@ -7,7 +7,7 @@ $(document).ready(function(){
         data:'',
         success:function (response) {
 
-            data=JSON.parse(response);
+            const data=JSON.parse(response);
             const table = new CustomTable();
             table.readData(data);
             table.writeTable("#datatable");
