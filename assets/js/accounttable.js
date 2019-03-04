@@ -70,6 +70,7 @@ class AccountTable{
         });
 
         body+='</tbody>';
+        table+=head;
         table+=body;
 
         this.data=null;
