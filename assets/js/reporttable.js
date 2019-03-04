@@ -179,8 +179,6 @@ class ModularTable{
 
         });
 
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
         body+='<tr>';
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
             const cell = this.data.datasets[0].tables[0].subtotals[i];
@@ -196,7 +194,7 @@ class ModularTable{
             }
             else if(i==2){
                 body+='<th>';
-                body+='SUBTOTAL GASTOS GENERALES';
+                body+='SUBTOTAL FACTOR HUMANO';
                 body+='</th>';
             }
             else{
@@ -248,6 +246,7 @@ class ModularTable{
         });
 
         body+='<tr>';
+
         for (let i = 0; i < this.data.datasets[0].tables[1].subtotals.length; i++) {
             const cell = this.data.datasets[0].tables[1].subtotals[i];
             if(i==0){
@@ -262,7 +261,7 @@ class ModularTable{
             }
             else if(i==2){
                 body+='<th>';
-                body+='SUBTOTAL FACTOR HUMANO';
+                body+='SUBTOTAL GASTOS GENERALES';
                 body+='</th>';
             }
             else{
@@ -271,7 +270,25 @@ class ModularTable{
                 body+='</th>';
             }
         }
+
         body+='</tr>';
+
+
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        body+='</tr>';
+
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        body+='</tr>';
+
+        
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        
+
+
 
         body+='</tbody>';
 
