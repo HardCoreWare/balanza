@@ -10,10 +10,7 @@ $(document).ready(function(){
             const data = JSON.parse(response);
             const report = new ModularReport();
             report.readData(data);
-            const modularTable = new ModularTable();
-            modularTable.writeTable("#datatable0",report.getHeaders(),report.getMatrix(0,0),"");
-            const modularTable1 = new ModularTable();
-            modularTable1.writeTable("#datatable1",report.getHeaders(),report.getMatrix(0,1),"");
+
 
         }
 

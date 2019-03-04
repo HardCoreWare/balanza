@@ -124,31 +124,9 @@ class ModularReport{
     }
 
     //
-    getMatrix(dataset,table){
+    writeTable(divId){
 
-        return this.data.datasets[dataset].tables[table].matrix;
-
-    }
-
-    //
-    getSubtotals(dataset,table){
-
-        return this.data.datasets[dataset].tables[table].subtotals;
-
-    }
-    
-    //
-    getHeaders(){
-
-        return this.data.headers;
-
-    }
-
-}
-
-class ModularTable{
-
-    virtualTable(headers,matrix,subtotals){
+        //encabezados
 
         let table='';
         let head='';
@@ -157,7 +135,7 @@ class ModularTable{
 
         head+='<thead>';
         head+='<tr>';
-        headers.forEach(header=>{
+        this.data.headers.forEach(header=>{
             head+='<th>';
             head+=header;
             head+='</th>';
@@ -165,9 +143,12 @@ class ModularTable{
         head+='</tr>';
         head+='</thead>';
 
+
+
+        //cuerpo
         body +='<tbody>';
 
-        matrix.forEach(row=>{
+        this.data.datasets[0].tables[0].matrix.forEach(row=>{
 
             body+='<tr>';         
 
@@ -182,6 +163,19 @@ class ModularTable{
             body+='</tr>';
 
         });
+
+        body+='<tr>'
+
+        this.data.datasets[0].tables[0].subtotals.forEach(cell=>{
+
+
+            
+
+
+        });
+
+        body+='</tr>'
+
 
         body +='</tbody>';
 
