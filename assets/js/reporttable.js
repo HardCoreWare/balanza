@@ -181,15 +181,35 @@ class ModularTable{
 
         body+='<tr>'
 
-        this.data.datasets[0].tables[0].subtotals.forEach(cell=>{
 
-            body+='<td>';
-            body+=stdToEng(cell.toString());
-            body+='</td>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
 
-        });
+            const cell = this.data.datasets[0].tables[0].subtotals[i];
+
+            if(i>=3){
+
+                body+='<td>';
+                body+=stdToEng(cell.value.toString());
+                body+='</td>';
+
+            }
+
+            else{
+
+                body+='<td>';
+                body+='';
+                body+='</td>';
+
+            }
+
+
+        }
+
 
         body+='</tr>';
+
+
+
         body+='</tbody>';
 
         table+=head;
