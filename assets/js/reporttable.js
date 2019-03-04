@@ -116,7 +116,7 @@ class ModularReport{
 
                         const cell = line[k];
 
-                        console.log(cell);
+                        this.data.datasets[i].tables[j].subtotals[k];
                         
                     }
 
@@ -155,6 +155,13 @@ class ModularReport{
 
     //
     getTotal(){
+
+
+
+    }
+
+    //
+    getSupertotal(){
 
 
 
