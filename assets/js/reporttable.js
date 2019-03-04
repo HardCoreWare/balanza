@@ -214,8 +214,39 @@ class ModularTable{
 
         }
 
-
         body+='</tr>';
+
+
+        this.data.datasets[0].tables[1].matrix.forEach(row=>{
+
+            body+='<tr>';         
+
+            for (let i = 0; i < row.length; i++) {
+
+                const cell = row[i];
+
+                if(i>=3){
+
+                    body+='<td>';
+                    body+=stdToEng(cell.value.toString());
+                    body+='</td>';
+
+                }
+
+                else{
+
+                    body+='<td>';
+                    body+=cell.value.toString();
+                    body+='</td>';
+
+                }
+
+
+            }
+
+            body+='</tr>';
+
+        });
 
 
 
