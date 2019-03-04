@@ -3,7 +3,7 @@ class ModularReport{
     constructor(){
 
         this.data={
-            
+
             headers:[],
 
             datasets:[
@@ -58,7 +58,7 @@ class ModularReport{
 
             });
 
-            if((row.Pagado=="1")&&(row.Super_Concepto=="FACTOR HUMANO"||"FACTOR HUMANO PASIVOS")){
+            if((row.Pagado=="1")&&(row.Super_Concepto=="FACTOR HUMANO"||row.Super_Concepto=="FACTOR HUMANO PASIVOS")){
 
                 this.data.datasets[0].tables[0].matrix.push(line);
 
