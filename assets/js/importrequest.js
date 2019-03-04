@@ -14,10 +14,15 @@ $(document).ready(function(){
             if(response=="false"){
 
                 alert("datos vacios");
+
+                $("#btnImport").html("IMPORTAR DATOS");
                 
             }
 
             else{
+
+                $("#btnImport").html("ACTUALIZAR DATOS");
+
 
                 data = JSON.parse(response);
                 importTable.readData(data);
@@ -29,7 +34,7 @@ $(document).ready(function(){
 
             $("#btnImport").click(function(){
 
-                alert('importando');
+                $("#btnImport").html("IMPORTARNDO...");
 
                 $.ajax({
 
