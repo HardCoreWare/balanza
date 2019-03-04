@@ -191,9 +191,19 @@ class ModularTable{
         body+='<tr>';
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
             const cell = this.data.datasets[0].tables[0].subtotals[i];
-            if(i<3){
+            if(i==0){
                 body+='<th>';
-                body+='';
+                body+='________';
+                body+='</th>';
+            }
+            else if(i==1){
+                body+='<th>';
+                body+='________';
+                body+='</th>';
+            }
+            else if(i==2){
+                body+='<th>';
+                body+='________';
                 body+='</th>';
             }
             else{
