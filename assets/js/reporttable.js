@@ -178,7 +178,7 @@ class ModularTable{
         table+=head;
         table+=body;
 
-        $("#datatable0").html(table);
+        $(divId).html(table);
 
     }
 
