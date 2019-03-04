@@ -137,6 +137,33 @@ class ModularReport{
 
     }
 
+}
 
+class ModularTable{
+
+    writeTable(headers,matrix,subtotals){
+
+        let table='';
+        let head='';
+        let body='';
+        let footer='';
+
+        body +='<tbody>';
+        matrix.forEach(row=>{
+            body+='<tr>';            
+            row.forEach(cell=>{
+                body+='<td>';
+                body+=cell.value.toString();
+                body+='</td>';
+            });
+            body+='</tr>';
+        });
+        body +='</tbody>';
+
+        table+=body;
+
+        $("#datatable").html(table);
+
+    }
 
 }

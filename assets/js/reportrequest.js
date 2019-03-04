@@ -10,9 +10,8 @@ $(document).ready(function(){
             const data = JSON.parse(response);
             const report = new ModularReport();
             report.readData(data);
-            subtotal00=report.getSubtotals(0,0);
-
-            console.log(subtotal00);
+            const modularTable = new ModularTable();
+            modularTable.writeTable(report.getSubtotals(0,0));
 
         }
 
