@@ -9,7 +9,7 @@ $(document).ready(function(){
     success:function (response) {
 
         const data = JSON.parse(response);
-        const report = new Report();
+        const report = new ModularReport();
         report.readData(data);
 
     }
