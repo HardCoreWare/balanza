@@ -321,8 +321,43 @@ class ModularTable{
 
         });
 
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        for (let i = 0; i < this.data.datasets[1].tables[0].subtotals.length; i++) {
+            const cell = this.data.datasets[1].tables[0].subtotals[i];
+            if(i==0){
+                body+='<th>';
+                body+='________';
+                body+='</th>';
+            }
+            else if(i==1){
+                body+='<th>';
+                body+='________';
+                body+='</th>';
+            }
+            else if(i==2){
+                body+='<th>';
+                body+='SUBTOTAL GASTOS NO PAGADOS';
+                body+='</th>';
+            }
+            else{
+                body+='<th>';
+                body+=stdToEng(cell.toString());
+                body+='</th>';
+            }
+        }
 
+        body+='</tr>';
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        body+='</tr>';
+
+        body+='<tr>';
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        body+='</tr>';
 
         body+='</tbody>';
 
