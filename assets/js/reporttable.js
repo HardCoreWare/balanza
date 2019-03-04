@@ -70,6 +70,8 @@ class ModularReport{
 
         });
 
+        console.log(this.data);
+
     }
 
 }
