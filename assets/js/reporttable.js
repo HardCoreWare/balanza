@@ -78,6 +78,33 @@ class ModularReport{
 
         });
 
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        for (let i = 0; i < this.data.datasets.length; i++) {
+
+            const dataset = this.data.datasets[i];
+
+            for (let j = 0; j < dataset.tables.length; j++) {
+
+                const table = dataset.tables[j];
+
+                table.matrix.forEach(line=>{
+
+                    for (let k = 0; k < line.length; k++) {
+
+                        const cell = line[k];
+
+                        console.log(cell);
+                        
+                    }
+
+                });
+                
+            }
+            
+        }
+
     }
 
     getTitles(){
