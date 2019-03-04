@@ -4,7 +4,7 @@ class AccountTable{
 
         this.data=data;
         this.size=data.length;
-        this.headers=["#","SUPER CONCEPTO","CONCEPTO","EDITABLE"];
+        this.headers=["#","CUENTA","SUPER CONCEPTO","CONCEPTO","EDITABLE"];
 
     }
 
