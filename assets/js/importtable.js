@@ -110,7 +110,7 @@ class ImportTable{
                     else{
 
                         body+='<td>';
-                        body+=row[i].value;
+                        body+=stdToEng(row[i].value);
                         body+='</td>';
 
                     }
