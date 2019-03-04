@@ -214,9 +214,12 @@
 
                                     </div>
 
-                                    <h4 class="header-title m-t-0 m-b-30">DATOS OBTENIDOS DE BIGQUERY</h4>
+                                    <h4 id="title0" class="header-title m-t-0 m-b-30"></h4>
                                     
                                     <table id="datatable0" class="table table-stripped"></table>
+
+                                    <h4 id="title1" class="header-title m-t-0 m-b-30"></h4>
+
                                     <table id="datatable1" class="table table-stripped"></table>
 
 
