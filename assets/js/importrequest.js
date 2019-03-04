@@ -9,17 +9,17 @@ $(document).ready(function(){
 
             const importTable = new ImportTable();
 
-            if(importTable.validate(response)){
+            if(response=="false"){
 
-                data = JSON.parse(response);
-                importTable.readData(data);
-                importTable.writeTable("#datatable");
+                alert("datos vacios");
                 
             }
 
             else{
 
-                alert("datos vacios");
+                data = JSON.parse(response);
+                importTable.readData(data);
+                importTable.writeTable("#datatable");
                 
             }
 
