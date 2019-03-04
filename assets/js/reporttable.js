@@ -76,18 +76,19 @@ class ModularReport{
 
         });
 
-        //
-        this.data.datasets.forEach(dataset=>{
+        for(let i=0; i<this.data.datasets.length; i++){
 
-            dataset.tables.forEach(table=>{
+            const dataset = this.data.datasets[i];
 
-                const matrix = table.matrix;
+            for (let j = 0; j < dataset.tables.length; j++) {
 
-                console.log(matrix);
+                const table = dataset.tables.tables[j];
 
-            });
+                console.log(table);
+                
+            }
 
-        });
+        }
 
 
     }
