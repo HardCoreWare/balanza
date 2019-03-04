@@ -159,9 +159,9 @@ class ModularTable{
         headers.forEach(header=>{
             head+='<th>';
             head+=header;
-            head+='</th></thead>';
+            head+='</th>';
         });
-        head+='</tr>';
+        head+='</tr></thead>';
 
         body +='<tbody>';
         matrix.forEach(row=>{
