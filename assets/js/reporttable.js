@@ -190,23 +190,16 @@ class ModularTable{
 
         body+='<tr>';
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
-
             const cell = this.data.datasets[0].tables[0].subtotals[i];
-
             if(i<3){
-
                 body+='<th>';
                 body+='';
                 body+='</th>';
-
             }
-
             else{
-
                 body+='<th>';
                 body+=stdToEng(cell.toString());
                 body+='</th>';
-
             }
         }
         body+='</tr>';
@@ -242,11 +235,10 @@ class ModularTable{
             body+='</tr>';
 
         });
-
-
-
         body+='</tbody>';
 
+
+        //
         table+=head;
         table+=body;
 
