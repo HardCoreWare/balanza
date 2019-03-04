@@ -152,13 +152,12 @@ class ModularTable{
 
             body+='<tr>';         
 
-            row.forEach(cell=>{
+
 
                 body+='<td>';
                 body+=stdToEng(cell.value.toString());
                 body+='</td>';
 
-            });
 
             body+='</tr>';
 
