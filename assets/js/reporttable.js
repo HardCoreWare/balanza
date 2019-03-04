@@ -44,7 +44,7 @@ class ModularReport{
 
     readData(data){
 
-        data.array.forEach(row => {
+        data.forEach(row => {
 
             let line=[];
             line.push({value:row.Id,key:"none"});
