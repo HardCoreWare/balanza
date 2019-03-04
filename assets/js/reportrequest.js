@@ -10,6 +10,7 @@ $(document).ready(function(){
             const data = JSON.parse(response);
             const report = new ModularReport();
             report.readData(data);
+            subtotal00=report.getSubtotal();
 
         }
 
