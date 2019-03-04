@@ -76,6 +76,17 @@ class ModularReport{
 
         });
 
+        //
+        this.data.datasets.forEach(dataset=>{
+
+            dataset.tables.forEach(table=>{
+
+                const matrix = table.matrix;
+
+            });
+
+        });
+
 
     }
 
