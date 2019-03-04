@@ -136,6 +136,13 @@ class ModularReport{
         return this.data.datasets[dataset].tables[table].subtotals;
 
     }
+    
+    //
+    getHeaders(){
+
+        return this.headers;
+
+    }
 
 }
 
