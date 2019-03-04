@@ -7,6 +7,8 @@ $(document).ready(function(){
         data:"",
         success:function(response){
 
+            while (!response) {  }
+
             const importTable = new ImportTable();
 
             if(response=="false"){
