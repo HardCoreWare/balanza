@@ -63,14 +63,14 @@ class ModularReport{
                 this.data.datasets[0].tables[0].matrix.push(line);
 
             }
-            else if((row.Pagado=="1")&&(row.Super_Concepto=="FACTOR HUMANO"||row.Super_Concepto=="FACTOR HUMANO PASIVOS")){
+            else if((row.Pagado=="1")&&(row.Super_Concepto=="GASTOS GENERALES")){
 
-                this.data.datasets[0].tables[0].matrix.push(line);
+                this.data.datasets[0].tables[1].matrix.push(line);
 
             }
             else{
 
-                this.data.datasets[0].tables[0].matrix.push(line);
+                this.data.datasets[1].tables[0].matrix.push(line);
 
             }
 
