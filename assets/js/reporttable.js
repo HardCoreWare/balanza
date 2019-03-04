@@ -169,7 +169,7 @@ class ModularReport{
         this.data.datasets[0].tables[0].subtotals.forEach(cell=>{
 
 
-            
+
 
 
         });
@@ -182,7 +182,7 @@ class ModularReport{
         table+=head;
         table+=body;
 
-
+        $(divId).html(table);
 
 
     }
