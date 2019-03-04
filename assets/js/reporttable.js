@@ -140,7 +140,7 @@ class ModularReport{
     //
     getHeaders(){
 
-        return this.headers;
+        return this.data.headers;
 
     }
 
