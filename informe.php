@@ -119,19 +119,14 @@
 
 
 
-                    <div class="row">
-                        	<div class="col-sm-12">
-                        		<div class="card-box">
+                        <div class="row">
+                            <div class="col-sm-12" hidden>
+                        	    <div class="card-box">
 
                                     <div class="dropdown pull-right"></div>
 
-                                    <h4 class="header-title m-t-0 m-b-30">Input Types</h4>
+                                    <h4 class="header-title m-t-0 m-b-30">SELECCIONE PARAMETROS</h4>
                                     
-                                    <div class="row">
-
-
-
-                                    </div>
 
                         			<div class="row">
 
@@ -210,7 +205,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
-                                    <div class="dropdown pull-right">  </div>
+                                    <div class="dropdown pull-right"></div>
 
                                     <table id="datatable0" class="table table-stripped"></table>
 
@@ -220,10 +215,6 @@
 
                         </div>
                         <!-- end row -->
-
-
-
-
 
                     </div> 
                     <!-- container -->
