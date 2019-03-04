@@ -54,7 +54,7 @@ class ModularReport{
 
             row.Montos.forEach(ammount=>{
 
-                line.push({value:ammount.Monto,key:row.Id+"-"+ammount.Module});
+                line.push({value:ammount.Monto.toString(),key:row.Id+"-"+ammount.Module});
 
             });
 
@@ -80,13 +80,22 @@ class ModularReport{
 
             const dataset = this.data.datasets[i];
 
-            console.log(dataset);
-
             for (let j = 0; j< dataset.tables.length; j++) {
 
                 const table = dataset.tables[j];
 
-                console.log(table);
+                table.matrix.forEach(line=>{
+
+                    for (let k = 0; k < line.length; k++) {
+
+                        const cell = line[k];
+
+
+
+                        
+                    }
+
+                })
                 
             }
 
