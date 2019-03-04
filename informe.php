@@ -214,6 +214,29 @@
 
                                     </div>
 
+<div class="row">
+
+<div class="col-lg-12">
+
+<h4 id="title0" class="header-title m-t-0 m-b-30">GASTOS PAGADOS</h4>
+
+
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="col-lg-12">
+
+<table id="datatable0" class="table table-stripped"></table>
+
+
+</div>
+
+</div>
+
                                     <h4 id="title0" class="header-title m-t-0 m-b-30"></h4>
                                     
                                     <table id="datatable0" class="table table-stripped"></table>
