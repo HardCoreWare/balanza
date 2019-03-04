@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             $("#btnImport").click(function(){
 
-                $("#btnImport").val()="IMPORTANDO";
+                $("#btnImport").val("IMPORTANDO");
 
                 $.ajax({
 
