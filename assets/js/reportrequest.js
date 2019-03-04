@@ -7,9 +7,7 @@ $(document).ready(function(){
         data:'',
         success:function (response) {
 
-            while(!response){
-
-            }
+            while(!response){  }
 
             const report = new ModularTable();
 
