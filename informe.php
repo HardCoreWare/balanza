@@ -235,6 +235,13 @@
 
                                     </table>
 
+                                    <table id="datatable" class="table table-stripped">
+
+                                    
+
+                                    </table>
+
+
                                 </div>
                             </div>
                             <!-- end col -->
