@@ -1,4 +1,4 @@
-class ModularReport{
+class ModularTable{
 
     constructor(){
 
@@ -167,8 +167,6 @@ class ModularReport{
         body+='<tr>'
 
         this.data.datasets[0].tables[0].subtotals.forEach(cell=>{
-
-
 
 
 
