@@ -22,8 +22,7 @@ class ModularReport{
                             matrix:[],
                             subtotals:[0,0,0]
                         }
-                    ],
-                    totals:[0,0,0]
+                    ]
 
                 },
                 {
@@ -34,12 +33,10 @@ class ModularReport{
                             matrix:[],
                             subtotals:[0,0,0]
                         }
-                    ],
-                    totals:[0,0,0]
+                    ]
 
                 }
-            ],
-            supertotals:[0,0,0]
+            ]
 
         };
         
@@ -64,10 +61,8 @@ class ModularReport{
                 if(set){
 
                     this.data.headers.push(ammount.Modulo);
-                    this.data.supertotals.push(0);
 
                     this.data.datasets.forEach(dataset=>{
-                        dataset.totals.push(0);
 
                         dataset.tables.forEach(table=>{
 
@@ -125,47 +120,21 @@ class ModularReport{
                     }
 
                 });
-                
+
             }
             
         }
 
-        console.log(this.data);
 
     }
 
     //
-    getTitles(){
+    getMatrix(dataset,table){
 
-
-
-    }
-
-    //
-    getTable(){
-
-
+        return this.data.datasets[dataset].tables[table].matrix;
 
     }
 
-    getSubtotal(){
 
-
-
-    }
-
-    //
-    getTotal(){
-
-
-
-    }
-
-    //
-    getSupertotal(){
-
-
-
-    }
 
 }
