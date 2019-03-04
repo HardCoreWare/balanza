@@ -19,7 +19,7 @@ class AccountTable{
         this.headers.forEach(header=>{
 
             head+='<th>';
-            header;
+            head+=header;
             head+='</th>';
 
         })
