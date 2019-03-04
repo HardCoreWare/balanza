@@ -189,7 +189,7 @@ class ModularTable{
             if(i>=3){
 
                 body+='<td>';
-                body+=stdToEng(cell.value.toString());
+                body+=cell.value.toString();
                 body+='</td>';
 
             }
