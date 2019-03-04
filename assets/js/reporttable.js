@@ -203,7 +203,7 @@ class ModularTable{
             }
             else if(i==2){
                 body+='<th>';
-                body+='________';
+                body+='SUBTOTAL FACTOR HUMANO';
                 body+='</th>';
             }
             else{
