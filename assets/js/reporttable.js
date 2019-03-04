@@ -83,6 +83,8 @@ class ModularReport{
 
                 const matrix = table.matrix;
 
+                console.log(matrix);
+
             });
 
         });
