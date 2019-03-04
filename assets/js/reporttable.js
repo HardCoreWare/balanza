@@ -181,7 +181,10 @@ class ModularTable{
 
         body+='<tr>';
 
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>  </td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
+
 
         body+='</tr>';
 
@@ -194,17 +197,17 @@ class ModularTable{
 
             if(i<3){
 
-                body+='<td>';
+                body+='<th>';
                 body+='';
-                body+='</td>';
+                body+='</th>';
 
             }
 
             else{
 
-                body+='<td>';
+                body+='<th>';
                 body+=cell.toString();
-                body+='</td>';
+                body+='</th>';
 
             }
 
