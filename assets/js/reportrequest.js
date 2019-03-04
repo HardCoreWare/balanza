@@ -4,6 +4,7 @@ $(document).ready(function(){
 
         url:'http://35.243.156.112/plataforma/balanza/resumen/indice',
         method:'GET',
+        async: false,
         data:'',
         success:function (response) {
 
