@@ -106,6 +106,8 @@ class CustomTable{
 
             body+='</tbody>';
 
+            table+=head;
+
             table+=body;
 
             $(divId).html(table);
