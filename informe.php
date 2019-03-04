@@ -120,7 +120,6 @@
                     <div class="container">
 
 
-
                         <div class="row">
                             <div class="col-sm-12" hidden>
                         	    <div class="card-box">
@@ -201,7 +200,9 @@
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
 
-                                    <table id="datatable" class="table table-stripped"></table>
+                                    <table id="datatable" class="table table-stripped">
+                                    
+                                    </table>
 
                                 </div>
                             </div>
