@@ -56,7 +56,7 @@ class ModularReport{
 
             row.Montos.forEach(ammount=>{
 
-                line.push({value:ammount.Monto.toString(),key:row.Id+"-"+ammount.Modulo});
+                line.push({value:parseFloat(ammount.Monto),key:row.Id+"-"+ammount.Modulo});
 
             });
 
@@ -95,7 +95,7 @@ class ModularReport{
 
                         const cell = line[k];
 
-                        console.log(cell);
+                        this.datasets[i].tables[j].subtotals[k]+=cell.value;
                         
                     }
 
