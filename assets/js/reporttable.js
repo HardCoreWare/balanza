@@ -152,12 +152,15 @@ class ModularTable{
 
             body+='<tr>';         
 
+            for (let i = 0; i < row.length; i++) {
 
+                const cell = row[i];
 
                 body+='<td>';
                 body+=stdToEng(cell.value.toString());
                 body+='</td>';
 
+            }
 
             body+='</tr>';
 
