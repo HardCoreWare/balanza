@@ -9,9 +9,11 @@ $(document).ready(function(){
 
             while(!response){
 
-                
+
 
             }
+
+            console.log(response);
 
             if(response=="false"){
 
