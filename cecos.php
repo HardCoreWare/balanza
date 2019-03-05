@@ -53,7 +53,7 @@
                                 </button>
                             </li>
                             <li>
-                                <h4 class="page-title">CUENTAS MAYORES</h4>
+                                <h4 class="page-title">cENTROS DE COSTO</h4>
                             </li>
                         </ul>
 
