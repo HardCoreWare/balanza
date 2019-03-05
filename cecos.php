@@ -121,7 +121,7 @@
                 <div class="content">
                     <div class="container">
 
-                        
+
 
                     </div>
                 </div> 
@@ -164,9 +164,7 @@
 
         <!-- Developed -->
         <script src="assets/js/conversion.js"></script>
-        <script src="assets/js/accounttable.js"></script>
-        <script src="assets/js/userform.js"></script>
-        <script src="assets/js/accountrequest.js"></script>
+
 
         <script>
 
