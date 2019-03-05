@@ -170,7 +170,6 @@
                                                         <label for="inlineRadio2">Eliminar</label>
                                                     </div>
                                                 </div>
-
 	                                        </form>
                                         </div>
                                         <!-- end col -->
