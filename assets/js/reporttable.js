@@ -147,6 +147,26 @@ class ModularTable{
 
         //cuerpo
         body +='<tbody>';
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
+
+            if(i==1){
+
+                body+='<th>';
+                body+='FACTOR HUMANO';
+                body+='</th>';
+
+            }
+            else{
+
+                body+='<td></td>';
+
+            }
+        
+
+        }
+
 
         this.data.datasets[0].tables[0].matrix.forEach(row=>{
 
@@ -216,6 +236,24 @@ class ModularTable{
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
+
+            if(i==1){
+
+                body+='<th>';
+                body+='GASTOS GENERALES';
+                body+='</th>';
+
+            }
+            else{
+
+                body+='<td></td>';
+
+            }
+        
+
+        }
 
         this.data.datasets[0].tables[1].matrix.forEach(row=>{
 
@@ -289,6 +327,26 @@ class ModularTable{
         
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
+
+            if(i==1){
+
+                body+='<th>';
+                body+='GASTOS NO PAGADOS';
+                body+='</th>';
+
+            }
+            else{
+
+                body+='<td></td>';
+
+            }
+        
+
+        }
 
         this.data.datasets[1].tables[0].matrix.forEach(row=>{
 
