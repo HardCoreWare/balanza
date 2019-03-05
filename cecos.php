@@ -97,6 +97,9 @@
                     <div id="sidebar-menu">
                         <span class="text-muted menu-title">Configuracion</span>
                         <ul>
+                            <li>
+                                <a href="cuentas.php" class="waves-effect"><i class="zmdi zmdi-format-underlined"></i> <span>Cuentas</span> </a>
+                            </li>
                             <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-invert-colors"></i> <span>Centros de Costo</span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
