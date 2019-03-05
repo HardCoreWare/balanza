@@ -2,6 +2,7 @@ class CecosTable{
 
     readData(data){
 
+        this.headers=["MODULO","CECO","INCLUIR"];
         this.data=data;
 
     }
@@ -32,30 +33,22 @@ class CecosTable{
             body+='<tr>';
 
                 body+='<td>';
-                body+=row.Id;
+                body+=row.Modulo;
                 body+='</td>';
 
                 body+='<td>';
-                body+=row.Cuenta;
-                body+='</td>';
-
-                body+='<td>';
-                body+=row.Super_Concepto;
-                body+='</td>';
-
-                body+='<td>';
-                body+=row.Concepto;
+                body+=row.Kostl;
                 body+='</td>';
 
                 body+='<td>';
                 body+='<';
                 body+='input type="checkbox" ';
                 body+=' class="check-account" ';
-                body+='id="a';
+                body+='id="c';
                 body+=row.Id;
                 body+='"';
 
-                if(row.Editable=="1"){
+                if(row.Incluido=="1"){
 
                     body+=' checked';
 
