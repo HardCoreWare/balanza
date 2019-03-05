@@ -204,12 +204,12 @@ class ModularTable{
             const cell = this.data.datasets[0].tables[0].subtotals[i];
             if(i==0){
                 body+='<th>';
-                body+='________';
+                body+=' ';
                 body+='</th>';
             }
             else if(i==1){
                 body+='<th>';
-                body+='________';
+                body+=' ';
                 body+='</th>';
             }
             else if(i==2){
@@ -292,12 +292,12 @@ class ModularTable{
             const cell = this.data.datasets[0].tables[1].subtotals[i];
             if(i==0){
                 body+='<th>';
-                body+='________';
+                body+=' ';
                 body+='</th>';
             }
             else if(i==1){
                 body+='<th>';
-                body+='________';
+                body+=' ';
                 body+='</th>';
             }
             else if(i==2){
@@ -383,12 +383,12 @@ class ModularTable{
             const cell = this.data.datasets[1].tables[0].subtotals[i];
             if(i==0){
                 body+='<th>';
-                body+='________';
+                body+=' ';
                 body+='</th>';
             }
             else if(i==1){
                 body+='<th>';
-                body+='________';
+                body+=' ';
                 body+='</th>';
             }
             else if(i==2){
