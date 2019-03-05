@@ -38,9 +38,7 @@ $(document).ready(function(){
                     success:function(response){
 
                         while (!response){
-
                             
-
                         }
                         window.location.replace("http://35.243.156.112/balanza/importar.php");
 
