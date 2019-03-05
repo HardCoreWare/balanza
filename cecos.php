@@ -104,6 +104,9 @@
                                     <li><a href="cuentas.php">Cuentas</a></li>
                                 </ul>
                             </li>
+                        </ul>
+                        <span class="text-muted menu-title">Menu de Navegacion</span>
+                        <ul>
                             <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-invert-colors"></i> <span>Informe Actual</span><span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
