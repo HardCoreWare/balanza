@@ -21,6 +21,7 @@
         <link href="assets/css/menu.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/summary.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/tablas.css" rel="stylesheet" type="text/css" />
         <script src="assets/js/modernizr.min.js"></script>
         <script src="assets/plugins/chart.js/chart.min.js"></script>
 
