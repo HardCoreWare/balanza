@@ -149,10 +149,9 @@
                         			<h4 class="header-title m-t-0 m-b-30">Confirmar usuario y password para continuar</h4>
 
                         			<div class="row">
-                                        <!-- Select Anualidad -->
+
                         				<div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
-
                                                 <div class="form-group">
 	                                                <label class="col-sm-2 control-label">Usuario</label>
 	                                                <div class="col-sm-10">
@@ -163,21 +162,10 @@
 	                                        </form>
                                         </div>
                                         <!-- end col -->
-                                        <div class="col-lg-3">
-                        					<form class="form-horizontal" role="form">
 
-                                                <div class="form-group">
-	                                                <label class="col-sm-2 control-label">Password</label>
-	                                                <div class="col-sm-10">
-                                                        <input type="password" class="form-control" id="textPassword">
-	                                                </div>
-                                                </div>
-
-	                                        </form>
-                                        </div>
-                                        <!-- end col -->
                                     </div>
                                     <!-- end row -->
+                                    
                         		</div>
                             </div>
                             <!-- end col -->
