@@ -153,16 +153,18 @@
                         				<div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
                                                 <div class="form-group">
-	                                                <label class="col-sm-2 control-label">Usuario</label>
-	                                                <div class="col-sm-10">
                                                     <div class="radio radio-info radio-inline">
-                                        <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked>
-                                        <label for="inlineRadio1"> Inline One </label>
-                                    </div>
-                                    <div class="radio radio-inline">
-                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline" checked>
-                                        <label for="inlineRadio2"> Inline Two </label>
-                                    </div>	                                                </div>
+                                                        <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked>
+                                                        <label for="inlineRadio1"> Inline One </label>
+                                                    </div>
+                                                    <div class="radio radio-inline">
+                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline" checked>
+                                                        <label for="inlineRadio2"> Inline Two </label>
+                                                    </div>
+                                                    <div class="radio radio-inline">
+                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline" checked>
+                                                        <label for="inlineRadio2"> Inline Two </label>
+                                                    </div>
                                                 </div>
 
 	                                        </form>
