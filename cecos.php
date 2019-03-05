@@ -125,15 +125,11 @@
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
-
-                                    <table id="datatable" class="table table-stripped">
-                                    
-                                    </table>
+                                    <table id="datatable" class="table table-stripped"></table>
 
                                 </div>
                             </div>
                             <!-- end col -->
-
                         </div>
                         <!-- end row -->
 
