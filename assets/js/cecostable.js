@@ -1,15 +1,14 @@
 class CecosTable{
 
-    constructor(){
-
-    }
-
     readData(data){
+
+        this.data=data;
 
     }
 
     writeTable(){
 
+        
 
     }
 
