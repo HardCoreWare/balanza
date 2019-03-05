@@ -317,17 +317,15 @@ class ModularTable{
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         body+='<tr>';
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
         body+='</tr>';
 
         body+='<tr>';
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
         body+='</tr>';
 
         
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 
 
         for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {
@@ -410,11 +408,11 @@ class ModularTable{
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         body+='<tr>';
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
         body+='</tr>';
 
         body+='<tr>';
-        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>________</td>'}
+        for (let i = 0; i < this.data.datasets[0].tables[0].subtotals.length; i++) {body+='<td>___________</td>'}
         body+='</tr>';
 
         body+='</tbody>';
