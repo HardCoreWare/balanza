@@ -138,12 +138,58 @@
                 <div class="content">
                     <div class="container">
 
+
+
+                        <div class="row">
+                        	<div class="col-sm-12" id="userForm">
+                        		<div class="card-box">
+
+                                    <div class="dropdown pull-right"></div>
+
+                        			<h4 class="header-title m-t-0 m-b-30">Confirmar usuario y password para continuar</h4>
+
+                        			<div class="row">
+                                        <!-- Select Anualidad -->
+                        				<div class="col-lg-3">
+                        					<form class="form-horizontal" role="form">
+
+                                                <div class="form-group">
+	                                                <label class="col-sm-2 control-label">Usuario</label>
+	                                                <div class="col-sm-10">
+	                                                    <input type="text" class="form-control" id="textUser">
+	                                                </div>
+                                                </div>
+
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+                                        <div class="col-lg-3">
+                        					<form class="form-horizontal" role="form">
+
+                                                <div class="form-group">
+	                                                <label class="col-sm-2 control-label">Password</label>
+	                                                <div class="col-sm-10">
+                                                        <input type="password" class="form-control" id="textPassword">
+	                                                </div>
+                                                </div>
+
+	                                        </form>
+                                        </div>
+                                        <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+                        		</div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- End row -->
+
+
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
                                     <table id="datatable" class="table table-stripped"></table>
-
                                 </div>
                             </div>
                             <!-- end col -->
