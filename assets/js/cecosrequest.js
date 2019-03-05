@@ -1,7 +1,13 @@
 $(document).ready(function(){
 
 
-    $("#cecosRadio")
+    $("#cecosRadio").click(function(){
+
+        let option=$(this).val();
+
+        alert(option);
+
+    });
 
 
     /*$.ajax({
