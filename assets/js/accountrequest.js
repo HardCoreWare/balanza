@@ -36,6 +36,8 @@ $(document).ready(function(){
                         //en caso de tener los datos correctos
                         if(userForm.preventEmpty()){
 
+                            console.log('clicked');
+
                             let userData=userForm.getUserData();
 
                             let postData = JSON.stringify(table.getData());
