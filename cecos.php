@@ -155,15 +155,19 @@
                                                 <div class="radio">
                                                     <div class="radio radio-info radio-inline">
                                                         <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked>
-                                                        <label for="inlineRadio1"> Inline One </label>
+                                                        <label for="inlineRadio1">Buscar</label>
                                                     </div>
                                                     <div class="radio radio-inline">
-                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline" checked>
-                                                        <label for="inlineRadio2"> Inline Two </label>
+                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
+                                                        <label for="inlineRadio2">Actualizar</label>
                                                     </div>
                                                     <div class="radio radio-inline">
-                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline" checked>
-                                                        <label for="inlineRadio2"> Inline Two </label>
+                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
+                                                        <label for="inlineRadio2">Agregar</label>
+                                                    </div>
+                                                    <div class="radio radio-inline">
+                                                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
+                                                        <label for="inlineRadio2">Eliminar</label>
                                                     </div>
                                                 </div>
 
