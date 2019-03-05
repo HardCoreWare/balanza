@@ -11,6 +11,7 @@ $(document).ready(function(){
             const data = JSON.parse(response);
             cecosTable = new CecosTable();
             cecosTable.readData(data);
+            cecosTable.writeTable("#datatable");
 
         }
 
