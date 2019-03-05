@@ -6,6 +6,8 @@ $(document).ready(function(){
         method:'GET',
         success:function(response){
 
+            while(!response){}
+
             const data = json.parse(response);
             cecosTable = new CecosTable();
             cecosTable.readData(data);
