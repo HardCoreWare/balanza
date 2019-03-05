@@ -8,7 +8,7 @@ $(document).ready(function(){
 
             while(!response){}
 
-            const data = json.parse(response);
+            const data = JSON.parse(response);
             cecosTable = new CecosTable();
             cecosTable.readData(data);
 
