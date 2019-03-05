@@ -153,19 +153,19 @@
                         				<div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
                                                 <div class="radio">
-                                                    <div class="radio radio-info radio-inline">
+                                                    <div class="radio radio-success radio-inline">
                                                         <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked>
                                                         <label for="inlineRadio1">Buscar</label>
                                                     </div>
-                                                    <div class="radio radio-inline">
+                                                    <div class="radio-warning radio-inline">
                                                         <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
                                                         <label for="inlineRadio2">Actualizar</label>
                                                     </div>
-                                                    <div class="radio radio-inline">
+                                                    <div class="radio-primary radio-inline">
                                                         <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
                                                         <label for="inlineRadio2">Agregar</label>
                                                     </div>
-                                                    <div class="radio radio-inline">
+                                                    <div class="radio-danger radio-inline">
                                                         <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
                                                         <label for="inlineRadio2">Eliminar</label>
                                                     </div>
