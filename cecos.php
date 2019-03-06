@@ -139,7 +139,6 @@
                     <div class="container">
 
 
-
                         <div class="row">
                         	<div class="col-sm-12" id="userForm">
                         		<div class="card-box">
@@ -172,7 +171,6 @@
                         </div>
                         <!-- End row -->
 
-
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
@@ -183,21 +181,20 @@
                                             <div class="col-lg-3">
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Mes</label>
-                                                        <div class="col-md-10">
-                                                            <select type="text" class="form-control">
+                                                    <div class="col-md-10">
+                                                        <select type="text" class="form-control">
                                                             <option value="TODOS">TODOS</option>
                                                             <option value="TODOS">OPERADORA</option>
                                                             <option value="TODOS">BANCO</option>
                                                             <option value="TODOS">CASA</option>
                                                             <option value="TODOS">GRUPO</option>
                                                             <option value="TODOS">SERVICIOS</option>
-                                                            </select>
-                                                        </div>
+                                                        </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-1">
-                                                    <input class="btn btn-block btn-success" type="button" value="BUSQUEDA" id="btnRequest">
-                                                </div>
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <input class="btn btn-block btn-success" type="button" value="BUSQUEDA" id="btnRequest">
                                             </div>
                                         </form>
                                     </div>
