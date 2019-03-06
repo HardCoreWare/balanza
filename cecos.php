@@ -201,7 +201,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <button type="text" class="form-control btn btn-success">INFORME</button>
+                                                <input type="text" class="form-control btn btn-success" value="BUSQUEDA">
                                             </div>
                                             <!-- end col -->
 
