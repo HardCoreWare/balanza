@@ -177,6 +177,7 @@
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
+                        			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de costo</h4>
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
                                             <div class="col-sm-1">
@@ -194,7 +195,6 @@
                                         </form>
                                     </div>
                                     <!-- end row -->
-                        			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de costo</h4>
                                     <table id="datatable" class="table table-stripped"></table>
                                 </div>
                             </div>
