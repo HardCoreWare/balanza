@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     });
 
-    $("#btnAdd").click(function(){
+    $("#btnSwitch").click(function(){
 
 
         $("#formRead").hide();
