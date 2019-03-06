@@ -63,6 +63,34 @@ $(document).ready(function(){
 
     });
 
+
+
+
+    $("#selectModule").selected(function(){
+
+        let params = cecosForm.readSearchForm("#selectModule","#txtCeco");
+
+        $.ajax({
+
+            url:'http://35.243.156.112/plataforma/balanza/cecos/buscar/'+params,
+            method:'GET',
+            data:'',
+            success:function(response){
+    
+                while(!response){}
+
+                console.log(response);
+
+                const data = JSON.parse(response);
+                cecosTable.readData(data);
+                cecosTable.writeTable("#datatable");
+    
+            }
+    
+        });
+
+    });
+
     $("btnAdd").click(function(){
 
 
