@@ -43,7 +43,7 @@ $(document).ready(function(){
     });
 
 
-    $("#btnRead").click(function(){
+    $("#btnUpdate").click(function(){
 
         cecosTable.deleteTable("#datatable");
 
