@@ -193,7 +193,21 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-1">
+                                            <div class="form-group">
+                                                    <label class="col-md-2 control-label">Mes</label>
+                                                    <div class="col-md-10">
+                                                        <select type="text" class="form-control">
+                                                            <option value="TODOS">TODOS</option>
+                                                            <option value="TODOS">OPERADORA</option>
+                                                            <option value="TODOS">BANCO</option>
+                                                            <option value="TODOS">CASA</option>
+                                                            <option value="TODOS">GRUPO</option>
+                                                            <option value="TODOS">SERVICIOS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-2">
                                                 <input class="btn btn-block btn-success" type="button" value="BUSQUEDA" id="btnRequest">
                                             </div>
                                         </form>
