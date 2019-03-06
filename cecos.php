@@ -218,7 +218,7 @@
                                             </div>
                                             <!-- end col -->
                                             <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-warning" value="ACTUALIZAR">
+                                                <input type="button" class="form-control btn btn-warning" value="ACTUALIZAR" id="btnUpdateRequest">
                                             </div>
                                             <!-- end col -->
                                         </form>
@@ -256,7 +256,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-success" value="AGREGAR" id="btnSearch">
+                                                <input type="button" class="form-control btn btn-success" value="AGREGAR" id="btnAddRequest">
                                             </div>
                                             <!-- end col -->
 
@@ -274,7 +274,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-danger" value="ELIMINAR" id="btn">
+                                                <input type="button" class="form-control btn btn-danger" value="ELIMINAR" id="btnDeleteRequest">
                                             </div>
                                             <!-- end col -->
 
