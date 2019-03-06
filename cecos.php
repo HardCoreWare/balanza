@@ -150,7 +150,7 @@
                                         <form>
                                             <div class="col-lg-3">
                                                 <div class="form-group">
-                                                    <input type="button" class="btn btn-primary" class="form-control" id="btnSwitch">
+                                                    <input type="button" class="btn btn-primary btn-block" value="ADD" class="form-control" id="btnSwitch">
                                                 </div>
                                             </div>
                                             <!-- end col -->
