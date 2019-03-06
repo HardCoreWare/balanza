@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     cecosTable = new CecosTable();
+    let switched=false;
 
     $.ajax({
 
@@ -20,28 +21,24 @@ $(document).ready(function(){
 
     $("#btnSwitch").click(function(){
 
+        if(switched){
+            $("#formRead").show();
+            $("#formAdd").hide();
+            switched=true;
+        }
 
-        $("#formRead").hide();
-        $("#formAdd").show();
+        else{
+            $("#formRead").show();
+            $("#formAdd").hide();
+            switched=false;
+        }
 
-        cecosTable.deleteTable("#datatable");
-        $('.dynamic-title').html("Dar click en la operacion deseada");
 
-        $.ajax({
-
-            url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
-            method:'GET',
-            success:function(response){
-    
-                while(!response){ }
-                const data = JSON.parse(response);
-                cecosTable.readData(data);
-                cecosTable.writeTable("#datatable");
-    
-            }
-    
-        });
 
     });
+
+
+
+
 
 });
