@@ -220,7 +220,7 @@
                                             </div>
                                             <!-- end col -->
                                             <div class="col-lg-3">
-                                                <input type="text" class="form-control btn btn-warning" value="ACTUALIZAR">
+                                                <input type="button" class="form-control btn btn-warning" value="ACTUALIZAR">
                                             </div>
                                             <!-- end col -->
                                         </form>
