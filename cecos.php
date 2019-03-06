@@ -216,7 +216,7 @@
 
                                     <!-- comienza formilario de actualizacion -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form" id="formUpdate">
+                                        <form class="form-horizontal" role="form" id="formUpdate" hidden>
                                             <div class="col-lg-9">
 
                                             </div>
@@ -231,7 +231,7 @@
 
                                     <!-- empieza formilario de adicion -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form" id="formAdd">
+                                        <form class="form-horizontal" role="form" id="formAdd" hidden>
 
                                             <div class="col-lg-3">
                                             </div>
