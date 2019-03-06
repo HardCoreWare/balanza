@@ -183,9 +183,7 @@
                                                     <label class="col-md-2 control-label">Anualidad</label>
                                                     <div class="col-md-10">
                                                         <select type="text" class="form-control">
-
-
-
+                                                            <option value="TODOS">TODOS</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -196,8 +194,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Anualidad</label>
                                                     <div class="col-md-10">
-                                                    <button type="text" class="form-control btn btn-success">INFORME</button>
-
+                                                        <input type="text" class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
