@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
 
 
-    /*$.ajax({
+    $.ajax({
 
         url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
         method:'GET',
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
         }
 
-    });*/
+    });
 
 
 });

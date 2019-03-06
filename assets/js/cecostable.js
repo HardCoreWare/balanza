@@ -44,7 +44,7 @@ class CecosTable{
                 body+='<';
                 body+='input type="checkbox" ';
                 body+=' class="check-account" ';
-                body+='id="c';
+                body+='id="u';
                 body+=row.Id;
                 body+='"';
 
@@ -67,6 +67,12 @@ class CecosTable{
         this.data=null;
 
         $(divId).html(table);
+
+    }
+
+    deleteTable(){
+
+
 
     }
 
