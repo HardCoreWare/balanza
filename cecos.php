@@ -157,7 +157,8 @@
                                         </form>
                                     </div>
                                     <!-- termina formulario de busqueda -->
-
+<br>
+<br>
                                     <!-- comienza formulario de busqueda -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form" id="formRead" >
