@@ -168,12 +168,12 @@
                                                     <label class="col-md-2 control-label">Empresa</label>
                                                     <div class="col-md-10">
                                                         <select type="text" class="form-control" id="selectModule">
-                                                        <option value="all">TODOS</option>
-                                                        <option value="BANCO">BANCO</option>
-                                                        <option value="CASA">CASA</option>
-                                                        <option value="GRUPO">GRUPO</option>
-                                                        <option value="OPERADORA">OPERADORA</option>
-                                                        <option value="SERVICIOS">SERVICIOS</option>
+                                                            <option value="all">TODOS</option>
+                                                            <option value="BANCO">BANCO</option>
+                                                            <option value="CASA">CASA</option>
+                                                            <option value="GRUPO">GRUPO</option>
+                                                            <option value="OPERADORA">OPERADORA</option>
+                                                            <option value="SERVICIOS">SERVICIOS</option>
                                                         </select>
                                                     </div>
                                                 </div>
