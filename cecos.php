@@ -236,6 +236,9 @@
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
 
+                                        <div class="col-lg-3"></div>
+                                        <!-- end col -->
+
                                             <div class="col-lg-3">
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Empresa</label>
