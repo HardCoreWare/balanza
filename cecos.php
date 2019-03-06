@@ -196,7 +196,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-1">
-                                                    <input class="btn btn-block btn-success" type="button" value="LEER" id="btnRead">
+                                                    <input class="btn btn-block btn-success" type="button" value="BUSQUEDA" id="btnRequest">
                                                 </div>
                                             </div>
                                         </form>
