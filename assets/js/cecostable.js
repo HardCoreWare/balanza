@@ -3,6 +3,7 @@ class CecosTable{
     readData(data){
 
         this.data=data;
+        this.headers=[];
 
     }
 
@@ -14,13 +15,22 @@ class CecosTable{
 
     writeTable(divId){
 
+        switch (this.operation) {
+            case 0:
+                
+                break;
+        
+            default:
+                break;
+        }
+
         let table='';
         let body='';
         let head='';
 
         head+='<thead><tr>';
 
-        this.headers.forEach(header=>{
+        headers.forEach(header=>{
 
             head+='<th>';
             head+=header;
@@ -45,10 +55,30 @@ class CecosTable{
                 body+=row.Kostl;
                 body+='</td>';
 
-
                 switch (this.operation) {
                     case 0:
                         
+                        break;
+                    case 1:
+
+
+                    body+='<td>';
+                    body+='<';
+                    body+='input type="checkbox" ';
+                    body+=' class="check-account" ';
+                    body+='id="u';
+                    body+=row.Id;
+                    body+='"';
+    
+                    if(row.Incluido=="1"){
+    
+                        body+=' checked';
+    
+                    }
+    
+                    body+='>';
+                    body+='</td>';
+
                         break;
                 
                     default:
@@ -56,22 +86,6 @@ class CecosTable{
                 }
 
 
-                body+='<td>';
-                body+='<';
-                body+='input type="checkbox" ';
-                body+=' class="check-account" ';
-                body+='id="u';
-                body+=row.Id;
-                body+='"';
-
-                if(row.Incluido=="1"){
-
-                    body+=' checked';
-
-                }
-
-                body+='>';
-                body+='</td>';
                 body+='</tr>';
             
         });
