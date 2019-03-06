@@ -2,20 +2,29 @@ static class CecosForm{
 
     readSearchForm(moduleId,cecoId){
 
-        let module=$(moduleId).val();
-        let ceco=$(cecoId).val();
+        const moduleVal=$(moduleId).val();
+        const cecoVal=$(cecoId).val();
 
-        if(ceco===""){
+        let search={
 
-            ceco="all";
+            module:moduleVal,
+            ceco:cecoVal
+
+        }
+
+        if(cecoVal===""){
+
+            search.ceco="all";
             
         }
 
         else{
 
-            
+
 
         }
+
+        return search;
 
     }
 
