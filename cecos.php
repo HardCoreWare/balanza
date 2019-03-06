@@ -150,10 +150,7 @@
                                         <form>
                                             <div class="col-lg-3">
                                                 <div class="form-group">
-                                                    <label class="col-md-2 control-label">CeCo</label>
-                                                    <div class="col-md-10">
-                                                        <input type="button" class="btn btn-primary" class="form-control" id="btnSwitch">
-                                                    </div>
+                                                    <input type="button" class="btn btn-primary" class="form-control" id="btnSwitch">
                                                 </div>
                                             </div>
                                             <!-- end col -->
