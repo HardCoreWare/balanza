@@ -23,12 +23,14 @@ $(document).ready(function(){
 
         if(switched){
             $("#formRead").show();
+            $("#datatable").show();
             $("#formAdd").hide();
             switched=false;
         }
 
         else{
             $("#formRead").hide();
+            $("#datatable").hide();
             $("#formAdd").show();
             switched=true;
         }
