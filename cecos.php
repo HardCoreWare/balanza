@@ -270,7 +270,7 @@
 
                                     <!-- empieza formilario de eliminacion -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form" id="formDelete">
+                                        <form class="form-horizontal" role="form" id="formDelete" hidden>
 
                                             <div class="col-lg-9">
 
