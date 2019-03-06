@@ -138,38 +138,6 @@
                 <div class="content">
                     <div class="container">
 
-
-                        <div class="row">
-                        	<div class="col-sm-12" id="userForm">
-                        		<div class="card-box">
-
-                                    <div class="dropdown pull-right"></div>
-                        			<h4 class="header-title m-t-0 m-b-30m">Elegir Opcion</h4>
-
-                        			<div class="row">
-                                        <form class="form-horizontal" role="form">
-                                            <div class="col-sm-2">
-                                                <input class="btn btn-block btn-success" type="button" value="LEER" id="btnRead">
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <input class="btn btn-block btn-warning" type="button" value="ACTUALIZAR" id="btnUpdate">
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <input class="btn btn-block btn-primary" type="button" value="AGREGAR" id="btnAdd">
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <input class="btn btn-block btn-danger" type="button" value="ELIMINAR" id="btnDelete">
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!-- end row -->
-
-                        		</div>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- End row -->
-
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
@@ -177,7 +145,7 @@
 
                         			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de Costo</h4>
 
-                                    <!-- comienza formilario de busqueda -->
+                                    <!-- comienza formulario de busqueda -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form" id="formRead" >
                                             <div class="col-lg-6">
@@ -208,24 +176,9 @@
 
                                         </form>
                                     </div>
-                                    <!-- termina formilario de busqueda -->
+                                    <!-- termina formulario de busqueda -->
 
-                                    <!-- comienza formilario de actualizacion -->
-                        			<div class="row">
-                                        <form class="form-horizontal" role="form" id="formUpdate" hidden>
-                                            <div class="col-lg-9">
-
-                                            </div>
-                                            <!-- end col -->
-                                            <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-warning" value="ACTUALIZAR" id="btnUpdateRequest">
-                                            </div>
-                                            <!-- end col -->
-                                        </form>
-                                    </div>
-                                    <!-- termina formilario de actualizacion -->
-
-                                    <!-- empieza formilario de adicion -->
+                                    <!-- empieza formulario de adicion -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form" id="formAdd" hidden>
 
@@ -262,25 +215,7 @@
 
                                         </form>
                                     </div>
-                                    <!-- termina formilario de adicion -->
-
-                                    <!-- empieza formilario de eliminacion -->
-                        			<div class="row">
-                                        <form class="form-horizontal" role="form" id="formDelete" hidden>
-
-                                            <div class="col-lg-9">
-
-                                            </div>
-                                            <!-- end col -->
-
-                                            <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-danger" value="ELIMINAR" id="btnDeleteRequest">
-                                            </div>
-                                            <!-- end col -->
-
-                                        </form>
-                                    </div>
-                                    <!-- termina formilario de eliminacion -->
+                                    <!-- termina formulario de adicion -->
 
                                     <table id="datatable" class="table table-stripped"></table>
 
