@@ -177,7 +177,7 @@
                         			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de Costo</h4>
 
 
-                                    <!-- termina formilario de actualizacion -->
+                                    <!-- comienza formilario de busqueda -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
                                             <div class="col-lg-3">
