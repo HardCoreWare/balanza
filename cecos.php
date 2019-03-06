@@ -274,7 +274,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-danger" value="ELIMINAR">
+                                                <input type="button" class="form-control btn btn-danger" value="ELIMINAR" id="btn">
                                             </div>
                                             <!-- end col -->
 
