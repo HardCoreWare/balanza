@@ -110,6 +110,7 @@ $(document).ready(function(){
         $("#formUpdate").hide();
         $("#formAdd").show();
         $("#formDelete").hide();
+        
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
 
