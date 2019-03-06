@@ -2,8 +2,13 @@ class CecosTable{
 
     readData(data){
 
-        this.headers=["MODULO","CECO","INCLUIR"];
         this.data=data;
+
+    }
+
+    setOperation(operation){
+
+        this.operation=operation;
 
     }
 
@@ -39,6 +44,17 @@ class CecosTable{
                 body+='<td>';
                 body+=row.Kostl;
                 body+='</td>';
+
+
+                switch (key) {
+                    case value:
+                        
+                        break;
+                
+                    default:
+                        break;
+                }
+
 
                 body+='<td>';
                 body+='<';
