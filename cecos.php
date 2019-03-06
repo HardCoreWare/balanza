@@ -241,9 +241,9 @@
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Empresa</label>
                                                     <div class="col-md-10">
-                                                        <select type="text" class="form-control">
-                                                            <option value="TODOS">TODOS</option>
-                                                        </select>
+
+                                                        <input type="text" class="form-control">
+
                                                     </div>
                                                 </div>
                                             </div>
