@@ -177,7 +177,7 @@
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
-                        			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Elegir Opcion</h4>
+                        			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de costo</h4>
                                     <table id="datatable" class="table table-stripped"></table>
                                 </div>
                             </div>
