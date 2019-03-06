@@ -36,9 +36,7 @@ class CecosTable{
 
         this.headers.forEach(header=>{
 
-            head+='<th>';
-            head+=header;
-            head+='</th>';
+            head+='<th>'+header+'</th>';
 
         })
 
@@ -51,23 +49,14 @@ class CecosTable{
 
             body+='<tr>';
 
-                body+='<td>';
-                body+=row.Modulo;
-                body+='</td>';
-
-                body+='<td>';
-                body+=row.Kostl;
-                body+='</td>';
+                body+='<td>'+row.Modulo+'</td>';
+                body+='<td>'+row.Kostl+'</td>';
 
                 switch (this.operation) {
-                    case 0:
-                        
-                        break;
+                    case 0: break;
                     case 1:
 
-                    body+='<td><input type="checkbox" class="check-account" id="u';
-                    body+=row.Id;
-                    body+='"';
+                    body+='<td><input type="checkbox" class="check-account" id="u'+row.Id+'"';
     
                     if(row.Incluido=="1"){body+=' checked';}else{ }
     
