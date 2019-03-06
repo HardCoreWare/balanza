@@ -22,6 +22,7 @@ $(document).ready(function(){
     $("#btnRead").click(function(){
 
         cecosTable.deleteTable("#datatable");
+        $('.dynamic-title').html("Centros de Costo");
 
         $.ajax({
 
@@ -46,6 +47,8 @@ $(document).ready(function(){
     $("#btnUpdate").click(function(){
 
         cecosTable.deleteTable("#datatable");
+        $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
+
 
         $.ajax({
 
