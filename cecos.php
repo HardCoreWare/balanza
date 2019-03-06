@@ -154,19 +154,19 @@
                         					<form class="form-horizontal" role="form">
                                                 <div class="radio">
                                                     <div class="radio radio-success radio-inline">
-                                                        <input type="radio" id="cecosRadio" value="0" name="radioInline" checked>
+                                                        <input type="radio" id="cecosRadio0" value="0" name="radioInline" checked>
                                                         <label for="inlineRadio1">Buscar</label>
                                                     </div>
                                                     <div class="radio-warning radio-inline">
-                                                        <input type="radio" id="cecosRadio" value="1" name="radioInline">
+                                                        <input type="radio" id="cecosRadio1" value="1" name="radioInline">
                                                         <label for="inlineRadio2">Actualizar</label>
                                                     </div>
                                                     <div class="radio-primary radio-inline">
-                                                        <input type="radio" id="cecosRadio" value="2" name="radioInline">
+                                                        <input type="radio" id="cecosRadio2" value="2" name="radioInline">
                                                         <label for="inlineRadio2">Agregar</label>
                                                     </div>
                                                     <div class="radio-danger radio-inline">
-                                                        <input type="radio" id="cecosRadio" value="3" name="radioInline">
+                                                        <input type="radio" id="cecosRadio3" value="3" name="radioInline">
                                                         <label for="inlineRadio2">Eliminar</label>
                                                     </div>
                                                 </div>
