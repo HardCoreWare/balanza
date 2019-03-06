@@ -193,9 +193,6 @@
                         			<div class="row">
                                         <form class="form-horizontal" role="form" id="formAdd" hidden>
 
-                                            <div class="col-lg-3">
-                                            </div>
-                                            <!-- end col -->
 
                                             <div class="col-lg-3">
                                                 <div class="form-group">
@@ -220,7 +217,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-success" value="AGREGAR" id="btnAddRequest">
+                                                <input type="button" class="form-control btn btn-success" value="AGREGAR" id="btnAdd">
                                             </div>
                                             <!-- end col -->
 
