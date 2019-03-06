@@ -1,4 +1,4 @@
-static class CecosForm{
+class CecosForm{
 
     readSearchForm(moduleId,cecoId){
 
@@ -24,7 +24,7 @@ static class CecosForm{
 
         }
 
-        return search;
+        return search.module+"-"+search.ceco;
 
     }
 

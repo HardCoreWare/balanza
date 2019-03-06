@@ -184,7 +184,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">CeCo</label>
                                                     <div class="col-md-10">
-                                                        <input type="text" class="form-control" id="txtSearch">
+                                                        <input type="text" class="form-control" id="txtCeco">
                                                     </div>
                                                 </div>
                                             </div>
@@ -281,7 +281,9 @@
         <!-- Developed -->
         <script src="assets/js/conversion.js"></script>
         <script src="assets/js/cecosrequest.js"></script>
+        <script src="assets/js/cecosform.js"></script>
         <script src="assets/js/cecostable.js"></script>
+
 
 
         <script>

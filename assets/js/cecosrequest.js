@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-    cecosTable = new CecosTable();
+    const cecosTable = new CecosTable();
+    const cecosForm = new CecosForm();
     let switched=false;
 
     $.ajax({
@@ -37,10 +38,18 @@ $(document).ready(function(){
 
     });
 
+    $("txtCeco").keyUp(function(){
+
+        let params = cecosForm.readSearchForm("selectSearch");
+        
+    });
+
+
     $("btnAdd").click(function(){
 
-        
+
 
     });
+
 
 });
