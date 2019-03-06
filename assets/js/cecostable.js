@@ -47,7 +47,8 @@ class CecosTable{
             }
 
             body+='</td>';
-            body+='</tr>';
+            
+            body+='<td>'
 
             if(row.Incluido==="1"){
 
