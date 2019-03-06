@@ -16,6 +16,7 @@ $(document).ready(function(){
     
                 const data = JSON.parse(response);
                 cecosTable.readData(data);
+                cecosTable.setOperation(0);
                 cecosTable.writeTable("#datatable");
     
             }
@@ -35,6 +36,7 @@ $(document).ready(function(){
 
             const data = JSON.parse(response);
             cecosTable.readData(data);
+            cecosTable.setOperation(0);
             cecosTable.writeTable("#datatable");
 
         }

@@ -46,8 +46,8 @@ class CecosTable{
                 body+='</td>';
 
 
-                switch (key) {
-                    case value:
+                switch (this.operation) {
+                    case 0:
                         
                         break;
                 
