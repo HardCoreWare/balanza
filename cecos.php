@@ -147,6 +147,22 @@
 
                                     <!-- comienza formulario de busqueda -->
                         			<div class="row">
+                                        <form>
+                                            <div class="col-lg-3">
+                                                <div class="form-group">
+                                                    <label class="col-md-2 control-label">CeCo</label>
+                                                    <div class="col-md-10">
+                                                        <input type="button" class="btn btn-primary" class="form-control" id="btnSwitch">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end col -->
+                                        </form>
+                                    </div>
+                                    <!-- termina formulario de busqueda -->
+
+                                    <!-- comienza formulario de busqueda -->
+                        			<div class="row">
                                         <form class="form-horizontal" role="form" id="formRead" >
                                             <div class="col-lg-6">
                                             </div>
