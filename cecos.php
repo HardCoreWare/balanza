@@ -151,16 +151,16 @@
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
                                             <div class="col-sm-1">
-                                                <input class="btn btn-block btn-primary" type="button" value="LEER" id="btnCancel">
+                                                <input class="btn btn-block btn-success" type="button" value="LEER" id="btnCancel">
                                             </div>
                                             <div class="col-sm-1">
-                                                <input class="btn btn-block btn-primary" type="button" value="ACTUALIZAR" id="btnCancel">
+                                                <input class="btn btn-block btn-warning" type="button" value="ACTUALIZAR" id="btnCancel">
                                             </div>
                                             <div class="col-sm-1">
                                                 <input class="btn btn-block btn-primary" type="button" value="AGREGAR" id="btnCancel">
                                             </div>
                                             <div class="col-sm-1">
-                                                <input class="btn btn-block btn-primary" type="button" value="ELIMINAR" id="btnCancel">
+                                                <input class="btn btn-block btn-danger" type="button" value="ELIMINAR" id="btnCancel">
                                             </div>
                                         </form>
                                     </div>
