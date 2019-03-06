@@ -181,8 +181,8 @@
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
                                             <div class="col-lg-3">
-                                                    <div class="form-group">
-                                                        <label class="col-md-2 control-label">Mes</label>
+                                                <div class="form-group">
+                                                    <label class="col-md-2 control-label">Mes</label>
                                                         <div class="col-md-10">
                                                             <select type="text" class="form-control">
                                                             <option value="TODOS">TODOS</option>
@@ -195,8 +195,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            <div class="col-sm-1">
-                                                <input class="btn btn-block btn-success" type="button" value="LEER" id="btnRead">
+                                                <div class="col-sm-1">
+                                                    <input class="btn btn-block btn-success" type="button" value="LEER" id="btnRead">
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
