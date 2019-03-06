@@ -42,11 +42,9 @@ $(document).ready(function(){
 
         let params = cecosForm.readSearchForm("#selectModule","#txtCeco");
 
-        console.log(params);
-
         $.ajax({
 
-            url:'http://35.243.156.112/plataforma/balanza/cecos/buscar'+params,
+            url:'http://35.243.156.112/plataforma/balanza/cecos/buscar/'+params,
             method:'GET',
             data:'',
             success:function(response){
