@@ -25,6 +25,7 @@ $(document).ready(function(){
         $("#formUpdate").hide();
         $("#formAdd").hide();
         $("#formDelete").hide();
+
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Centros de Costo");
 
@@ -54,6 +55,7 @@ $(document).ready(function(){
         $("#formUpdate").show();
         $("#formAdd").hide();
         $("#formDelete").hide();
+
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
 
@@ -110,7 +112,7 @@ $(document).ready(function(){
         $("#formUpdate").hide();
         $("#formAdd").show();
         $("#formDelete").hide();
-        
+
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
 

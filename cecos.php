@@ -179,7 +179,7 @@
 
                                     <!-- comienza formilario de busqueda -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form" id="formSearch">
+                                        <form class="form-horizontal" role="form" id="formSearch" hidden>
                                             <div class="col-lg-3">
                                             </div>
                                             <!-- end col -->
