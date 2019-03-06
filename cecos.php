@@ -260,7 +260,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-success" value="BUSQUEDA" id="btnSearch">
+                                                <input type="button" class="form-control btn btn-success" value="AGREGAR" id="btnSearch">
                                             </div>
                                             <!-- end col -->
 
