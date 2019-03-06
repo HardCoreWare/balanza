@@ -144,7 +144,6 @@
                         		<div class="card-box">
 
                                     <div class="dropdown pull-right"></div>
-
                         			<h4 class="header-title m-t-0 m-b-30m">Elegir Opcion</h4>
 
                         			<div class="row">
@@ -178,39 +177,37 @@
                         			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de costo</h4>
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
+
                                             <div class="col-lg-3">
                                                 <div class="form-group">
-                                                    <label class="col-md-2 control-label">Mes</label>
+                                                    <label class="col-md-2 control-label">Anualidad</label>
                                                     <div class="col-md-10">
                                                         <select type="text" class="form-control">
-                                                            <option value="TODOS">TODOS</option>
-                                                            <option value="TODOS">OPERADORA</option>
-                                                            <option value="TODOS">BANCO</option>
-                                                            <option value="TODOS">CASA</option>
-                                                            <option value="TODOS">GRUPO</option>
-                                                            <option value="TODOS">SERVICIOS</option>
+
+
+
                                                         </select>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                    <label class="col-md-2 control-label">Mes</label>
+                                            <!-- end col -->
+
+                                            <div class="col-lg-3">
+                                                <div class="form-group">
+                                                    <label class="col-md-2 control-label">Anualidad</label>
                                                     <div class="col-md-10">
-                                                        <select type="text" class="form-control">
-                                                            <option value="TODOS">TODOS</option>
-                                                            <option value="TODOS">OPERADORA</option>
-                                                            <option value="TODOS">BANCO</option>
-                                                            <option value="TODOS">CASA</option>
-                                                            <option value="TODOS">GRUPO</option>
-                                                            <option value="TODOS">SERVICIOS</option>
-                                                        </select>
+
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-2">
-                                                <input class="btn btn-block btn-success" type="button" value="BUSQUEDA" id="btnRequest">
+                                            <!-- end col -->
+
+                                            <div class="col-lg-3">
+                                                <button type="text" class="form-control btn btn-success">INFORME</button>
                                             </div>
+                                            <!-- end col -->
                                         </form>
+
                                     </div>
                                     <!-- end row -->
                                     <table id="datatable" class="table table-stripped"></table>
