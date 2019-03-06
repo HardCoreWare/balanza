@@ -149,13 +149,11 @@
                         			<h4 class="header-title m-t-0 m-b-30">Elegir Opcion</h4>
 
                         			<div class="row">
-                                        <div class="col-sm-1">
-                        					<form class="form-horizontal" role="form">
-                                                    <input class="btn btn-block btn-primary" type="button" value="CANCELAR" id="btnCancel">
-                                                </div>
-	                                        </form>
-                                        </div>
-                                        <!-- end col -->
+                                        <form class="form-horizontal" role="form">
+                                            <div class="col-sm-1">
+                                                <input class="btn btn-block btn-primary" type="button" value="CANCELAR" id="btnCancel">
+                                            </div>
+                                        </form>
                                     </div>
                                     <!-- end row -->
 
