@@ -60,15 +60,14 @@ class CecosTable{
                     case 0: break;
                     case 1:
 
-                    body+='<td><input type="checkbox" class="check-account" id="u'+row.Id+'"';
-                    if(row.Incluido=="1"){body+=' checked';}else{ }
-                    body+='></td>';
-                    break;
+                        body+='<td><input type="checkbox" class="check-account" id="u'+row.Id+'"';
+                        if(row.Incluido=="1"){body+=' checked';}else{ }
+                        body+='></td>';
+                        break;
 
                     case 2:
 
-                    body+='<td><input type="checkbox" class="check-account" id="d'+row.Id+'"';
-                    body+='></td>';
+                        body+='<td><input type="checkbox" class="check-account" id="d'+row.Id+'"></td>';
 
                         break;
                 
