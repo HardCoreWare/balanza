@@ -227,11 +227,13 @@
                                     </div>
                                     <!-- end row -->
 
+                                    <!-- end row -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
 
-                                        <div class="col-lg-3"></div>
-                                        <!-- end col -->
+                                            <div class="col-lg-3">
+                                            </div>
+                                            <!-- end col -->
 
                                             <div class="col-lg-3">
                                                 <div class="form-group">
@@ -256,7 +258,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="text" class="form-control btn btn-success" value="BUSQUEDA">
+                                                <input type="text" class="form-control btn btn-success" value="BUSQUEDA" id="btnSearch">
                                             </div>
                                             <!-- end col -->
 
