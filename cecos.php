@@ -180,7 +180,7 @@
                                     <!-- comienza formilario de busqueda -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form" id="formRead" >
-                                            <div class="col-lg-3">
+                                            <div class="col-lg-6">
                                             </div>
                                             <!-- end col -->
 
@@ -206,10 +206,6 @@
                                             </div>
                                             <!-- end col -->
 
-                                            <div class="col-lg-3">
-                                                <input type="button" class="form-control btn btn-success" value="BUSQUEDA">
-                                            </div>
-                                            <!-- end col -->
                                         </form>
                                     </div>
                                     <!-- termina formilario de busqueda -->
