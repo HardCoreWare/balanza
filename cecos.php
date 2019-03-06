@@ -176,11 +176,13 @@
                                     <div class="dropdown pull-right"></div>
                         			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de Costo</h4>
 
+
+                                    <!-- termina formilario de actualizacion -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
-                                        <div class="col-lg-3">
-                                        </div>
-                                        <!-- end col -->
+                                            <div class="col-lg-3">
+                                            </div>
+                                            <!-- end col -->
 
                                             <div class="col-lg-3">
                                                 <div class="form-group">
@@ -210,7 +212,7 @@
                                             <!-- end col -->
                                         </form>
                                     </div>
-                                    <!-- end row -->
+                                    <!-- termina formilario de busqueda -->
 
 
                         			<div class="row">
@@ -281,11 +283,12 @@
                                             <!-- end col -->
 
                                         </form>
-
                                     </div>
                                     <!-- termina formilario de eliminacion -->
 
                                     <table id="datatable" class="table table-stripped"></table>
+
+
                                 </div>
                             </div>
                             <!-- end col -->
