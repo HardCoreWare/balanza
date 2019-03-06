@@ -213,10 +213,6 @@
                                     <!-- end row -->
 
 
-
-
-
-
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
                                             <div class="col-lg-9">
@@ -265,10 +261,10 @@
                                             <!-- end col -->
 
                                         </form>
-
                                     </div>
                                     <!-- end row -->
 
+                                    <!-- empieza formilario de eliminacion -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
 
@@ -285,7 +281,7 @@
                                         </form>
 
                                     </div>
-                                    <!-- end row -->
+                                    <!-- termina formilario de eliminacion -->
 
                                     <table id="datatable" class="table table-stripped"></table>
                                 </div>
