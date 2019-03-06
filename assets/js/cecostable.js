@@ -70,9 +70,9 @@ class CecosTable{
 
     }
 
-    deleteTable(){
+    deleteTable(divId){
 
-
+        $(divId).html(table);
 
     }
 
