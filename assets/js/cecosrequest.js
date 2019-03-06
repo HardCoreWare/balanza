@@ -38,9 +38,9 @@ $(document).ready(function(){
 
     });
 
-    $("txtCeco").keyup(function(){
+    $("#txtCeco").keyup(function(){
 
-        let params = cecosForm.readSearchForm("#selectSearch","#txtSearch");
+        let params = cecosForm.readSearchForm("#selectModule","#txtCeco");
 
         console.log(params);
 
