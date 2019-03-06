@@ -72,6 +72,7 @@ $(document).ready(function(){
     $("#btnDelete").click(function(){
 
         cecosTable.deleteTable("#datatable");
+        $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
 
         $.ajax({
 
