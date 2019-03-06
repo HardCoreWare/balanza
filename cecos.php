@@ -214,9 +214,9 @@
                                     </div>
                                     <!-- termina formilario de busqueda -->
 
-
+                                    <!-- comienza formilario de actualizacion -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form">
+                                        <form class="form-horizontal" role="form" id="formUpdate">
                                             <div class="col-lg-9">
 
                                             </div>
