@@ -62,7 +62,6 @@ class CecosTable{
 
                     body+='<td><input type="checkbox" class="check-account" id="u'+row.Id+'"';
                     if(row.Incluido=="1"){body+=' checked';}else{ }
-    
                     body+='></td>';
                     break;
 
@@ -73,8 +72,7 @@ class CecosTable{
 
                         break;
                 
-                    default:
-                        break;
+                    default: break;
                 }
 
                 body+='</tr>';
