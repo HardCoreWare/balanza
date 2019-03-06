@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    cecosTable = new CecosTable();
 
     $("#cecosRadio").click(function(){
 
@@ -19,7 +20,6 @@ $(document).ready(function(){
             while(!response){}
 
             const data = JSON.parse(response);
-            cecosTable = new CecosTable();
             cecosTable.readData(data);
             cecosTable.writeTable("#datatable");
 
