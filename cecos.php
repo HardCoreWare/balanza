@@ -196,6 +196,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Anualidad</label>
                                                     <div class="col-md-10">
+                                                    <button type="text" class="form-control btn btn-success">INFORME</button>
 
                                                     </div>
                                                 </div>
@@ -206,6 +207,7 @@
                                                 <button type="text" class="form-control btn btn-success">INFORME</button>
                                             </div>
                                             <!-- end col -->
+
                                         </form>
 
                                     </div>
