@@ -162,10 +162,7 @@
                                     <!-- comienza formulario de busqueda -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form" id="formRead" >
-                                            <div class="col-lg-6">
-                                            </div>
-                                            <!-- end col -->
-
+ 
                                             <div class="col-lg-3">
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Empresa</label>
