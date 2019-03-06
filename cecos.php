@@ -179,7 +179,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">CeCo</label>
                                                     <div class="col-md-10">
-                                                        <input type="text" class="form-control">
+                                                        <input type="text" class="form-control" id="txtSearch">
                                                     </div>
                                                 </div>
                                             </div>
