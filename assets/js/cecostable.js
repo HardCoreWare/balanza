@@ -19,6 +19,10 @@ class CecosTable{
             case 0:
                 this.headers=["MODULO","CECO"];
                 break;
+
+            case 1:
+                this.headers=["MODULO","CECO","INCLUIDO"];
+                break;
         
             default:
                 break;
