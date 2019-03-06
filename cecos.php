@@ -146,7 +146,7 @@
 
                                     <div class="dropdown pull-right"></div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">Elegir Opcion</h4>
+                        			<h4 class="header-title m-t-0 m-b-30m">Elegir Opcion</h4>
 
                         			<div class="row">
                                         <form class="form-horizontal" role="form">

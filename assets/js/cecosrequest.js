@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     cecosTable = new CecosTable();
 
-    $("#cecosRadio").click(function(){
+    $("#btnRead").click(function(){
 
         let option=$(this).val();
 
