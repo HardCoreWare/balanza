@@ -167,7 +167,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-2 control-label">Empresa</label>
                                                     <div class="col-md-10">
-                                                        <select type="text" class="form-control">
+                                                        <select type="text" class="form-control" id="selectModule">
                                                         <option value="all">TODOS</option>
                                                         <option value="BANCO">BANCO</option>
                                                         <option value="CASA">CASA</option>
