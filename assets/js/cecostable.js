@@ -72,7 +72,7 @@ class CecosTable{
 
     deleteTable(divId){
 
-        $(divId).html(table);
+        $(divId).html('');
 
     }
 
