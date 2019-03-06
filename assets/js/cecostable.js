@@ -49,19 +49,9 @@ class CecosTable{
             body+='</td>';
             
             body+='<td>'
-
-            if(row.Incluido==="1"){
-
-                body+='<a class="include-action">delete</a>';
-
-            }
-            else{
-
-                body+='<a class="include-action">delete</a>';
-
-            }
-
+            body+='<a class="include-action">delete</a>';
             body+='</td>';
+
             body+='</tr>';
             
         });
