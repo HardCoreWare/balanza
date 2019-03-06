@@ -4,9 +4,7 @@ $(document).ready(function(){
 
     $("#btnRead").click(function(){
 
-        let option=$(this).val();
-
-        alert(option);
+        cecosTable.deleteTable("#datatable");
 
     });
 
