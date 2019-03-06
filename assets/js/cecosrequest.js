@@ -38,12 +38,30 @@ $(document).ready(function(){
 
     });
 
-    $("txtCeco").keyUp(function(){
+    $("txtCeco").keyup(function(){
 
         let params = cecosForm.readSearchForm("selectSearch");
+
+        console.log(params);
+
+        $.ajax({
+
+            url:'http://35.243.156.112/plataforma/balanza/cecos/buscar'+params,
+            method:'GET',
+            success:function(response){
+    
+                while(!response){}
+    
+                const data = JSON.parse(response);
+                cecosTable.readData(data);
+                cecosTable.writeTable("#datatable");
+    
+            }
+    
+        });
+
         
     });
-
 
     $("btnAdd").click(function(){
 
