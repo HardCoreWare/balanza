@@ -21,6 +21,10 @@ $(document).ready(function(){
 
     $("#btnRead").click(function(){
 
+        $("#formRead").show();
+        $("#formUpdate").hide();
+        $("#formAdd").hide();
+        $("#formDelete").hide();
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Centros de Costo");
 
@@ -46,9 +50,12 @@ $(document).ready(function(){
 
     $("#btnUpdate").click(function(){
 
+        $("#formRead").hide();
+        $("#formUpdate").show();
+        $("#formAdd").hide();
+        $("#formDelete").hide();
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
-
 
         $.ajax({
 
@@ -71,6 +78,10 @@ $(document).ready(function(){
 
     $("#btnDelete").click(function(){
 
+        $("#formRead").hide();
+        $("#formUpdate").hide();
+        $("#formAdd").hide();
+        $("#formDelete").show();
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
 
@@ -95,6 +106,10 @@ $(document).ready(function(){
 
     $("#btnAdd").click(function(){
 
+        $("#formRead").hide();
+        $("#formUpdate").hide();
+        $("#formAdd").show();
+        $("#formDelete").hide();
         cecosTable.deleteTable("#datatable");
         $('.dynamic-title').html("Seleccione los centros de costo que desea incluir");
 
