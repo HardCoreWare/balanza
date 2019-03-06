@@ -231,7 +231,7 @@
 
                                     <!-- empieza formilario de adicion -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form">
+                                        <form class="form-horizontal" role="form" id="formAdd">
 
                                             <div class="col-lg-3">
                                             </div>
@@ -270,7 +270,7 @@
 
                                     <!-- empieza formilario de eliminacion -->
                         			<div class="row">
-                                        <form class="form-horizontal" role="form">
+                                        <form class="form-horizontal" role="form" id="formDelete">
 
                                             <div class="col-lg-9">
 
@@ -278,7 +278,7 @@
                                             <!-- end col -->
 
                                             <div class="col-lg-3">
-                                                <input type="text" class="form-control btn btn-danger" value="ELIMINAR">
+                                                <input type="button" class="form-control btn btn-danger" value="ELIMINAR">
                                             </div>
                                             <!-- end col -->
 
