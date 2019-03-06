@@ -17,15 +17,15 @@ class CecosTable{
 
         switch (this.operation) {
             case 0:
-                this.headers=["MODULO","CECO"];
+                this.headers=["EMPRESA","CECO"];
                 break;
 
             case 1:
-                this.headers=["MODULO","CECO","INCLUIDO"];
+                this.headers=["EMPRESA","CECO","INCLUIDO"];
                 break;
 
             case 2:
-                this.headers=["MODULO","CECO","ELIMINAR"];
+                this.headers=["EMPRESA","CECO","ELIMINAR"];
                 break;
         
             default:
