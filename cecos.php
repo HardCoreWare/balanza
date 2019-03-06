@@ -225,9 +225,9 @@
                                             <!-- end col -->
                                         </form>
                                     </div>
-                                    <!-- end row -->
+                                    <!-- termina formilario de actualizacion -->
 
-                                    <!-- end row -->
+                                    <!-- empieza formilario de adicion -->
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
 
@@ -264,7 +264,7 @@
 
                                         </form>
                                     </div>
-                                    <!-- end row -->
+                                    <!-- termina formilario de adicion -->
 
                                     <!-- empieza formilario de eliminacion -->
                         			<div class="row">
