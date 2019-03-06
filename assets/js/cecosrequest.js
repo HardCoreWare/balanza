@@ -24,13 +24,13 @@ $(document).ready(function(){
         if(switched){
             $("#formRead").show();
             $("#formAdd").hide();
-            switched=true;
+            switched=false;
         }
 
         else{
-            $("#formRead").show();
-            $("#formAdd").hide();
-            switched=false;
+            $("#formRead").hide();
+            $("#formAdd").show();
+            switched=true;
         }
 
 
