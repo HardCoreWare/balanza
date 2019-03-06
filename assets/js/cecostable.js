@@ -17,7 +17,7 @@ class CecosTable{
 
         switch (this.operation) {
             case 0:
-                
+                this.headers=["MODULO","CECO"];
                 break;
         
             default:
@@ -30,7 +30,7 @@ class CecosTable{
 
         head+='<thead><tr>';
 
-        headers.forEach(header=>{
+        this.headers.forEach(header=>{
 
             head+='<th>';
             head+=header;
