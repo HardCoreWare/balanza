@@ -35,12 +35,6 @@ $(document).ready(function(){
             switched=true;
         }
 
-
-
     });
-
-
-
-
 
 });
