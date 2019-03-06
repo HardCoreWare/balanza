@@ -61,30 +61,19 @@ class CecosTable{
                         break;
                     case 1:
 
-
-                    body+='<td>';
-                    body+='<';
-                    body+='input type="checkbox" ';
-                    body+=' class="check-account" ';
-                    body+='id="u';
+                    body+='<td><input type="checkbox" class="check-account" id="u';
                     body+=row.Id;
                     body+='"';
     
-                    if(row.Incluido=="1"){
+                    if(row.Incluido=="1"){body+=' checked';}else{ }
     
-                        body+=' checked';
-    
-                    }
-    
-                    body+='>';
-                    body+='</td>';
+                    body+='></td>';
 
                         break;
                 
                     default:
                         break;
                 }
-
 
                 body+='</tr>';
             
