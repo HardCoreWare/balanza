@@ -70,6 +70,7 @@ class CecosTable{
                         body+='<td><input type="checkbox" class="check-account" id="d'+row.Id+'"></td>';
 
                         break;
+
                 
                     default: break;
                 }
