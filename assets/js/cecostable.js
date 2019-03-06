@@ -3,7 +3,7 @@ class CecosTable{
     readData(data){
 
         this.data=data;
-        this.headers=["EMPRESA","CECO"];
+        this.headers=["EMPRESA","CECO","INCLUIDO","ELIMINAR"];
 
     }
 
