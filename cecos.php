@@ -215,25 +215,8 @@
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
 
-                                            <div class="col-lg-3">
-                                                <div class="form-group">
-                                                    <label class="col-md-2 control-label">Empresa</label>
-                                                    <div class="col-md-10">
-                                                        <select type="text" class="form-control">
-                                                            <option value="TODOS">TODOS</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
+                                            <div class="col-lg-9">
 
-                                            <div class="col-lg-3">
-                                                <div class="form-group">
-                                                    <label class="col-md-2 control-label">CeCo</label>
-                                                    <div class="col-md-10">
-                                                        <input type="text" class="form-control">
-                                                    </div>
-                                                </div>
                                             </div>
                                             <!-- end col -->
 
@@ -246,6 +229,7 @@
 
                                     </div>
                                     <!-- end row -->
+
 
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
