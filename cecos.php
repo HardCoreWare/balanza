@@ -180,17 +180,23 @@
                         			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de costo</h4>
                         			<div class="row">
                                         <form class="form-horizontal" role="form">
+                                            <div class="col-lg-3">
+                                                    <div class="form-group">
+                                                        <label class="col-md-2 control-label">Mes</label>
+                                                        <div class="col-md-10">
+                                                            <select type="text" class="form-control">
+                                                            <option value="TODOS">TODOS</option>
+                                                            <option value="TODOS">OPERADORA</option>
+                                                            <option value="TODOS">BANCO</option>
+                                                            <option value="TODOS">CASA</option>
+                                                            <option value="TODOS">GRUPO</option>
+                                                            <option value="TODOS">SERVICIOS</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             <div class="col-sm-1">
                                                 <input class="btn btn-block btn-success" type="button" value="LEER" id="btnRead">
-                                            </div>
-                                            <div class="col-sm-1">
-                                                <input class="btn btn-block btn-warning" type="button" value="ACTUALIZAR" id="btnUpdate">
-                                            </div>
-                                            <div class="col-sm-1">
-                                                <input class="btn btn-block btn-primary" type="button" value="AGREGAR" id="btnAdd">
-                                            </div>
-                                            <div class="col-sm-1">
-                                                <input class="btn btn-block btn-danger" type="button" value="ELIMINAR" id="btnDelete">
                                             </div>
                                         </form>
                                     </div>
