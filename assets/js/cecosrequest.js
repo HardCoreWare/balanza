@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     $("txtCeco").keyup(function(){
 
-        let params = cecosForm.readSearchForm("selectSearch");
+        let params = cecosForm.readSearchForm("#selectSearch","#txtSearch");
 
         console.log(params);
 
