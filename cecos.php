@@ -177,6 +177,23 @@
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
+                        			<div class="row">
+                                        <form class="form-horizontal" role="form">
+                                            <div class="col-sm-1">
+                                                <input class="btn btn-block btn-success" type="button" value="LEER" id="btnRead">
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <input class="btn btn-block btn-warning" type="button" value="ACTUALIZAR" id="btnUpdate">
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <input class="btn btn-block btn-primary" type="button" value="AGREGAR" id="btnAdd">
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <input class="btn btn-block btn-danger" type="button" value="ELIMINAR" id="btnDelete">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- end row -->
                         			<h4 class="header-title m-t-0 m-b-30m dynamic-title">Centros de costo</h4>
                                     <table id="datatable" class="table table-stripped"></table>
                                 </div>
