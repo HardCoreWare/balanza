@@ -1,4 +1,4 @@
-class CecosManager{
+class CecosForm{
 
     readSearchForm(moduleId,cecoId){
 
