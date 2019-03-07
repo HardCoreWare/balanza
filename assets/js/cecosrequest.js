@@ -13,7 +13,7 @@ function updateCeco(){
         
         $.ajax({
         
-            url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
+            url:'http://35.243.156.112/plataforma/balanza/cecos/actualizar',
             method:'POST',
             data:{"req":req},
             success:function(response){
