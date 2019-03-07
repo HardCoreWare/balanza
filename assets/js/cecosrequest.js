@@ -1,26 +1,31 @@
 function updateCeco(){
 
-    const request ={
+    $(".include-action").click(function(){
 
-        id: ($(this).attr('id')).split("-")[1],
-        value: ($(this).attr('id')).split("-")[2]
+        const request ={
 
-    }
-    
-    const req = JSON.stringify(request);
-    
-    $.ajax({
-    
-        url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
-        method:'POST',
-        data:{"req":req},
-        success:function(response){
-    
-            alert(response);
-    
+            id: ($(this).attr('id')).split("-")[1],
+            value: ($(this).attr('id')).split("-")[2]
+
         }
-    
+        
+        const req = JSON.stringify(request);
+        
+        $.ajax({
+        
+            url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
+            method:'POST',
+            data:{"req":req},
+            success:function(response){
+        
+                alert(response);
+        
+            }
+        
+        });
+
     });
+
     
 }
 
@@ -47,11 +52,9 @@ $(document).ready(function(){
             cecosTable.readData(data);
             cecosTable.writeTable("#datatable");
 
-            $(".include-action").click(function(){
 
                 updateCeco();
 
-            });
 
         }
 
