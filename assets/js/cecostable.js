@@ -37,12 +37,12 @@ class CecosTable{
 
             if(row.Incluido==="1"){
 
-                body+='<a class="include-action"><i class="fa fa-check-square" '+row.Id+'-0'+'></i></a>';
+                body+='<a class="include-action" ><i class="fa fa-check-square" '+row.Id+'-0'+'></i></a>';
 
             }
             else{
 
-                body+='<a class="include-action"><i class="fa fa-times-rectangle" '+row.Id+'-1'+'></i></a>';
+                body+='<a class="include-action" ><i class="fa fa-times-rectangle" '+row.Id+'-1'+'></i></a>';
 
             }
 
