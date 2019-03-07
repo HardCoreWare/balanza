@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     const cecosTable = new CecosTable();
-    const cecosForm = new cecosForm();
+    const cecosForm = new CecosForm();
     let switched=false;
 
     $.ajax({
