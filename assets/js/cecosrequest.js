@@ -64,9 +64,7 @@ $(document).ready(function(){
     });
 
 
-
-
-    $("#selectModule").selected(function(){
+    $("#selectModule").change(function(){
 
         let params = cecosForm.readSearchForm("#selectModule","#txtCeco");
 
@@ -91,7 +89,7 @@ $(document).ready(function(){
 
     });
 
-    $("btnAdd").click(function(){
+    $("#btnAdd").click(function(){
 
 
 
