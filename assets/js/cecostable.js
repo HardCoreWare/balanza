@@ -37,24 +37,29 @@ class CecosTable{
 
             if(row.Incluido==="1"){
 
-                body+='<a class="include-action">1</a>';
+                body+='<a class="include-action"><i class="fa fa-pencil"></i></a>';
 
             }
             else{
 
-                body+='<a class="include-action">1</a>';
+                body+='<a class="include-action"><i class="fa fa-pencil"></i></a>';
+
 
             }
 
             body+='</td>';
             
             body+='<td>'
-            body+='<a class="include-action">delete</a>';
+            body+='<a class="include-action"><i class="fa fa-pencil"></i></a>';
             body+='</td>';
 
             body+='</tr>';
             
         });
+
+
+        //<a class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+
 
         body+='</tbody>';
         table+=head;
