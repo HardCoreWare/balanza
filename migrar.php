@@ -94,13 +94,23 @@
 
                     <!--- Sidemenu -->
                     <div id="sidebar-menu">
+                        <span class="text-muted menu-title">MENU DE NAVEGACION</span>
                         <ul>
-                            <li class="text-muted menu-title">Menu de Navegacion</li>
-
-                            <li><a href="importar.php" class="waves-effect"><i class="fa fa-database"></i> <span> IMPORTAR DATOS</span> </a></li>
-                            <li><a href="cuentas.php" class="waves-effect"><i class="fa fa-list"></i> <span>CUENTAS</span> </a></li>
-                            <li><a href="editables.php" class="waves-effect"><i class="fa fa-list"></i> <span>EDITABLES</span> </a></li>
-
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-gear"></i> <span>CONFIGURACION</span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="cuentas.php">Cuentas</a></li>
+                                    <li><a href="cecos.php">Cecos</a></li>
+                                </ul>
+                            </li>
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-text-o"></i> <span>INFORME</span><span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="editables.php">Editables</a></li>
+                                    <li><a href="importar.php">Importar</a></li>
+                                    <li><a href="informe.php">Informe Actual</a></li>
+                                </ul>
+                            </li>
                         </ul>
                         <div class="clearfix"></div>
                     </div>
