@@ -9,8 +9,6 @@ class CecosTable{
 
     writeTable(divId){
 
-
-
         let table='';
         let body='';
         let head='';
@@ -66,6 +64,36 @@ class CecosTable{
 
         $(divId).html(table);
 
+    }
+    
+    updateCeco(){
+
+        $(".include-action").click(function(){
+    
+            const request ={
+    
+                id: ($(this).attr('id')).split("-")[1],
+                value: ($(this).attr('id')).split("-")[2]
+    
+            }
+            
+            const req = JSON.stringify(request);
+            
+            $.ajax({
+            
+                url:'http://35.243.156.112/plataforma/balanza/cecos/actualizar',
+                method:'POST',
+                data:{"req":req},
+                success:function(response){
+
+                    
+            
+                }
+            
+            });
+    
+        });
+    
     }
 
     deleteTable(divId){

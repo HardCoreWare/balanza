@@ -6,7 +6,6 @@
 $(document).ready(function(){
 
     const cecosTable = new CecosTable();
-    const cecosForm = new CecosForm();
     let switched=false;
 
     $.ajax({
@@ -20,8 +19,7 @@ $(document).ready(function(){
             const data = JSON.parse(response);
             cecosTable.readData(data);
             cecosTable.writeTable("#datatable");
-
-            updateCeco();
+            cecosTable.updateCeco();
 
         }
 
@@ -93,7 +91,7 @@ $(document).ready(function(){
                 const data = JSON.parse(response);
                 cecosTable.readData(data);
                 cecosTable.writeTable("#datatable");
-                updateCeco();
+                cecosTable.updateCeco();
     
             }
     
