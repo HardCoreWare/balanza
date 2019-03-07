@@ -19,7 +19,9 @@ $(document).ready(function(){
             $(".include-action").click(function(){
 
                 let id = ($(this).attr('id')).split("-")[1];
-                alert(id);   
+                alert(JSON.stringify(id));
+
+
                 
             });
 
