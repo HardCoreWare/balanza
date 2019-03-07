@@ -37,19 +37,19 @@ class CecosTable{
 
             if(row.Incluido==="1"){
 
-                body+='<a class="include-action" id = "u-'+row.Id+'-0'+'" ><i class="fa fa-check-square"></i></a>';
+                body+='<a class="include-action included" id = "u-'+row.Id+'-0'+'" ><i class="fa fa-check-square"></i></a>';
 
             }
             else{
 
-                body+='<a class="include-action" id = "u-'+row.Id+'-1'+'" ><i class="fa fa-times-rectangle"></i></a>';
+                body+='<a class="include-action unincluded" id = "u-'+row.Id+'-1'+'" ><i class="fa fa-times-rectangle"></i></a>';
 
             }
 
             body+='</td>';
             
             body+='<td>'
-            body+='<a class="delete-action"><i class="fa fa-trash"></i></a>';
+            body+='<a class="delete-action" id="d-'+row.Id+'"><i class="fa fa-trash"></i></a>';
             body+='</td>';
 
             body+='</tr>';
