@@ -50,15 +50,13 @@ class CecosTable{
             body+='</td>';
             
             body+='<td>'
-            body+='<a class="include-action"><i class="fa fa-pencil"></i></a>';
+            body+='<a class="include-action"><i class="fa-trash"></i></a>';
             body+='</td>';
 
             body+='</tr>';
             
         });
 
-
-        //<a class="on-default edit-row"><i class="fa fa-pencil"></i></a>
 
 
         body+='</tbody>';
