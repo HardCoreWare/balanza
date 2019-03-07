@@ -18,8 +18,11 @@ $(document).ready(function(){
 
             $(".include-action").click(function(){
 
-                let id = ($(this).attr('id')).split("-")[1];
-                alert(JSON.stringify(id));
+                const request ={
+                    id: ($(this).attr('id')).split("-")[1],
+                    value: ($(this).attr('id')).split("-")[1]
+                }
+
 
 
                 
