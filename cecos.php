@@ -99,14 +99,14 @@
                         <span class="text-muted menu-title">MENU DE NAVEGACION</span>
                         <ul>
                             <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-gear"></i> <span>Configuracion</span> <span class="menu-arrow"></span></a>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-gear"></i> <span>CONFIGURACION</span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="cuentas.php">Cuentas</a></li>
                                     <li><a href="cecos.php">Cecos</a></li>
                                 </ul>
                             </li>
                             <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-text-o"></i> <span>Informe</span><span class="menu-arrow"></span></a>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-text-o"></i> <span>INFORME</span><span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="editables.php">Editables</a></li>
                                     <li><a href="importar.php">Importar</a></li>
