@@ -94,7 +94,7 @@
 
                     <!--- Sidemenu -->
                     <div id="sidebar-menu">
-                        <span class="text-muted menu-title">Menu de Navegacion</span>
+                        <span class="text-muted menu-title">MENU DE NAVEGACION</span>
                         <ul>
                             <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-gear"></i> <span>Configuracion</span> <span class="menu-arrow"></span></a>
