@@ -88,10 +88,7 @@ class CecosTable{
 
                     while(!response){}
 
-                    console.log(response);
-                    const data = JSON.parse(response);
-                    this.readData(data);
-                    this.writeTable("#datatable");
+
             
                 }
             
