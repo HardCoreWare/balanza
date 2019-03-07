@@ -50,7 +50,7 @@ class CecosTable{
             body+='</td>';
             
             body+='<td>'
-            body+='<a class="include-action"><i class="fa-trash"></i></a>';
+            body+='<a class="include-action"><i class="fa fa-trash"></i></a>';
             body+='</td>';
 
             body+='</tr>';
