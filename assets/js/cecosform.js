@@ -47,8 +47,8 @@ class CecosManager{
                 method:'POST',
                 data:{"req":req},
                 success:function(response){
-            
-                    alert(response);
+
+                    
             
                 }
             
