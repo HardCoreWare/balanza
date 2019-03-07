@@ -29,6 +29,14 @@ td{
 
 }
 
+.fa-times-rectangle{
+
+    color:red;
+
+    cursor: pointer;
+
+}
+
 .fa-trash{
 
     color:red;
