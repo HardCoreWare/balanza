@@ -24,10 +24,16 @@ td{
 
     color: rgb(39, 200, 39);
 
+    cursor: pointer;
+
+
 }
 
 .fa-trash{
 
     color:red;
+
+    cursor: pointer;
+
 
 }
