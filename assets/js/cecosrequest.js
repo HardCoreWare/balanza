@@ -23,6 +23,7 @@ $(document).ready(function(){
     $("#btnSwitch").click(function(){
 
         if(switched){
+            $(this).val("AGREGAR NUEVO");
             $("#formRead").show();
             $("#datatable").show();
             $("#formAdd").hide();
@@ -30,6 +31,7 @@ $(document).ready(function(){
         }
 
         else{
+            $(this).val("VOLVER A BUSCADOR");
             $("#formRead").hide();
             $("#datatable").hide();
             $("#formAdd").show();
