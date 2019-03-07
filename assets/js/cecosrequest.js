@@ -18,9 +18,7 @@ $(document).ready(function(){
 
             $(".include-action").click(function(){
 
-
                 let id = $(this).attr('id');
-
                 alert(id);   
                 
                 
