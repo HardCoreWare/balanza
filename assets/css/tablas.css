@@ -22,6 +22,12 @@ td{
 
 .fa-check-square{
 
-    color: green;
+    color: rgb(39, 124, 39);
+
+}
+
+.fa-trash{
+
+    color:red;
 
 }
