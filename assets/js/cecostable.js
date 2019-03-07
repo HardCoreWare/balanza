@@ -37,7 +37,7 @@ class CecosTable{
 
             if(row.Incluido==="1"){
 
-                body+='<a class="include-action"><i class="fa fa-check-rectangle"></i></a>';
+                body+='<a class="include-action"><i class="fa fa-check-square"></i></a>';
 
             }
             else{
