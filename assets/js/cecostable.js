@@ -86,7 +86,12 @@ class CecosTable{
                 data:{"req":req},
                 success:function(response){
 
-                    
+                    while(!response){}
+
+                    console.log(response);
+                    const data = JSON.parse(response);
+                    this.readData(data);
+                    this.writeTable("#datatable");
             
                 }
             
