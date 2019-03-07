@@ -16,6 +16,12 @@ $(document).ready(function(){
             cecosTable.readData(data);
             cecosTable.writeTable("#datatable");
 
+            $(".include-action").click(function(){
+
+                alert("include");
+        
+            });
+
         }
 
     });
@@ -57,6 +63,12 @@ $(document).ready(function(){
                 const data = JSON.parse(response);
                 cecosTable.readData(data);
                 cecosTable.writeTable("#datatable");
+
+                $(".include-action").click(function(){
+
+                    alert("include");
+            
+                });
     
             }
     
@@ -83,6 +95,12 @@ $(document).ready(function(){
                 const data = JSON.parse(response);
                 cecosTable.readData(data);
                 cecosTable.writeTable("#datatable");
+
+                $(".include-action").click(function(){
+
+                    alert("include");
+            
+                });
     
             }
     
@@ -90,11 +108,7 @@ $(document).ready(function(){
 
     });
 
-    $(".include-action").click(function(){
 
-        alert("include");
-
-    });
 
     $("#btnAdd").click(function(){
 
