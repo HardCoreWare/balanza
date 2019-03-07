@@ -47,6 +47,11 @@ $(document).ready(function(){
             cecosTable.readData(data);
             cecosTable.writeTable("#datatable");
 
+            $(".include-action").click(function(){
+
+                updateCeco();
+
+            });
 
         }
 
@@ -89,6 +94,12 @@ $(document).ready(function(){
                 const data = JSON.parse(response);
                 cecosTable.readData(data);
                 cecosTable.writeTable("#datatable");
+
+                $(".include-action").click(function(){
+
+                    updateCeco();
+
+                });
     
             }
     
@@ -118,10 +129,8 @@ $(document).ready(function(){
 
                 $(".include-action").click(function(){
 
-                    let id = $(this).attr('id');
+                    updateCeco();
 
-                    alert(id);   
-            
                 });
     
             }
