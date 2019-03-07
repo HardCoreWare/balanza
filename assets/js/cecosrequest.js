@@ -18,8 +18,12 @@ $(document).ready(function(){
 
             $(".include-action").click(function(){
 
-                alert("include");
-        
+
+                let id = $(this).attr('id');
+
+                alert(id);   
+                
+                
             });
 
         }
@@ -66,10 +70,9 @@ $(document).ready(function(){
 
                 $(".include-action").click(function(){
 
-
                     let id = $(this).attr('id');
 
-                    alert();
+                    alert(id);   
 
             
                 });
@@ -102,7 +105,9 @@ $(document).ready(function(){
 
                 $(".include-action").click(function(){
 
-                    alert("include");
+                    let id = $(this).attr('id');
+
+                    alert(id);   
             
                 });
     
