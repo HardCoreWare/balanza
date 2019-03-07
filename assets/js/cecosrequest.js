@@ -66,7 +66,11 @@ $(document).ready(function(){
 
                 $(".include-action").click(function(){
 
-                    alert("include");
+
+                    let id = $(this).attr('id');
+
+                    alert();
+
             
                 });
     
