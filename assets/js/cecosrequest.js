@@ -16,6 +16,8 @@ $(document).ready(function(){
             cecosTable.readData(data);
             cecosTable.writeTable("#datatable");
             cecosTable.updateCeco();
+            cecosTable.deleteCeco();
+
 
         }
 
