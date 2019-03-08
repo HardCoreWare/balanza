@@ -60,9 +60,7 @@ $(document).ready(function(){
                 const data = JSON.parse(response);
                 cecosTable.readData(data);
                 cecosTable.writeTable("#datatable");
-
-                updateCeco('http://35.243.156.112/balanza/cecos.php');
-
+                cecosTable.updateCeco('http://35.243.156.112/balanza/cecos.php');
     
             }
     
@@ -99,7 +97,7 @@ $(document).ready(function(){
 
     $("#btnAdd").click(function(){
 
-
+        alert();
 
     });
 
