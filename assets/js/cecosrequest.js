@@ -18,7 +18,6 @@ $(document).ready(function(){
             cecosTable.updateCeco();
             cecosTable.deleteCeco();
 
-
         }
 
     });

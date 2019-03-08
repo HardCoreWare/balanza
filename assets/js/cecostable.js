@@ -78,6 +78,8 @@ class CecosTable{
             }
 
             const req = JSON.stringify(request);
+
+            alert(req);
             
         });
 
