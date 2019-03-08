@@ -93,9 +93,7 @@ class CecosTable{
                         window.location.replace();
 
                 
-                        }
                 
-                    });
                     
                 }
             
