@@ -59,7 +59,7 @@ $(document).ready(function(){
                 cecosTable.readData(data);
                 cecosTable.writeTable("#datatable");
 
-                updateCeco();
+                updateCeco('http://35.243.156.112/balanza/cecos.php');
 
     
             }
