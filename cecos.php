@@ -103,6 +103,7 @@
                                 <ul class="list-unstyled">
                                     <li><a href="cuentas.php">Cuentas</a></li>
                                     <li><a href="cecos.php">Cecos</a></li>
+                                    <li><a href="cicle.php">Ciclo</a></li>
                                 </ul>
                             </li>
                             <li class="has_sub">
