@@ -65,6 +65,18 @@ class CecosTable{
         $(divId).html(table);
 
     }
+
+
+    deleteCeco(){
+
+        $(".delete-action").click(function(){
+
+            alert("delete");
+
+        });
+
+    }
+
     
     updateCeco(){
 
