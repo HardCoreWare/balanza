@@ -96,8 +96,6 @@ class CecosTable{
                 
                             while(!response){}
                 
-                            const data = JSON.parse(response);
-
                             window.location.replace();
 
                 
