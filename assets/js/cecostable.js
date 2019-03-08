@@ -71,8 +71,14 @@ class CecosTable{
 
         $(".delete-action").click(function(){
 
-            alert("delete");
+            const request = {
 
+                id: $(this).attr('id'),
+
+            }
+
+            const req = JSON.stringify(request);
+            
         });
 
     }
