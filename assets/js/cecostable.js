@@ -73,7 +73,7 @@ class CecosTable{
 
             const request = {
 
-                id: $(this).attr('id'),
+                id: $(this).attr('id').split("-")[1],
 
             }
 
