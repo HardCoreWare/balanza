@@ -46,9 +46,7 @@ class CecosTable{
 
             body+='</td>';
             
-            body+='<td>'
-            body+='<a class="delete-action" id="d-'+row.Id+'"><i class="fa fa-trash"></i></a>';
-            body+='</td>';
+            body+='<td><a class="delete-action" id="d-'+row.Id+'"><i class="fa fa-trash"></i></a></td>';
 
             body+='</tr>';
             
