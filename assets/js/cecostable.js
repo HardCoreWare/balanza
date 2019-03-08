@@ -71,13 +71,10 @@ class CecosTable{
         $(".delete-action").click(function(){
 
             const request = {
-
                 id: $(this).attr('id').split("-")[1],
-
             }
 
             const req = JSON.stringify(request);
-
 
             $.ajax({
 
@@ -89,8 +86,6 @@ class CecosTable{
                     console.log(response);
 
                 }
-
-
 
             });
             
@@ -121,7 +116,6 @@ class CecosTable{
 
                     while(!response){}
                     window.location.replace('http://35.243.156.112/balanza/cecos.php');
-
                     
                 }
             
