@@ -88,8 +88,23 @@ class CecosTable{
 
                     while(!response){}
 
-                    window.location.replace('http://35.243.156.112/balanza/cecos.php');
-            
+                    $.ajax({
+
+                        url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
+                        method:'GET',
+                        success:function(response){
+                
+                            while(!response){}
+                
+                            const data = JSON.parse(response);
+                            cecosTable.readData(data);
+                            cecosTable.writeTable("#datatable");
+                            cecosTable.updateCeco();
+                
+                        }
+                
+                    });
+                    
                 }
             
             });
