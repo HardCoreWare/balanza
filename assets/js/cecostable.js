@@ -88,15 +88,9 @@ class CecosTable{
 
                     while(!response){}
 
-                    $.ajax({
-
-                        url:'http://35.243.156.112/plataforma/balanza/cecos/indice',
-                        method:'GET',
-                        success:function(response){
+                        while(!response){}
                 
-                            while(!response){}
-                
-                            window.location.replace();
+                        window.location.replace();
 
                 
                         }
