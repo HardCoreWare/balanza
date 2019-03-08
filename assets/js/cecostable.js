@@ -7,6 +7,7 @@ class CecosTable{
 
     }
 
+    //
     writeTable(divId){
 
         let table='';
@@ -64,7 +65,7 @@ class CecosTable{
 
     }
 
-
+    //
     deleteCeco(){
 
         $(".delete-action").click(function(){
@@ -77,13 +78,27 @@ class CecosTable{
 
             const req = JSON.stringify(request);
 
-            alert(req);
+
+            $.ajax({
+
+                url:'http://35.243.156.112/plataforma/balanza/cecos/eliminar',
+                method:'POST',
+                data:{"req":req},
+                success:function(response){
+
+                    console.log(response);
+
+                }
+
+
+
+            });
             
         });
 
     }
 
-    
+    //
     updateCeco(){
 
         $(".include-action").click(function(){
