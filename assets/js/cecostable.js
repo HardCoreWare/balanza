@@ -97,9 +97,9 @@ class CecosTable{
                             while(!response){}
                 
                             const data = JSON.parse(response);
-                            cecosTable.readData(data);
-                            cecosTable.writeTable("#datatable");
-                            cecosTable.updateCeco();
+                            this.readData(data);
+                            this.writeTable("#datatable");
+                            this.updateCeco();
                 
                         }
                 
