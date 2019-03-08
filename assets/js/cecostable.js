@@ -99,10 +99,8 @@ class CecosTable{
         $(".include-action").click(function(){
     
             const request ={
-    
                 id: ($(this).attr('id')).split("-")[1],
                 value: ($(this).attr('id')).split("-")[2]
-    
             }
             
             const req = JSON.stringify(request);

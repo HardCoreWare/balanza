@@ -104,7 +104,7 @@
                                 </ul>
                             </li>
                             <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-text-o"></i> <span>INFORME</span><span class="menu-arrow"></span></a>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-file"></i> <span>INFORME</span><span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="editables.php">Editables</a></li>
                                     <li><a href="importar.php">Importar</a></li>
