@@ -27,7 +27,6 @@
 
     </head>
 
-
     <body class="fixed-left">
 
         <!-- Begin page -->
@@ -123,45 +122,40 @@
 
             </div>
             <!-- Left Sidebar End -->
+
+
+            <!-- ============================================================== -->
+            <!-- Start content here -->
+            <!-- ============================================================== -->
+
             <div class="content-page">
                 <!-- Start content -->
                 <div class="content">
                     <!--Contenido Principal-->
                     <div class="container">
 
-
-
-
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
                                     <div class="dropdown pull-right"></div>
 
-                                    <table id="datatable" class="table table-stripped">
-                                    
-                                    </table>
 
                                 </div>
                             </div>
                             <!-- end col -->
-
                         </div>
                         <!-- end row -->
-
                     </div> 
                     <!-- container -->
                 </div> 
                 <!-- content -->
-
-                <footer class="footer">
-                    2018 © Multiva.
-                </footer>
+                <footer class="footer">2018 © Multiva.</footer>
 
             </div>
             <!-- End content-page -->
 
             <!-- ============================================================== -->
-            <!-- End Right content here -->
+            <!-- End  content here -->
             <!-- ============================================================== -->
 
 
