@@ -54,7 +54,7 @@
                                 </button>
                             </li>
                             <li>
-                                <h4 class="page-title">Resumen por Modulo</h4>
+                                <h4 class="page-title">Configuracion de Ciclo</h4>
                             </li>
                         </ul>
 
