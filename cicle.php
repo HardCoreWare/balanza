@@ -163,7 +163,7 @@
 
                                             <div class="col-sm-4">
 
-                                                <input type="button" class="form-control btn btn-block" id="btnNew">
+                                                <input type="button" value="NUEVO CICLO" class="btn btn-block" id="btnNew">
 
                                             </div>
 
