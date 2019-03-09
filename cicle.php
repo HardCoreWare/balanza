@@ -144,20 +144,11 @@
                                     <div class="row">
                                         <form>
                                             <div class="col-sm-4">
-                                                <div class="form-group">
-                                                    <label class="col-sm-2 control-label">Anualidad:</label>
-                                                    <div class="col-sm-10">
-                                                        <h3>2018</h3>
-                                                    </div>
-                                                </div>
+                                                <h3>2018</h3>
                                             </div>
 
                                             <div class="col-sm-4">
-                                                <div class="form-group">
-                                                    <label class="col-sm-2 control-label">Mes:</label>
-                                                    <div class="col-sm-10">
-                                                    <h3>Enero</h3>
-                                                </div>
+                                                <h3>Enero</h3>
                                             </div>
 
                                             <div class="col-sm-4">
