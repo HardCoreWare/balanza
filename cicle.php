@@ -154,6 +154,19 @@
                                         </form>
                                     </div>
 
+                                    <div class="row">
+                                        <form>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">Usuario</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="textUser">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
                                 </div>
                             </div>
                             <!-- end col -->
