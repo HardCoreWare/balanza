@@ -144,11 +144,11 @@
                                     <div class="row">
                                         <form>
                                             <div class="col-sm-4">
-                                                <h3>2018</h3>
+                                                <h2>2018</h2>
                                             </div>
 
                                             <div class="col-sm-4">
-                                                <h3>Enero</h3>
+                                                <h2>ENERO</h2>
                                             </div>
 
                                             <div class="col-sm-4">
