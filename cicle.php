@@ -145,9 +145,9 @@
                                         <form>
                                             <div class="col-sm-4">
                                                 <div class="form-group">
-                                                    <label class="col-sm-2 control-label">Anualidad: </label>
+                                                    <label class="col-sm-2 control-label">Anualidad:</label>
                                                     <div class="col-sm-10">
-                                                        <input type="text" class="form-control" id="textUser">
+                                                        <h1>Enero</h1>
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,15 +156,12 @@
                                                 <div class="form-group">
                                                     <label class="col-sm-2 control-label">Mes:</label>
                                                     <div class="col-sm-10">
-                                                        <input type="text" class="form-control" id="textUser">
-                                                    </div>
+                                                    <h1>Enero</h1>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-4">
-
                                                 <input type="button" value="NUEVO CICLO" class="btn btn-block" id="btnNew">
-
                                             </div>
 
                                         </form>
