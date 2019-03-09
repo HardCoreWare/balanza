@@ -143,18 +143,18 @@
 
                                     <div class="row">
                                         <form>
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-4">
                                                 <div class="form-group">
-                                                    <label class="col-sm-2 control-label">Usuario</label>
+                                                    <label class="col-sm-2 control-label">Anualidad: </label>
                                                     <div class="col-sm-10">
                                                         <input type="text" class="form-control" id="textUser">
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-4">
                                                 <div class="form-group">
-                                                    <label class="col-sm-2 control-label">Usuario</label>
+                                                    <label class="col-sm-2 control-label">Mes:</label>
                                                     <div class="col-sm-10">
                                                         <input type="text" class="form-control" id="textUser">
                                                     </div>
