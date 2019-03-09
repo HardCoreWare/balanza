@@ -151,11 +151,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </form>
-                                    </div>
 
-                                    <div class="row">
-                                        <form>
                                             <div class="col-sm-6">
                                                 <div class="form-group">
                                                     <label class="col-sm-2 control-label">Usuario</label>
