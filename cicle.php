@@ -147,7 +147,7 @@
                                                 <div class="form-group">
                                                     <label class="col-sm-2 control-label">Anualidad:</label>
                                                     <div class="col-sm-10">
-                                                        <h1>Enero</h1>
+                                                        <h3>2018</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,7 +156,7 @@
                                                 <div class="form-group">
                                                     <label class="col-sm-2 control-label">Mes:</label>
                                                     <div class="col-sm-10">
-                                                    <h1>Enero</h1>
+                                                    <h3>Enero</h3>
                                                 </div>
                                             </div>
 
