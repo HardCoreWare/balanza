@@ -163,7 +163,7 @@
 
                                             <div class="col-sm-4">
 
-                                                <input type="button" class="form-control" id="textUser">
+                                                <input type="button" class="form-control btn btn-block" id="btnNew">
 
                                             </div>
 
