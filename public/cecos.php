@@ -57,14 +57,8 @@ ViewManager::sessionManager();
 
                         <!-- Page title -->
                         <ul class="nav navbar-nav navbar-left">
-                            <li>
-                                <button class="button-menu-mobile open-left">
-                                    <i class="zmdi zmdi-menu"></i>
-                                </button>
-                            </li>
-                            <li>
-                                <h4 class="page-title">CENTROS DE COSTO</h4>
-                            </li>
+                            <li><button class="button-menu-mobile open-left"><i class="zmdi zmdi-menu"></i></button></li>
+                            <li><h4 class="page-title">CENTROS DE COSTO</h4></li>
                         </ul>
 
                         <!-- Right(Notification and Searchbox -->
@@ -73,12 +67,7 @@ ViewManager::sessionManager();
                                 <!-- Notification -->
                                 <div class="notification-box">
                                     <ul class="list-inline m-b-0">
-                                        <li>
-                                            <a href="javascript:void(0);" class="right-bar-toggle">
-                                                <i class="fa fa-sign-out"></i>
-                                            </a>
-
-                                        </li>
+                                        <li><a href="javascript:void(0);" class="right-bar-toggle"><i class="fa fa-sign-out"></i></a></li>
                                     </ul>
                                 </div>
                                 <!-- End Notification bar -->
@@ -106,17 +95,8 @@ ViewManager::sessionManager();
                         </div>
                         <h5><a href="#">Multiva</a> </h5>
                         <ul class="list-inline">
-                            <li>
-                                <a href="#" >
-                                    <i class="zmdi zmdi-settings"></i>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-custom">
-                                    <i class="zmdi zmdi-power"></i>
-                                </a>
-                            </li>
+                            <li><a href="#" ><i class="zmdi zmdi-settings"></i></a></li>
+                            <li><a href="#" class="text-custom"><i class="zmdi zmdi-power"></i></a></li>
                         </ul>
                     </div>
                     <!-- End User -->

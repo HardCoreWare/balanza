@@ -71,12 +71,7 @@
                                 <!-- Notification -->
                                 <div class="notification-box">
                                     <ul class="list-inline m-b-0">
-                                        <li>
-                                            <a href="javascript:void(0);" class="right-bar-toggle">
-                                                <i class="fa fa-sign-out"></i>
-                                            </a>
-
-                                        </li>
+                                        <li><a href="" class="right-bar-toggle"><i class="fa fa-sign-out"></i></a></li>
                                     </ul>
                                 </div>
                                 <!-- End Notification bar -->
@@ -140,7 +135,7 @@
                                 </ul>
                             </li>
                         </ul>
-                        
+
                         <div class="clearfix"></div>
                     </div>
                     <!-- Sidebar -->
