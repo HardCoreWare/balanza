@@ -9,7 +9,7 @@ class ViewManager{
             $nickname=$_POST['nickname'];
             $password=$_POST['password'];
 
-            $loginModel= new LoginModel(new PdoCrud('localhost','root','','BALANZA'));
+            $loginModel= new LoginModel(new PdoCrud('localhost','root','Pit2018mtv#@','BALANZA'));
             $loginModel->login($nickname,$password);
             $loginModel->detachMySql();
 
@@ -19,7 +19,7 @@ class ViewManager{
 
     public static function logoutManager(){
 
-        $loginModel= new LoginModel(new PdoCrud('localhost','root','','BALANZA'));
+        $loginModel= new LoginModel(new PdoCrud('localhost','root','Pit2018mtv#@','BALANZA'));
         $loginModel->logout();
         $loginModel->detachMySql();
         
@@ -32,7 +32,7 @@ class ViewManager{
 
         if(isset($_COOKIE['user'])){
 
-            $loginModel = new LoginModel(new PdoCrud('localhost','root','','BALANZA'));
+            $loginModel = new LoginModel(new PdoCrud('localhost','root','Pit2018mtv#@','BALANZA'));
             $validate = $loginModel->validateSession();
         
             if($validate){
