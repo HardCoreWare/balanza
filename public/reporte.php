@@ -162,21 +162,16 @@ ViewManager::sessionManager();
                                     
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
-	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Anualidad</label>
-	                                                <div class="col-md-10">
-	                                                    <select type="text" class="form-control">
 
+                                                <label class="radio-inline"><input type="radio" name="optradio" checked>Mensual</label>
+                                                <label class="radio-inline"><input type="radio" name="optradio">Modular</label>
 
-
-                                                        </select>
-	                                                </div>
-	                                            </div>
 	                                        </form>
                                         </div>
                                     
                                     </div>
-                                    
+                                    <br>
+                                    <br>
                                     <!-- row -->
                         			<div class="row">
 
@@ -184,10 +179,9 @@ ViewManager::sessionManager();
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Mes</label>
+	                                                <label class="col-md-2 control-label">Anualidad</label>
 	                                                <div class="col-md-10">
-	                                                    <select type="text" class="form-control">
-
+	                                                    <select class="form-control">
 
                                                         </select>
 	                                                </div>
@@ -199,11 +193,9 @@ ViewManager::sessionManager();
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Anualidad</label>
+	                                                <label class="col-md-2 control-label">Mes</label>
 	                                                <div class="col-md-10">
-	                                                    <select type="text" class="form-control">
-
-
+	                                                    <select class="form-control">
 
                                                         </select>
 	                                                </div>
@@ -222,9 +214,6 @@ ViewManager::sessionManager();
                                     </div>
                                     <!-- end row -->
 
-
-
-
                                     <!--row -->
                         			<div class="row">
 
@@ -232,7 +221,7 @@ ViewManager::sessionManager();
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Mes</label>
+	                                                <label class="col-md-2 control-label">Anualidad</label>
 	                                                <div class="col-md-10">
 	                                                    <select type="text" class="form-control">
 
@@ -247,7 +236,7 @@ ViewManager::sessionManager();
                                         <div class="col-lg-3">
                         					<form class="form-horizontal" role="form">
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Anualidad</label>
+	                                                <label class="col-md-2 control-label">Mes</label>
 	                                                <div class="col-md-10">
 	                                                    <select type="text" class="form-control">
 

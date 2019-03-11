@@ -23,7 +23,7 @@ class ViewManager{
         $loginModel->logout();
         $loginModel->detachMySql();
         
-        header("Location: http://localhost/balanza/public/login.php");
+        header("Location: http://35.243.156.112/balanza/public/login.php");
         die();
 
     }
@@ -43,7 +43,7 @@ class ViewManager{
         
             else{
         
-                header("Location: http://localhost/balanza/public/login.php");
+                header("Location: http://35.243.156.112/balanza/public/login.php");
                 die();
             
             }
@@ -52,7 +52,7 @@ class ViewManager{
         
         else{
 
-            header("Location: http://localhost/balanza/public/login.php");
+            header("Location: http://35.243.156.112/balanza/public/login.php");
             die();
         
         }

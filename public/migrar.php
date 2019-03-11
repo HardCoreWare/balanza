@@ -8,10 +8,8 @@
 
         <!-- App Favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
-
         <!-- App title -->
         <title>Multiva</title>
-
         <!-- App CSS -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
@@ -35,9 +33,7 @@
             <div class="topbar">
 
                 <!-- LOGO -->
-                <div class="topbar-left">
-                    <a href="index.html" class="logo"><span>Multi<span>va</span></span><i class="zmdi zmdi-layers"></i></a>
-                </div>
+                <div class="topbar-left"><a href="index.html" class="logo"><span>Multi<span>va</span></span><i class="zmdi zmdi-layers"></i></a></div>
 
                 <!-- Button mobile view to collapse sidebar menu -->
                 <div class="navbar navbar-default" role="navigation">
@@ -45,14 +41,8 @@
 
                         <!-- Page title -->
                         <ul class="nav navbar-nav navbar-left">
-                            <li>
-                                <button class="button-menu-mobile open-left">
-                                    <i class="zmdi zmdi-menu"></i>
-                                </button>
-                            </li>
-                            <li>
-                                <h4 class="page-title">Resumen por Modulo</h4>
-                            </li>
+                            <li><button class="button-menu-mobile open-left"><i class="zmdi zmdi-menu"></i></button></li>
+                            <li><h4 class="page-title">Resumen por Modulo</h4></li>
                         </ul>
 
                     </div>
@@ -77,15 +67,11 @@
                         <h5><a href="#">Multiva</a> </h5>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" >
-                                    <i class="zmdi zmdi-settings"></i>
-                                </a>
+                                <a href="#" ><i class="zmdi zmdi-settings"></i></a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-custom">
-                                    <i class="zmdi zmdi-power"></i>
-                                </a>
+                                <a href="#" class="text-custom"><i class="zmdi zmdi-power"></i></a>
                             </li>
                         </ul>
                     </div>
