@@ -71,7 +71,7 @@
                                 <!-- Notification -->
                                 <div class="notification-box">
                                     <ul class="list-inline m-b-0">
-                                        <li><a href="" class="right-bar-toggle"><i class="fa fa-sign-out"></i></a></li>
+                                        <li><a href="logoutaux.php" class="right-bar-toggle"><i class="fa fa-sign-out"></i></a></li>
                                     </ul>
                                 </div>
                                 <!-- End Notification bar -->
