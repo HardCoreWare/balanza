@@ -39,6 +39,7 @@ class LoginModel{
             $dml = "UPDATE Users SET Logged = '1', Hashcode = '".$cookieVal['hashcode']."', Ip = '".$ip."' WHERE Nickname = '".$user."' ;";
             $this->mySql->query($dml);
 
+            echo('wellcome');
 
 
         }
