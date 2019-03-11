@@ -66,6 +66,23 @@ ViewManager::sessionManager();
                             </li>
                         </ul>
 
+                        <!-- Right(Notification and Searchbox -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <!-- Notification -->
+                                <div class="notification-box">
+                                    <ul class="list-inline m-b-0">
+                                        <li>
+                                            <a href="" class="right-bar-toggle">
+                                                <i class="fa fa-sign-out"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Notification bar -->
+                            </li>
+                        </ul>
+
                     </div>
                     <!-- end container -->
                 </div>
@@ -123,6 +140,7 @@ ViewManager::sessionManager();
                                 </ul>
                             </li>
                         </ul>
+
                         <div class="clearfix"></div>
                     </div>
                     <!-- Sidebar -->
