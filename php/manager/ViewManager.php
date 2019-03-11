@@ -23,7 +23,7 @@ class ViewManager{
         $loginModel->logout();
         $loginModel->detachMySql();
         
-        header("Location: http://localhost/login/login.php");
+        header("Location: http://localhost/balanza/public/login.php");
         die();
 
     }
