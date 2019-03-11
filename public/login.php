@@ -21,7 +21,7 @@
 
         <!--inicia tarjeta-->
         <div class="card-body">
-          <form action="http://35.243.156.112/loginaux.php" method="post" enctype="multipart/form-data">
+          <form action="http://35.243.156.112/balanza/public/loginaux.php" method="post" enctype="multipart/form-data">
             <div class="row">
 
               <div class = "col">
