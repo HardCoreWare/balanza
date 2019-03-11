@@ -28,7 +28,7 @@ class ViewManager{
 
     }
 
-    public static function validatorManager(){
+    public static function sessionManager(){
 
         if(isset($_COOKIE['user'])){
 
@@ -43,8 +43,7 @@ class ViewManager{
         
             else{
         
-                echo("ACCESO DENEGADO");
-                header("Location: http://localhost/login/login.php");
+                header("Location: http://localhost/balanza/public/login.php");
                 die();
             
             }
@@ -52,9 +51,8 @@ class ViewManager{
         }
         
         else{
-        
-            echo("ACCESO DENEGADO");
-            header("Location: http://localhost/login/login.php");
+
+            header("Location: http://localhost/balanza/public/login.php");
             die();
         
         }

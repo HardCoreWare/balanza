@@ -26,7 +26,15 @@
         <script src="assets/plugins/chart.js/chart.min.js"></script>
 
     </head>
+<?php
 
+require_once '../php/libs/PdoCrud.php';
+require_once '../php/models/LoginModel.php';
+require_once '../php/manager/ViewManager.php';
+
+ViewManager::sessionManager();
+
+?>
 
     <body class="fixed-left">
 
