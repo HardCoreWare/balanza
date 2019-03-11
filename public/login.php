@@ -21,7 +21,7 @@
 
         <!--inicia tarjeta-->
         <div class="card-body">
-          <form action="http://localhost/balanza/php/models/loginCode.php" method="post" enctype="multipart/form-data">
+          <form action="loginAux.php" method="post" enctype="multipart/form-data">
             <div class="row">
 
               <div class = "col">
